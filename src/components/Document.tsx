@@ -1,5 +1,31 @@
+import type { ParentProps } from "solid-js";
 import { getDocumentConfig } from "../utils/config";
+import { mm } from "../utils/units";
 
-export function Document() {
-  return <div>{JSON.stringify(getDocumentConfig(), null, 2)}</div>;
+export function Document(props: ParentProps) {
+  const config = getDocumentConfig();
+
+  function printPage() {
+    window.print();
+  }
+
+  return (
+    <>
+      <div>
+        <style>
+          {`
+          @page {
+            size: ${mm(config.dimensions.width)} ${mm(
+            config.dimensions.height
+          )};
+            margin: 0;
+          }
+          `}
+        </style>
+        {props.children}
+      </div>
+
+      <button onClick={printPage}>Print</button>
+    </>
+  );
 }

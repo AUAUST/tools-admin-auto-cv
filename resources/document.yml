@@ -1,3 +1,9 @@
+# All dimensions are in millimeters (mm)
+
+dimensions:
+  width: 210
+  height: 297
+
 margins:
   top: 20
   bottom: 20
