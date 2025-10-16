@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@auaust/g-class": "^0.3.1",
     "@auaust/jaune": "^0.0.4",
     "@auaust/primitive-kit": "^0.41.9",
     "js-yaml": "^4.1.0",

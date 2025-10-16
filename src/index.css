@@ -19,13 +19,20 @@ body {
   justify-content: center;
 }
 
-button {
+.buttons {
   position: fixed;
   top: 10px;
   left: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+button {
   border-radius: 8px;
   padding: 0.6em 1.2em;
   cursor: pointer;
+  width: max-content;
 }
 
 @media print {
@@ -37,13 +44,19 @@ button {
 @media screen {
   :root {
     background-color: #242424;
-    padding-block: 1cm;
   }
 
   .document {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-    transform: scale(1.3275);
     transform-origin: top center;
+  }
+
+  .document.real {
+    transform: scale(1.3275);
+  }
+
+  .document.fit {
+    transform: scale(var(--scale, 1));
   }
 
   .page {

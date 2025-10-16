@@ -1,13 +1,35 @@
-import type { ParentProps } from "solid-js";
+import { cl } from "@auaust/g-class";
+import { min } from "@auaust/primitive-kit/numbers";
+import { createSignal, type ParentProps } from "solid-js";
 import { getDocumentConfig } from "../utils/config";
 import { mm } from "../utils/units";
 
 export function Document(props: ParentProps) {
   const config = getDocumentConfig();
 
+  const [fit, setFit] = createSignal<"real" | "fit">("real");
+  const [scale, setScale] = createSignal(1);
+
+  let doc: HTMLDivElement = undefined!;
+
+  window.addEventListener("resize", () => {
+    setScale(
+      min(
+        window.innerWidth / doc.offsetWidth,
+        window.innerHeight / doc.offsetHeight
+      )
+    );
+  });
+
   return (
     <>
-      <div class="document">
+      <div
+        class={cl("document", fit())}
+        ref={doc}
+        style={{
+          "--scale": scale(),
+        }}
+      >
         <style>
           {`@page { size: ${mm(config.dimensions.width)} ${mm(
             config.dimensions.height
@@ -16,7 +38,14 @@ export function Document(props: ParentProps) {
         {props.children}
       </div>
 
-      <button onClick={() => window.print()}>Print</button>
+      <div class="buttons">
+        <button onClick={() => window.print()}>Print</button>
+        <button
+          onClick={() => setFit((fit) => (fit === "real" ? "fit" : "real"))}
+        >
+          {fit() === "real" ? "Fit to Page" : "Actual Size"}
+        </button>
+      </div>
     </>
   );
 }
