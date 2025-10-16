@@ -3,17 +3,14 @@ import yaml from "js-yaml";
 import type { Language } from "../contexts/LanguageContext";
 import type { Translation } from "./label";
 
-const files: Record<string, string> = import.meta.glob(
-  "../../resources/*.yml",
-  {
-    query: "?raw",
-    import: "default",
-    eager: true,
-  }
-);
+const files: Record<string, string> = import.meta.glob("../../data/*.yml", {
+  query: "?raw",
+  import: "default",
+  eager: true,
+});
 
 export function getFileContent(file: string) {
-  const content = files[`../../resources/${file}.yml`];
+  const content = files[`../../data/${file}.yml`];
   if (!content) throw new Error(`File not found: ${file}`);
   return content;
 }

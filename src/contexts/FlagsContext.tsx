@@ -6,7 +6,7 @@ import {
   type ParentProps,
 } from "solid-js";
 import { createStore } from "solid-js/store";
-import flagsConfig from "../../resources/flags.json";
+import flagsConfig from "../../data/flags.json";
 
 export type Flag = keyof typeof flagsConfig;
 
