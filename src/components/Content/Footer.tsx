@@ -5,7 +5,7 @@ export function Footer() {
   const resume = getResume();
 
   return (
-    <footer>
+    <footer class="sp12 grid1-3">
       <h3>{md(resume.ai_and_automation)}</h3>
       <p>{md(resume.notice)}</p>
     </footer>

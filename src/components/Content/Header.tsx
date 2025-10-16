@@ -8,18 +8,22 @@ export function Header() {
   const resume = getResume();
 
   return (
-    <header>
-      <h1>
-        {profile.first_name} {profile.last_name}
-      </h1>
-      <h2>{label(profile.title)}</h2>
+    <header class="header grid12">
+      <div class="sp6">
+        <h1>
+          {profile.first_name} {profile.last_name}
+        </h1>
+        <h2>{label(profile.title)}</h2>
+      </div>
 
       <Contacts />
 
-      <hr />
+      <hr class="sp12" />
 
-      <h3>{t("about")}</h3>
-      <p>{md(resume.about)}</p>
+      <div class="sp12 grid1-3">
+        <h3>{t("about")}</h3>
+        <p>{md(resume.about)}</p>
+      </div>
     </header>
   );
 }
@@ -28,10 +32,10 @@ function Contacts() {
   const profile = getProfile();
 
   return (
-    <ul>
+    <ul class="sp6 grid6 reset">
       <For each={profile.contacts}>
         {(contact) => (
-          <li>
+          <li class="sp3 mono">
             <Dynamic
               component={
                 {
@@ -52,16 +56,29 @@ function Contacts() {
 }
 
 function Email(contact: { value: string; label?: string }) {
-  return <a href={`mailto:${contact.value}`}>{label(contact)}</a>;
+  return (
+    <a href={`mailto:${contact.value}`} class="reset">
+      {label(contact)}
+    </a>
+  );
 }
 
 function Phone(contact: { value: string; label?: string }) {
-  return <a href={`tel:${contact.value}`}>{label(contact)}</a>;
+  return (
+    <a href={`tel:${contact.value}`} class="reset">
+      {label(contact)}
+    </a>
+  );
 }
 
 function Link(contact: { value: string; label?: string }) {
   return (
-    <a href={contact.value} target="_blank" rel="noopener noreferrer">
+    <a
+      href={contact.value}
+      target="_blank"
+      rel="noopener noreferrer"
+      class="reset"
+    >
       {label(contact)}
     </a>
   );

@@ -17,12 +17,12 @@ ai_and_automation:
 
 notice:
   fr: | # markdown
-    La technologie fait gagner du temps. J'ai généré ce CV à l'aide d'un outil fait maison qui me permet de l'adapter rapidement à chaque offre d'emploi,
+    La technologie fait gagner du temps. J'ai généré ce CV à l'aide d'un outil custom qui m'a permis de l'adapter à votre offre d'emploi,
     mettant en avant les compétences et expériences les plus pertinentes.
     Vous pouvez le trouver en open-source sur [github.com/AUAUST/tools-admin-auto-cv](https://github.com/AUAUST/tools-admin-auto-cv).
     C'est le genre d'optimisation que j'apporte à mon travail quotidien, garantissant tant efficacité que qualité.
   en: | # markdown
-    Technology saves time. I generated this resume using a custom tool that allows me to quickly adapt it to each job offer,
+    Technology saves time. I generated this resume using a custom tool that allowed me to quickly adapt it to your job offer,
     highlighting the most relevant skills and experiences.
     You can find it open-source at [github.com/AUAUST/tools-admin-auto-cv](https://github.com/AUAUST/tools-admin-auto-cv).
     This is the kind of optimization I bring to my daily work, ensuring both efficiency and quality.

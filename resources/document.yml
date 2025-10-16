@@ -8,7 +8,7 @@ dimensions:
   height: 297
 
 margins:
-  top: 20
-  bottom: 20
-  left: 20
-  right: 20
+  top: 12
+  bottom: 15
+  left: 12
+  right: 12

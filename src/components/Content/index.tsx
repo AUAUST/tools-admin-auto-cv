@@ -3,9 +3,12 @@ import { Header } from "./Header";
 
 export function Content() {
   return (
-    <div>
+    <div class="content">
       <Header />
-      <Footer />
+
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 }
