@@ -1,5 +1,8 @@
 # All dimensions are in millimeters (mm)
 
+language: en
+languages: [fr, en]
+
 dimensions:
   width: 210
   height: 297

@@ -1,6 +1,7 @@
 import { For } from "solid-js";
 import { Dynamic } from "solid-js/web";
 import { getProfile } from "../../utils/config";
+import { label } from "../../utils/label";
 
 export function Header() {
   const profile = getProfile();
@@ -10,7 +11,7 @@ export function Header() {
       <h1>
         {profile.first_name} {profile.last_name}
       </h1>
-      <h2>{profile.title}</h2>
+      <h2>{label(profile.title)}</h2>
 
       <Contacts />
     </header>
