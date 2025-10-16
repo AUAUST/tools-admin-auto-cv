@@ -1,6 +1,6 @@
 import { cl } from "@auaust/g-class";
 import { min } from "@auaust/primitive-kit/numbers";
-import { createSignal, type ParentProps } from "solid-js";
+import { createSignal, onMount, type ParentProps } from "solid-js";
 import { getDocumentConfig } from "../utils/config";
 import { mm } from "../utils/units";
 
@@ -12,14 +12,17 @@ export function Document(props: ParentProps) {
 
   let doc: HTMLDivElement = undefined!;
 
-  window.addEventListener("resize", () => {
+  const updateScale = () =>
     setScale(
       min(
         window.innerWidth / doc.offsetWidth,
         window.innerHeight / doc.offsetHeight
       )
     );
-  });
+
+  window.addEventListener("resize", updateScale);
+
+  onMount(() => setTimeout(() => updateScale()));
 
   return (
     <>
