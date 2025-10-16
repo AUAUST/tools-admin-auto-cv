@@ -1,8 +1,9 @@
+import tailwind from "@tailwindcss/vite";
 import { defineConfig } from "vite";
 import solid from "vite-plugin-solid";
 
 export default defineConfig({
-  plugins: [solid()],
+  plugins: [tailwind(), solid()],
   optimizeDeps: {
     include: ["solid-markdown > micromark", "solid-markdown > unified"],
   },

@@ -7,7 +7,7 @@ export function Page(props: ParentProps) {
 
   return (
     <div
-      class="page"
+      class="bg-white"
       style={{
         width: mm(config.dimensions.width),
         height: mm(config.dimensions.height),

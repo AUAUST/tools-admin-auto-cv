@@ -12,21 +12,6 @@
   font-style: normal;
 }
 
-:root {
-  --font-mono: "Arzier", monospace;
-  --font-sans: "Plasma", system-ui, Helvetica, Arial, sans-serif;
-
-  font-family: var(--font-sans);
-}
-
-.sans {
-  font-family: var(--font-sans);
-}
-
-.mono {
-  font-family: var(--font-mono);
-}
-
 h1,
 h2,
 h3,
@@ -35,13 +20,4 @@ h5,
 h6,
 p {
   text-box: trim-start cap alphabetic;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 500;
 }

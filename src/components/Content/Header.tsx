@@ -9,21 +9,24 @@ export function Header() {
   const resume = getResume();
 
   return (
-    <header class="header grid12">
-      <div class="sp6">
-        <h1 class="name">
+    <header class="grid grid-cols-12 gap-x-2">
+      <div class="col-span-6">
+        <h1 class="leading-none text-6xl mb-1">
           {profile.first_name} {profile.last_name}
         </h1>
-        <h2 class="title">{label(profile.title)}</h2>
+
+        <h2 class="text-xl">{label(profile.title)}</h2>
       </div>
 
       <Contacts />
 
-      <hr class="sp12" />
+      <hr class="col-span-full mt-10 mb-1" />
 
-      <div class="sp12 grid1-3">
-        <h3>{t("about")}</h3>
-        <p>{md(resume.about)}</p>
+      <div class="col-span-12 grid grid-cols-4 text-base">
+        <h3 class="">{t("about")}</h3>
+        <div class="col-span-3 text-balance leading-normal">
+          {md(resume.about)}
+        </div>
       </div>
     </header>
   );
@@ -34,13 +37,13 @@ function Contacts() {
   const flags = useFlags();
 
   return (
-    <address class="contacts sp6 grid6 reset">
+    <address class="h-fit col-span-6 grid grid-cols-2">
       <For each={profile.contacts}>
         {(contact) => (
           <Show
             when={!flags.exists(contact.type) || flags.isEnabled(contact.type)}
           >
-            <span class="sp3 mono">
+            <span class="font-mono text-sm leading-relaxed">
               <Dynamic
                 component={
                   {

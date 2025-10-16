@@ -47,7 +47,7 @@ export function Document(props: ParentProps) {
         {props.children}
       </div>
 
-      <div class="buttons">
+      <div class="print:hidden flex flex-col fixed top-4 left-4 gap-1">
         <button onClick={() => window.print()}>Print</button>
 
         <button
@@ -60,16 +60,17 @@ export function Document(props: ParentProps) {
           {t(language.nextLanguage)}
         </button>
 
-        <fieldset class="flags">
+        <fieldset class="px-0.5 pl-2 pr-6 text-white border border-white">
           <legend>Flags</legend>
 
           <For each={flags.all}>
             {(flag) => (
-              <label>
+              <label class="block">
                 <input
                   type="checkbox"
                   checked={flags.isEnabled(flag)}
                   onChange={() => flags.toggle(flag)}
+                  class="mr-2 "
                 />
                 {s(flag).splitWords().join(" ").toTitleCase().value}
               </label>

@@ -3,7 +3,7 @@ import { Header } from "./Header";
 
 export function Content() {
   return (
-    <div class="content">
+    <div class="h-full flex flex-col justify-between">
       <Header />
 
       <div>
