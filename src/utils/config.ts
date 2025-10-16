@@ -43,7 +43,7 @@ export interface Profile {
   last_name: string;
   title: Translation;
   contacts: {
-    type: "email" | "phone" | "linkedin" | "github" | "website";
+    type: "email" | "phone" | "linkedin" | "github" | "website" | "address";
     value: string;
     label?: string;
   }[];

@@ -1,7 +1,8 @@
-import { For } from "solid-js";
+import { For, Show } from "solid-js";
 import { Dynamic } from "solid-js/web";
+import { useFlags } from "../../contexts/FlagsContext";
 import { getProfile, getResume } from "../../utils/config";
-import { label, md, t } from "../../utils/label";
+import { label, md, t, type Translation } from "../../utils/label";
 
 export function Header() {
   const profile = getProfile();
@@ -30,28 +31,34 @@ export function Header() {
 
 function Contacts() {
   const profile = getProfile();
+  const flags = useFlags();
 
   return (
-    <ul class="sp6 grid6 reset">
+    <address class="contacts sp6 grid6 reset">
       <For each={profile.contacts}>
         {(contact) => (
-          <li class="sp3 mono">
-            <Dynamic
-              component={
-                {
-                  email: Email,
-                  phone: Phone,
-                  linkedin: Link,
-                  github: Link,
-                  website: Link,
-                }[contact.type]
-              }
-              {...contact}
-            />
-          </li>
+          <Show
+            when={!flags.exists(contact.type) || flags.isEnabled(contact.type)}
+          >
+            <span class="sp3 mono">
+              <Dynamic
+                component={
+                  {
+                    email: Email,
+                    phone: Phone,
+                    linkedin: Link,
+                    github: Link,
+                    website: Link,
+                    address: Address,
+                  }[contact.type]
+                }
+                {...contact}
+              />
+            </span>
+          </Show>
         )}
       </For>
-    </ul>
+    </address>
   );
 }
 
@@ -82,4 +89,8 @@ function Link(contact: { value: string; label?: string }) {
       {label(contact)}
     </a>
   );
+}
+
+function Address(contact: { label?: Translation }) {
+  return <span>{label(contact)}</span>;
 }

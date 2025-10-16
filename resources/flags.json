@@ -1,4 +1,10 @@
 {
+  "email": true,
+  "phone": true,
+  "linkedin": true,
+  "github": true,
+  "website": true,
+  "address": false,
   "design_relevant": true,
   "automation_relevant": true
 }

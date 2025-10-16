@@ -13,7 +13,7 @@ export function Document(props: ParentProps) {
   const language = useLanguage();
   const flags = useFlags();
 
-  const [fit, setFit] = createSignal<"real" | "fit">("real");
+  const [fit, setFit] = createSignal<"real" | "fit">("fit");
   const [scale, setScale] = createSignal(1);
 
   let doc: HTMLDivElement = undefined!;

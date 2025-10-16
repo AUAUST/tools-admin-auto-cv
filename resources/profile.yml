@@ -28,3 +28,8 @@ contacts:
   - type: website
     value: https://www.auaust.ch
     label: www.auaust.ch
+
+  - type: address
+    label:
+      fr: Sullens, Vaud, Suisse
+      en: Sullens, Vaud, Switzerland
