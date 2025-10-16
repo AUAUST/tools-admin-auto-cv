@@ -1,11 +1,14 @@
 import { cl } from "@auaust/g-class";
 import { min } from "@auaust/primitive-kit/numbers";
 import { createSignal, onMount, type ParentProps } from "solid-js";
+import { useLanguage } from "../contexts/LanguageContext";
 import { getDocumentConfig } from "../utils/config";
+import { t } from "../utils/label";
 import { mm } from "../utils/units";
 
 export function Document(props: ParentProps) {
   const config = getDocumentConfig();
+  const language = useLanguage();
 
   const [fit, setFit] = createSignal<"real" | "fit">("real");
   const [scale, setScale] = createSignal(1);
@@ -43,10 +46,15 @@ export function Document(props: ParentProps) {
 
       <div class="buttons">
         <button onClick={() => window.print()}>Print</button>
+
         <button
           onClick={() => setFit((fit) => (fit === "real" ? "fit" : "real"))}
         >
           {fit() === "real" ? "Fit to Page" : "Actual Size"}
+        </button>
+
+        <button onClick={() => language.setLanguage(language.nextLanguage)}>
+          {t(language.nextLanguage)}
         </button>
       </div>
     </>

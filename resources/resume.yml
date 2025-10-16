@@ -1,9 +1,9 @@
 about:
-  fr: |
+  fr: | # markdown
     Avec 5 *ans* d'expérience en développement web fullstack, je développe des sites web avec une approche
     centrée sur l'expérience utilisateur, biais issu de mon diplôme en design et communication visuelle.
     Mes outils de prédilection sont Laravel, Kirby CMS en backend; Vue.js, Solid.js et Tailwind CSS en frontend.
-  en: |
+  en: | # markdown
     With 5 years of experience in fullstack web development, I build websites with a user-centric approach,
     a bias stemming from my degree in design and visual communication.
     My tools of choice are Laravel, Kirby CMS in the backend; Vue.js, Solid.js and Tailwind CSS in the frontend.

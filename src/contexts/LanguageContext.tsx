@@ -1,6 +1,7 @@
 import { s } from "@auaust/primitive-kit";
 import {
   createContext,
+  createMemo,
   createSignal,
   useContext,
   type ParentProps,
@@ -16,12 +17,18 @@ const LanguageContext = createContext<{
   language: Language;
   setLanguage: Setter<Language>;
   languages: Language[];
+  nextLanguage: Language;
 }>();
 
 export function LanguageProvider(props: ParentProps<{ language?: Language }>) {
   const [language, setLanguage] = createSignal<Language>(
     props.language ?? config.language
   );
+
+  const next = createMemo(() => {
+    const index = config.languages.indexOf(language());
+    return config.languages[(index + 1) % config.languages.length];
+  });
 
   const value = {
     get language() {
@@ -31,6 +38,9 @@ export function LanguageProvider(props: ParentProps<{ language?: Language }>) {
     languages: config.languages.map(
       (l) => s(l).lower().trim().value
     ) as Language[],
+    get nextLanguage() {
+      return next();
+    },
   };
 
   return (
