@@ -5,6 +5,7 @@
   "github": true,
   "website": true,
   "address": false,
+  "startup_relevant": true,
   "design_relevant": true,
   "automation_relevant": true
 }
