@@ -1,4 +1,6 @@
 import { S } from "@auaust/primitive-kit";
+import type { JSX } from "solid-js";
+import { SolidMarkdown } from "solid-markdown";
 import { useLanguage, type Language } from "../contexts/LanguageContext";
 import { getLabels } from "./config";
 
@@ -43,6 +45,14 @@ export function label(
   }
 
   return "";
+}
+
+export function md(
+  ...sources: (Label | undefined | null | false)[]
+): JSX.Element {
+  const text = label(...sources);
+
+  return <SolidMarkdown>{text}</SolidMarkdown>;
 }
 
 export function t(key: string): string {

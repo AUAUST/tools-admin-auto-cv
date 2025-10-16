@@ -13,7 +13,8 @@
     "@auaust/jaune": "^0.0.4",
     "@auaust/primitive-kit": "^0.41.9",
     "js-yaml": "^4.1.0",
-    "solid-js": "^1.9.9"
+    "solid-js": "^1.9.9",
+    "solid-markdown": "^2.0.14"
   },
   "devDependencies": {
     "@types/js-yaml": "^4.0.9",

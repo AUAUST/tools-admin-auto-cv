@@ -1,7 +1,7 @@
 import { For } from "solid-js";
 import { Dynamic } from "solid-js/web";
 import { getProfile, getResume } from "../../utils/config";
-import { label, t } from "../../utils/label";
+import { label, md, t } from "../../utils/label";
 
 export function Header() {
   const profile = getProfile();
@@ -19,7 +19,7 @@ export function Header() {
       <hr />
 
       <h3>{t("about")}</h3>
-      <p>{label(resume.about)}</p>
+      <p>{md(resume.about)}</p>
     </header>
   );
 }

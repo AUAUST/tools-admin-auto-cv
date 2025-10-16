@@ -1,6 +1,6 @@
 # All dimensions are in millimeters (mm)
 
-language: en
+language: fr
 languages: [fr, en]
 
 dimensions:
