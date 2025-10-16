@@ -1,3 +1,9 @@
+hr {
+  border: none;
+  border-top: 0.5pt solid rgb(150, 150, 150);
+  margin-bottom: 1mm;
+}
+
 .content {
   height: 100%;
   display: flex;
@@ -5,6 +11,23 @@
   justify-content: space-between;
 }
 
+.header .name {
+  font-size: 30pt;
+  line-height: 1;
+  margin-bottom: 1mm;
+}
+
+.header .title {
+  font-size: 12pt;
+  font-weight: 400;
+  margin-bottom: 12mm;
+}
+
 .contacts {
   height: fit-content;
+}
+
+.footer .notice,
+.footer h3 {
+  font-size: 4pt !important;
 }

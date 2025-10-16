@@ -11,10 +11,10 @@ export function Header() {
   return (
     <header class="header grid12">
       <div class="sp6">
-        <h1>
+        <h1 class="name">
           {profile.first_name} {profile.last_name}
         </h1>
-        <h2>{label(profile.title)}</h2>
+        <h2 class="title">{label(profile.title)}</h2>
       </div>
 
       <Contacts />

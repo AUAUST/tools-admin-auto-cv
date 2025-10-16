@@ -9,9 +9,10 @@ export function Footer() {
 
   return (
     <Show when={flags.isEnabled("automation_relevant")}>
-      <footer class="sp12 grid1-3">
+      <hr />
+      <footer class="footer sp12 grid1-3">
         <h3>{md(resume.ai_and_automation)}</h3>
-        <p>{md(resume.notice)}</p>
+        <p class="notice">{md(resume.notice)}</p>
       </footer>
     </Show>
   );
