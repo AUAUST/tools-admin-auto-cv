@@ -2,8 +2,12 @@ first_name: Aurian
 last_name: Aubert
 
 title:
-  fr: développeur web fullstack + designer
-  en: fullstack web developer + designer
+  when_design_relevant:
+    fr: développeur web fullstack + designer
+    en: fullstack web developer + designer
+  else:
+    fr: développeur web fullstack
+    en: fullstack web developer
 
 contacts:
   - type: email

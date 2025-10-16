@@ -1,13 +1,18 @@
+import { Show } from "solid-js";
+import { useFlags } from "../../contexts/FlagsContext";
 import { getResume } from "../../utils/config";
 import { md } from "../../utils/label";
 
 export function Footer() {
   const resume = getResume();
+  const flags = useFlags();
 
   return (
-    <footer class="sp12 grid1-3">
-      <h3>{md(resume.ai_and_automation)}</h3>
-      <p>{md(resume.notice)}</p>
-    </footer>
+    <Show when={flags.isEnabled("automation_relevant")}>
+      <footer class="sp12 grid1-3">
+        <h3>{md(resume.ai_and_automation)}</h3>
+        <p>{md(resume.notice)}</p>
+      </footer>
+    </Show>
   );
 }

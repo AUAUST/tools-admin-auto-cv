@@ -1,17 +1,83 @@
-import { S } from "@auaust/primitive-kit";
+import { O, S } from "@auaust/primitive-kit";
+import { keys } from "@auaust/primitive-kit/objects";
 import type { JSX } from "solid-js";
 import { SolidMarkdown } from "solid-markdown";
+import { useFlags, type Flag } from "../contexts/FlagsContext";
 import { useLanguage, type Language } from "../contexts/LanguageContext";
 import { getLabels } from "./config";
 
-export type Translation = Record<Language, string> | string;
+export type Translation = Record<Language, string> | string | undefined;
+
+export type FlaggedTranslation = {
+  [key in `when_${string}`]: Translation;
+} & { else?: Translation };
 
 export type Label =
   | Translation
-  | { label?: Translation; title?: Translation; value?: Translation };
+  | FlaggedTranslation
+  | {
+      label?: Translation | FlaggedTranslation;
+      title?: Translation | FlaggedTranslation;
+      value?: Translation | FlaggedTranslation;
+    };
+
+function getFlaggedTranslation(
+  source: FlaggedTranslation | Translation
+): Translation | undefined {
+  const flags = useFlags();
+
+  if (!O.is(source)) {
+    return source;
+  }
+
+  const conditions = keys(source).filter((k) =>
+    S(k).startsWith("when_")
+  ) as string[];
+
+  if (!conditions.length) {
+    return source as Translation;
+  }
+
+  const condition = conditions.find((condition) => {
+    const flag = S.afterFirst(condition, "when_") as Flag;
+
+    return flags.isEnabled(flag);
+  }) as keyof typeof source | undefined;
+
+  if (condition) {
+    return source[condition];
+  }
+
+  return (source as any).else;
+}
+
+function getTranslation(
+  source: Translation,
+  language: Language
+): string | undefined {
+  if (!source) {
+    return undefined;
+  }
+
+  if (S.isStrict(source)) {
+    return source;
+  }
+
+  if (S.isStrict(source[language])) {
+    return source[language];
+  }
+
+  const languages = useLanguage().languages;
+
+  for (const lang of languages) {
+    if (S.isStrict(source[lang])) {
+      return source[lang];
+    }
+  }
+}
 
 export function label(
-  ...sources: (Label | undefined | null | false)[]
+  ...sources: (FlaggedTranslation | Label | undefined | null | false)[]
 ): string {
   const language = useLanguage();
 
@@ -33,14 +99,11 @@ export function label(
       return source;
     }
 
-    if (S.isStrict(source[language.language])) {
-      return source[language.language];
-    }
+    const flagged = getFlaggedTranslation(source);
+    const translated = getTranslation(flagged, language.language);
 
-    for (const lang of language.languages) {
-      if (S.isStrict(source[lang])) {
-        return source[lang];
-      }
+    if (S.isStrict(translated)) {
+      return translated;
     }
   }
 
@@ -48,7 +111,7 @@ export function label(
 }
 
 export function md(
-  ...sources: (Label | undefined | null | false)[]
+  ...sources: (FlaggedTranslation | Label | undefined | null | false)[]
 ): JSX.Element {
   const text = label(...sources);
 

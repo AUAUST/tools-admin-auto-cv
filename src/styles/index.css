@@ -20,12 +20,35 @@ body {
 }
 
 .buttons {
+  font-family: var(--font-sans);
   position: fixed;
   top: 10px;
   left: 10px;
   display: flex;
   flex-direction: column;
   gap: 5px;
+}
+
+.flags {
+  padding-inline: 1rem 3rem;
+  padding-block: 0.5rem;
+}
+
+.flags label {
+  display: block;
+}
+
+.flags input {
+  margin-right: 0.5rem;
+}
+
+.flags,
+.flags legend,
+.flags label {
+  font-family: var(--font-sans);
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: white;
 }
 
 button {

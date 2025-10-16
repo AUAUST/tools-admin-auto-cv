@@ -1,6 +1,8 @@
 import { cl } from "@auaust/g-class";
+import { s } from "@auaust/primitive-kit";
 import { min } from "@auaust/primitive-kit/numbers";
-import { createSignal, onMount, type ParentProps } from "solid-js";
+import { createSignal, For, onMount, type ParentProps } from "solid-js";
+import { useFlags } from "../contexts/FlagsContext";
 import { useLanguage } from "../contexts/LanguageContext";
 import { getDocumentConfig } from "../utils/config";
 import { t } from "../utils/label";
@@ -9,6 +11,7 @@ import { mm } from "../utils/units";
 export function Document(props: ParentProps) {
   const config = getDocumentConfig();
   const language = useLanguage();
+  const flags = useFlags();
 
   const [fit, setFit] = createSignal<"real" | "fit">("real");
   const [scale, setScale] = createSignal(1);
@@ -56,6 +59,23 @@ export function Document(props: ParentProps) {
         <button onClick={() => language.setLanguage(language.nextLanguage)}>
           {t(language.nextLanguage)}
         </button>
+
+        <fieldset class="flags">
+          <legend>Flags</legend>
+
+          <For each={flags.all}>
+            {(flag) => (
+              <label>
+                <input
+                  type="checkbox"
+                  checked={flags.isEnabled(flag)}
+                  onChange={() => flags.toggle(flag)}
+                />
+                {s(flag).splitWords().join(" ").toTitleCase().value}
+              </label>
+            )}
+          </For>
+        </fieldset>
       </div>
     </>
   );
