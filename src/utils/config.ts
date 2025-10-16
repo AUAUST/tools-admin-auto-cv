@@ -1,10 +1,16 @@
 import { once } from "@auaust/primitive-kit/functions";
 import yaml from "js-yaml";
+import type { Language } from "../contexts/LanguageContext";
+import type { Translation } from "./label";
 
-const files = import.meta.glob("../../resources/*.yml", {
-  as: "raw",
-  eager: true,
-});
+const files: Record<string, string> = import.meta.glob(
+  "../../resources/*.yml",
+  {
+    query: "?raw",
+    import: "default",
+    eager: true,
+  }
+);
 
 export function getFileContent(file: string) {
   const content = files[`../../resources/${file}.yml`];
@@ -17,6 +23,8 @@ export function getYamlContent<T>(filename: string): T {
 }
 
 export interface DocumentConfig {
+  language: Language;
+  languages: Language[];
   dimensions: { width: number; height: number };
   margins: {
     left: number;
@@ -33,7 +41,7 @@ export const getDocumentConfig = once(() =>
 export interface Profile {
   first_name: string;
   last_name: string;
-  title: string;
+  title: Translation;
   contacts: {
     type: "email" | "phone" | "linkedin" | "github" | "website";
     value: string;
