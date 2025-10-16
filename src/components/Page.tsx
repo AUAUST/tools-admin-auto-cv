@@ -1,7 +1,8 @@
+import type { ParentProps } from "solid-js";
 import { getDocumentConfig } from "../utils/config";
 import { mm } from "../utils/units";
 
-export function Page() {
+export function Page(props: ParentProps) {
   const config = getDocumentConfig();
 
   return (
@@ -16,7 +17,7 @@ export function Page() {
         "padding-bottom": mm(config.margins.bottom),
       }}
     >
-      <div style={{ border: "1px solid black", height: "100%" }}>y</div>
+      {props.children}
     </div>
   );
 }

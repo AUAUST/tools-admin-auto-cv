@@ -29,3 +29,16 @@ export interface DocumentConfig {
 export const getDocumentConfig = once(() =>
   getYamlContent<DocumentConfig>("document")
 );
+
+export interface Profile {
+  first_name: string;
+  last_name: string;
+  title: string;
+  contacts: {
+    type: "email" | "phone" | "linkedin" | "github" | "website";
+    value: string;
+    label?: string;
+  }[];
+}
+
+export const getProfile = once(() => getYamlContent<Profile>("profile"));

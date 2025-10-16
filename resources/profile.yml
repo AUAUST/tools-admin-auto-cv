@@ -1,0 +1,23 @@
+first_name: Aurian
+last_name: Aubert
+title: Developpeur web fullstack + Designer
+
+contacts:
+  - type: email
+    value: aurian@auaust.ch
+
+  - type: phone
+    value: "0041794301410"
+    label: +41 79 430 14 10
+
+  - type: linkedin
+    value: https://www.linkedin.com/in/aurianaubert/
+    label: linkedin.com/in/aurianaubert
+
+  - type: github
+    value: https://github.com/AUAUST
+    label: github.com/AUAUST
+
+  - type: website
+    value: https://www.auaust.ch
+    label: www.auaust.ch
