@@ -1,10 +1,11 @@
 import { For } from "solid-js";
 import { Dynamic } from "solid-js/web";
-import { getProfile } from "../../utils/config";
-import { label } from "../../utils/label";
+import { getProfile, getResume } from "../../utils/config";
+import { label, t } from "../../utils/label";
 
 export function Header() {
   const profile = getProfile();
+  const resume = getResume();
 
   return (
     <header>
@@ -14,6 +15,11 @@ export function Header() {
       <h2>{label(profile.title)}</h2>
 
       <Contacts />
+
+      <hr />
+
+      <h3>{t("about")}</h3>
+      <p>{label(resume.about)}</p>
     </header>
   );
 }
@@ -31,9 +37,9 @@ function Contacts() {
                 {
                   email: Email,
                   phone: Phone,
-                  linkedin: Linkedin,
-                  github: Github,
-                  website: Website,
+                  linkedin: Link,
+                  github: Link,
+                  website: Link,
                 }[contact.type]
               }
               {...contact}
@@ -46,35 +52,17 @@ function Contacts() {
 }
 
 function Email(contact: { value: string; label?: string }) {
-  return (
-    <a href={`mailto:${contact.value}`}>{contact.label || contact.value}</a>
-  );
+  return <a href={`mailto:${contact.value}`}>{label(contact)}</a>;
 }
 
 function Phone(contact: { value: string; label?: string }) {
-  return <a href={`tel:${contact.value}`}>{contact.label || contact.value}</a>;
+  return <a href={`tel:${contact.value}`}>{label(contact)}</a>;
 }
 
-function Linkedin(contact: { value: string; label?: string }) {
+function Link(contact: { value: string; label?: string }) {
   return (
     <a href={contact.value} target="_blank" rel="noopener noreferrer">
-      {contact.label || contact.value}
-    </a>
-  );
-}
-
-function Github(contact: { value: string; label?: string }) {
-  return (
-    <a href={contact.value} target="_blank" rel="noopener noreferrer">
-      {contact.label || contact.value}
-    </a>
-  );
-}
-
-function Website(contact: { value: string; label?: string }) {
-  return (
-    <a href={contact.value} target="_blank" rel="noopener noreferrer">
-      {contact.label || contact.value}
+      {label(contact)}
     </a>
   );
 }

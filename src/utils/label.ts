@@ -1,5 +1,6 @@
 import { S } from "@auaust/primitive-kit";
 import { useLanguage, type Language } from "../contexts/LanguageContext";
+import { getLabels } from "./config";
 
 export type Translation = Record<Language, string> | string;
 
@@ -42,4 +43,8 @@ export function label(
   }
 
   return "";
+}
+
+export function t(key: string): string {
+  return label(getLabels()[key]);
 }
