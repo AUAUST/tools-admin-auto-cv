@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Arzier";
+  src: url("../assets/fonts/IS-ArzierVF.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Plasma";
+  src: url("../assets/fonts/IS-PlasmaVF.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+:root {
+  --font-mono: "Arzier", monospace;
+  --font-sans: "Plasma", system-ui, Helvetica, Arial, sans-serif;
+
+  font-family: var(--font-sans);
+}
+
+.sans {
+  font-family: var(--font-sans);
+}
+
+.mono {
+  font-family: var(--font-mono);
+}
