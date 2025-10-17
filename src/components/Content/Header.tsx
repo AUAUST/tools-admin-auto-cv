@@ -8,15 +8,18 @@ export function Header() {
   const resume = getResume();
 
   return (
-    <header class="grid grid-cols-[5fr_4fr] gap-x-2">
-      <Title />
+    <header>
+      <div class="grid grid-cols-2 gap-x-2">
+        <Title />
 
-      <Contacts />
+        <Contacts />
+      </div>
 
-      <hr class="col-span-full mt-8 mb-1" />
+      <hr class="mt-8 mb-1" />
 
-      <div class="col-span-12 grid grid-cols-4 text-base">
+      <div class="col-span-full grid grid-cols-4 text-base">
         <h3 class="">{t("about")}</h3>
+
         <div class="col-span-3 text-balance leading-normal">
           {md(resume.about)}
         </div>
