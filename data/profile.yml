@@ -12,20 +12,6 @@ title:
     fr: Développeur web fullstack
     en: Fullstack web developer
 
-specialty_frontend:
-  when_design_relevant:
-    fr: frontends orientés design
-    en: design-driven frontends
-  else:
-    fr: écosystèmes TypeScript
-    en: TypeScript ecosystems
-
-specialty_backend:
-  when_target_laravel:
-    fr: PHP moderne
-    en: modern PHP
-  else: PHP, Laravel
-
 contacts:
   - type: email
     value: aurian@auaust.ch
@@ -50,3 +36,17 @@ contacts:
     label:
       fr: Sullens, Vaud, Suisse
       en: Sullens, Vaud, Switzerland
+
+specialty_frontend:
+  when_design_relevant:
+    fr: frontends orientés design
+    en: design-driven frontends
+  else:
+    fr: écosystèmes TypeScript
+    en: TypeScript ecosystems
+
+specialty_backend:
+  when_target_laravel:
+    fr: PHP moderne
+    en: modern PHP
+  else: PHP, Laravel
