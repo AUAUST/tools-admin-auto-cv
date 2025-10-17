@@ -1,3 +1,4 @@
+import { capitalize } from "@auaust/primitive-kit/strings";
 import { children, For, Show } from "solid-js";
 import { Dynamic } from "solid-js/web";
 import { useFlags } from "../../contexts/FlagsContext";
@@ -37,7 +38,7 @@ function Title() {
       ? [profile.specialty_frontend, profile.specialty_backend]
       : [profile.specialty_backend, profile.specialty_frontend];
 
-    return [md(a), " ", t("and"), " ", md(b)];
+    return [md(capitalize(label(a))), " ", t("and"), " ", md(b)];
   });
 
   return (
