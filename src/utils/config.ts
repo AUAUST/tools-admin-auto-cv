@@ -39,6 +39,8 @@ export interface Profile {
   first_name: string;
   last_name: string;
   title: Translation;
+  specialty_frontend: Translation;
+  specialty_backend: Translation;
   contacts: {
     type: "email" | "phone" | "linkedin" | "github" | "website" | "address";
     value: string;

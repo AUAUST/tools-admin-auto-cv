@@ -17,9 +17,9 @@
   --text-lg: 12pt;
   --text-xl: 12pt;
   --text-2xl: 13pt;
-  --text-3xl: 20pt;
-  --text-4xl: 24pt;
-  --text-5xl: 30pt;
+  --text-3xl: 18pt;
+  --text-4xl: 20pt;
+  --text-5xl: 26pt;
   --text-6xl: 30pt;
 }
 
@@ -72,4 +72,8 @@ hr {
   .document.fit {
     transform: scale(var(--scale, 1));
   }
+}
+
+.prose-inline > p {
+  @apply inline;
 }

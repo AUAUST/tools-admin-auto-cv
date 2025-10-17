@@ -2,12 +2,29 @@ first_name: Aurian
 last_name: Aubert
 
 title:
+  when_target_laravel:
+    fr: Développeur web fullstack spécialisé Laravel
+    en: Laravel-focused fullstack web developer
   when_design_relevant:
-    fr: développeur web fullstack + designer
-    en: fullstack web developer + designer
+    fr: Développeur web fullstack alliant design et code
+    en: Fullstack web developer bridging design and code
   else:
-    fr: développeur web fullstack
-    en: fullstack web developer
+    fr: Développeur web fullstack
+    en: Fullstack web developer
+
+specialty_frontend:
+  when_design_relevant:
+    fr: frontends orientés design
+    en: design-driven frontends
+  else:
+    fr: écosystèmes TypeScript
+    en: TypeScript ecosystems
+
+specialty_backend:
+  when_target_laravel:
+    fr: PHP moderne
+    en: modern PHP
+  else: PHP, Laravel
 
 contacts:
   - type: email

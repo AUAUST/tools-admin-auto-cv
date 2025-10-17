@@ -1,12 +1,18 @@
 about:
-  en: About
   fr: À propos
+  en: About
 today:
-  en: Today
   fr: Aujourd'hui
+  en: Today
 fr:
-  en: French
   fr: Français
+  en: French
 en:
-  en: English
   fr: Anglais
+  en: English
+specialist:
+  fr: spécialiste
+  en: specialist
+and:
+  fr: et
+  en: and

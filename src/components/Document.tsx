@@ -53,7 +53,7 @@ export function Document(props: ParentProps) {
         <button
           onClick={() => setFit((fit) => (fit === "real" ? "fit" : "real"))}
         >
-          {fit() === "real" ? "Fit to Page" : "Actual Size"}
+          {fit() === "real" ? "Fit to Screen" : "Actual Size"}
         </button>
 
         <button onClick={() => language.setLanguage(language.nextLanguage)}>
@@ -70,7 +70,7 @@ export function Document(props: ParentProps) {
                   type="checkbox"
                   checked={flags.isEnabled(flag)}
                   onChange={() => flags.toggle(flag)}
-                  class="mr-2 "
+                  class="mr-2"
                 />
                 {s(flag).splitWords().join(" ").toTitleCase().value}
               </label>
