@@ -11,6 +11,41 @@ about:
 competences:
   backend_php: ""
 
+experiences:
+  - company: WELTKERN®
+    address:
+      fr: Lausanne, Suisse
+      en: Lausanne, Switzerland
+    description:
+      fr: | # markdown
+        J'ai leadé le développement de l'actuelle plateforme d'e-commerce de [weltkern.com](https://weltkern.com),
+        startup spécialisée dans la vente d'objets de design et de polices de caractères.
+
+    subsections:
+      - from: 2024
+        title:
+          when_design_relevant: Lead Developer & Designer
+          else: Lead Developer
+        description:
+          fr: | # markdown
+            Évolution au sein d'une startup d'e-commerce d'objets de design et de polices de caractères basée en Suisse.
+      - from: 2023
+        title:
+          when_design_relevant: Fullstack Developer & Designer
+          else: Fullstack Developer
+        description:
+          fr: | # markdown
+            Développement et maintenance d'une plateforme e-commerce sur mesure, intégrant des fonctionnalités avancées
+            pour la gestion des produits, des commandes et des clients.
+
+      - from: 2022
+        title:
+          when_design_relevant: Frontend Developer & Designer
+          else: Frontend Developer
+        description:
+          fr: | # markdown
+            Développement de l'interface utilisateur pour une plateforme d'e-commerce, en mettant l'accent sur l'expérience utilisateur et l'accessibilité.
+
 ai_and_automation:
   fr: J'utilise l'IA et j'automatise!
   en: I use AI and automate!

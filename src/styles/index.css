@@ -75,5 +75,5 @@ hr {
 }
 
 .prose-inline > p {
-  @apply inline;
+  @apply contents;
 }

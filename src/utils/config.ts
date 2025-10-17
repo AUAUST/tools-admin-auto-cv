@@ -50,10 +50,21 @@ export interface Profile {
 
 export const getProfile = once(() => getYamlContent<Profile>("profile"));
 
+export interface Experience {
+  from: number;
+  title: Translation;
+  description: Translation;
+  subsections?: Experience[];
+}
+
 export interface Resume {
   about: Translation;
   ai_and_automation: Translation;
   notice: Translation;
+  experiences: (Experience & {
+    company?: Translation;
+    address?: Translation;
+  })[];
 }
 
 export const getResume = once(() => getYamlContent<Resume>("resume"));
