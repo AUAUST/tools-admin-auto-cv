@@ -1,0 +1,60 @@
+.markdown {
+  /* @apply text-balance; */
+}
+
+.markdown a {
+  @apply text-black;
+
+  font-weight: 450;
+  text-decoration: underline;
+  text-decoration-color: var(--color-gray-200);
+  text-decoration-thickness: 0.15em;
+  text-decoration-skip-ink: none;
+  text-underline-offset: 0.1em;
+}
+
+.markdown code {
+  @apply text-gray-900 bg-gray-200 rounded-xs font-mono;
+
+  font-size: 0.9em;
+  font-weight: 450;
+  padding-block: 0.15em 0.05em;
+  padding-inline: 0.4em;
+}
+
+.markdown strong {
+  @apply text-black;
+
+  font-weight: 500;
+}
+
+/* .markdown ol {
+  counter-reset: item;
+  list-style: lower-roman;
+}
+
+.markdown ol li {
+  counter-increment: item;
+  display: inline list-item;
+  list-style-position: inside;
+  padding-right: 1.25em;
+}
+
+.markdown ol li::marker {
+  @apply text-gray-500 font-mono;
+
+  content: counter(item, lower-roman) ".\00a0";
+  font-weight: 550;
+  font-size: 0.8em;
+} */
+
+.markdown ol li {
+  display: inline list-item;
+}
+
+.markdown ol li:not(:last-child)::after {
+  @apply font-mono text-gray-500;
+
+  content: " ; ";
+  padding-right: 0.5em;
+}

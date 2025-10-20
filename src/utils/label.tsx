@@ -115,7 +115,9 @@ export function md(
 ): JSX.Element {
   const text = label(...sources);
 
-  return <SolidMarkdown class="contents prose-inline">{text}</SolidMarkdown>;
+  return (
+    <SolidMarkdown class="contents prose-inline markdown">{text}</SolidMarkdown>
+  );
 }
 
 export function t(key: string): string {

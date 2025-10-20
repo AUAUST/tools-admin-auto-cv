@@ -43,7 +43,7 @@ function Title() {
 
   return (
     <div>
-      <h1 class="leading-none font-normal text-3xl mb-2.5 text-balance">
+      <h1 class="leading-none font-normal text-black text-3xl mb-2.5 text-balance">
         {md(profile.title)}
       </h1>
 
@@ -58,7 +58,7 @@ function Contacts() {
 
   return (
     <address class="h-fit grid grid-cols-2">
-      <h2 class="leading-none text-2xl mb-2 col-span-full">
+      <h2 class="leading-none text-2xl mb-2 col-span-full text-black">
         {profile.first_name} {profile.last_name}
       </h2>
 

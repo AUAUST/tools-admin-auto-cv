@@ -2,6 +2,6 @@
 import { render } from "solid-js/web";
 import App from "./App.tsx";
 
-import.meta.glob("./styles/*.css", { eager: true });
+import "./styles/index.css";
 
 render(() => <App />, document.getElementById("root")!);
