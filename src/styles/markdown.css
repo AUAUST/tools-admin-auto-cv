@@ -36,5 +36,5 @@
   @apply font-mono text-gray-500;
 
   content: " ; ";
-  padding-right: 0.75em;
+  /* padding-right: 0.75em; */
 }
