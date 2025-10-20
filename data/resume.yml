@@ -13,9 +13,6 @@ competences:
 
 experiences:
   - company: WELTKERN®
-    address:
-      fr: Lausanne, Suisse
-      en: Lausanne, Switzerland
     description:
       fr: | # markdown
         J'ai leadé le développement de l'actuelle plateforme d'e-commerce de [weltkern.com](https://weltkern.com),
@@ -29,6 +26,7 @@ experiences:
         description:
           fr: | # markdown
             Évolution au sein d'une startup d'e-commerce d'objets de design et de polices de caractères basée en Suisse.
+
       - from: 2023
         title:
           when_design_relevant: Fullstack Developer & Designer
@@ -45,6 +43,42 @@ experiences:
         description:
           fr: | # markdown
             Développement de l'interface utilisateur pour une plateforme d'e-commerce, en mettant l'accent sur l'expérience utilisateur et l'accessibilité.
+
+  - company: AUAUST
+    description:
+      fr: | # markdown
+        Activités freelance en développement web fullstack et design graphique.
+
+    subsections:
+      - from: 2022
+        title:
+          fr: Mainteneur Open-Source
+          en: Maintainer of Open-Source Projects
+        description:
+          fr: | # markdown
+            Dès 2022 jusqu'à aujourd'hui, création, évolution et maintenance d'une variété de projets TypeScript open-source tous accessibles sur [github.com/AUAUST](https://github.com/AUAUST).
+
+            [Primitive Kit](https://github.com/AUAUST/lib-js-primitive-kit), bibliothèque d'utilitaires TypeScript qui facilite l'usage des types primitifs ;
+            [Jaune](https://github.com/AUAUST/lib-js-jaune), classe `Color` minimale qui facilite la manipulation des couleurs en TypeScript et CSS ;
+            [G-Class](https://github.com/AUAUST/lib-js-g-class), alternative plus complète à [clsx](https://github.com/lukeed/clsx).
+
+      - from: 2021
+        title:
+          when_design_relevant: Freelance Developer & Designer
+          else: Freelance Developer
+        description:
+          fr: | # markdown
+            Dès 2021, divers projets freelance de la planification à la mise en ligne et maintenance à long terme.
+            Notamment, [lambert-forte.ch](https://lambert-forte.ch) (Kirby CMS), [auaust.ch](https://auaust.ch) (one-pager statique Solid.js),
+            [apademide.ch](https://apademide.ch) (Kirby CMS), ainsi que des projets de bachelors pour des étudiants de l'ECAL (Solid.js, vanilla TypeScript).
+
+    # subsections:
+    #   - from: 2021
+    #     title: Freelance Developer & Designer
+    #     description:
+    #       fr: | # markdown
+    #         Conception et développement de sites web personnalisés pour une variété de clients,
+    #         allant des petites entreprises aux projets personnels.
 
 ai_and_automation:
   fr: J'utilise l'IA et j'automatise!

@@ -10,9 +10,9 @@ export function Content() {
     <div class="h-full flex flex-col justify-between">
       <Header />
 
-      <Experiences experiences={resume.experiences} />
-
       <div>
+        <Experiences experiences={resume.experiences} />
+
         <Footer />
       </div>
     </div>

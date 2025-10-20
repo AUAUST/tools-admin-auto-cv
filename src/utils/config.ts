@@ -63,7 +63,6 @@ export interface Resume {
   notice: Translation;
   experiences: (Experience & {
     company?: Translation;
-    address?: Translation;
   })[];
 }
 

@@ -19,7 +19,7 @@ export function Header() {
       <hr class="mt-8 mb-1" />
 
       <div class="col-span-full grid grid-cols-4 text-base">
-        <h3 class="">{t("about")}</h3>
+        <h3>{t("about")}</h3>
 
         <div class="col-span-3 text-balance leading-normal">
           {md(resume.about)}
@@ -43,7 +43,7 @@ function Title() {
 
   return (
     <div>
-      <h1 class="leading-none text-3xl mb-2.5 text-balance">
+      <h1 class="leading-none font-normal text-3xl mb-2.5 text-balance">
         {md(profile.title)}
       </h1>
 
