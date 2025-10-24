@@ -1,7 +1,8 @@
 about:
   fr: | # markdown
-    Avec mes années d'expérience en développement web fullstack, je développe des sites web avec une approche
-    centrée sur l'expérience utilisateur, biais issu de mon diplôme en design et communication visuelle.
+    Développeur full-stack expérimenté, formé au design visuel,
+    je souhaite aujourd’hui intégrer une équipe Laravel pour participer
+    à la conception de produits à forte valeur technique et créative.
   en: | # markdown
     With my years of experience in fullstack web development, I build websites with a user-centric approach,
     a bias stemming from my degree in design and visual communication.
@@ -14,36 +15,36 @@ languages:
 
 competences:
   - title:
-      fr: Développement Backend
+      fr: Développement backend
     description:
       fr: | # markdown
-        - Développement backend PHP avec **Laravel 10-12** et **Kirby CMS**
-        - Supervision avec les outils **Laravel Telescope**, **Google Analytics**, **Plausible**
-        - Gestion et usage des DB **MariaDB**, **PostgresSQL** et **Redis**
-        - Tests unitaires et d'intégration **Pest**
+        - Développement backend **Laravel 10-12** et **Kirby CMS**
+        - Supervision avec **Laravel Telescope**, **Google Analytics**, **Plausible**
+        - Gestion et usage de **MariaDB**, **PostgreSQL** et **Redis**
+        - Tests **Pest**
         - **CI/CD** avec **GitHub Actions**
 
-  - title: Développement Frontend
+  - title: Développement frontend
     description:
       fr: | # markdown
-        - Développement d’interfaces avec **Solid.js**, **Vue** et **React**
-        - Styling avec **Tailwind CSS** et **modules SCSS**
-        - Consommation d’APIs via **Inertia.js** et **API RESTful**, **Axios**
-        - Participation à la conception **UX/UI** grâce aux compétences en design
+        - Développement d’interfaces **Solid.js**, **Vue** et **React**
+        - Styling **Tailwind CSS** et **modules SCSS**
+        - Consommation d’APIs **Inertia.js**, **API RESTful** avec **Axios**
+        - Participation à la conception **UX/UI**
 
   - title: Gestion d'équipe
     description:
       fr: | # markdown
         - Leadership technique et gestion de petites équipes
         - **Recrutement** basé sur les **besoins** et **compétences**
-        - Délégation des tâches et coordination entre les membres de l'équipe selon les forces individuelles
+        - Délégation et coordination dans l'équipe selon les forces individuelles
 
   - title: Gestion de projet
     description:
       fr: | # markdown
-        - Approche **Agile** axée sur la réduction du **time-to-market** des **MVP**
-        - Planification des sprints et l’organisation de la roadmap
-        - Adaptation et réévaluation continue des objectifs basés sur les feedbacks internes et utilisateurs
+        - Approche **Agile** centrée sur la réduction du **time-to-market**
+        - Planification des sprints et organisation de la roadmap
+        - Adaptation et réévaluation continue des objectifs selon feedbacks internes et utilisateurs
 
 experiences:
   - company: WELTKERN®
@@ -55,19 +56,19 @@ experiences:
     subsections:
       - from: 2024
         title:
-          when_design_relevant: "Lead Developer\n& Designer"
+          when_design_relevant: "Lead developer\n& designer"
           else: Lead Developer
         description:
           fr: | # markdown
-            - Prise des décisions techniques et architecturales
-            - **recrutement**, **gestion** d'une équipe de **4 développeurs freelance**
-            - analyse des données des outils monitoring **Laravel Telescope** et **Plausible** pour la détection et la correction des points de friction
+            - Pilotage technique et architectural
+            - **recrutement**, **encadrement** de **4 développeurs freelance**
+            - analyse des données des outils monitoring **Laravel Telescope** et **Plausible**, détection et correction des points de friction
             - définition du **MVP** pour la refonte de la plateforme
             - organisation du roadmap et **planning des sprints**
 
       - from: 2023
         title:
-          when_design_relevant: "Fullstack Developer\n& Designer"
+          when_design_relevant: "Fullstack developer\n& designer"
           else: Fullstack Developer
         description:
           fr: | # markdown
@@ -81,7 +82,7 @@ experiences:
 
       - from: 2022
         title:
-          when_design_relevant: "Frontend Developer\n& Designer"
+          when_design_relevant: "Frontend developer\n& designer"
           else: Frontend Developer
         description:
           fr: | # markdown
@@ -101,7 +102,7 @@ experiences:
     subsections:
       - from: 2022
         title:
-          fr: Mainteneur Open‑Source
+          fr: "Mainteneur\nopen‑source"
           en: "Open-Source\nProjects Maintainer"
         description:
           fr: | # markdown
@@ -114,7 +115,7 @@ experiences:
 
       - from: 2021
         title:
-          when_design_relevant: "Freelance Developer\n& Designer"
+          when_design_relevant: "Freelance developer\n& designer"
           else: Freelance Developer
         description:
           fr: | # markdown
@@ -125,16 +126,19 @@ experiences:
             - [apademide.ch](https://apademide.ch), Kirby CMS
             - projets de bachelor pour l'écal, Solid.js, vanilla TypeScript
 
+  - company: ēracom
+    description:
+      fr: | # markdown
+        Diplômé d'un CFC de graphisme avec prix de l’école et de la SGD (Swiss Graphic Designers) reconnaissant les meilleurs résultats et moyennes de ma promotion.
+
 ai_and_automation:
   fr: J'utilise l'IA et j'automatise!
   en: I use AI and automate!
 
 notice:
   fr: | # markdown
-    La technologie fait gagner du temps. J'ai généré ce CV à l'aide d'un outil custom qui m'a permis de l'adapter à votre offre d'emploi,
-    mettant en avant les compétences et expériences les plus pertinentes.
+    La technologie fait gagner du temps. Ce CV a été généré à l'aide d'un outil custom qui m'a permis de l'adapter à votre offre d'emploi.
     Il est accessible en open-source sur [github.com/AUAUST/tools-admin-auto-cv](https://github.com/AUAUST/tools-admin-auto-cv#readme).
-    C'est le genre d'optimisation que j'apporte à mon travail quotidien, garantissant tant efficacité que qualité.
   en: | # markdown
     Technology saves time. I generated this resume using a custom tool that allowed me to quickly adapt it to your job offer,
     highlighting the most relevant skills and experiences.
