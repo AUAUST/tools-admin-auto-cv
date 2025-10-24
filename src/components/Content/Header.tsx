@@ -10,21 +10,27 @@ export function Header() {
 
   return (
     <header>
-      <div class="grid grid-cols-2 gap-x-2">
+      <div class="grid grid-cols-2 gap-x-2 mb-8">
         <Title />
 
         <Contacts />
       </div>
 
-      <hr class="mt-8 mb-1" />
+      <For each={["about", "languages"] as const}>
+        {(section) => (
+          <>
+            <hr class="mt-4 mb-1" />
 
-      <div class="col-span-full grid grid-cols-4 text-base">
-        <h3>{t("about")}</h3>
+            <div class="col-span-full grid grid-cols-4 text-base">
+              <h3>{t(section)}</h3>
 
-        <div class="col-span-3 text-balance leading-normal">
-          {md(resume.about)}
-        </div>
-      </div>
+              <div class="col-span-3 text-balance leading-normal">
+                {md(resume[section])}
+              </div>
+            </div>
+          </>
+        )}
+      </For>
     </header>
   );
 }

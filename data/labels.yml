@@ -1,6 +1,9 @@
 about:
   fr: À propos
   en: About
+languages:
+  fr: Langues
+  en: Languages
 today:
   fr: Aujourd'hui
   en: Today

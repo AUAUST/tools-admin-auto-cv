@@ -23,9 +23,9 @@
 }
 
 .markdown strong {
-  @apply text-black;
+  @apply text-gray-900;
 
-  font-weight: 500;
+  font-weight: 475;
 }
 
 .markdown ul li {

@@ -8,6 +8,12 @@ about:
     a bias stemming from my degree in design and visual communication.
     My tools of choice are Laravel, Kirby CMS in the backend; Vue.js, Solid.js and Tailwind CSS in the frontend.
 
+languages:
+  fr: |
+    Français langue maternelle, anglais courant et professionnel avancé, allemand élémentaire.
+  en: |
+    Native French speaker, fluent and professional working proficiency in English, basic German.
+
 competences:
   backend_php: ""
 
@@ -15,13 +21,13 @@ experiences:
   - company: WELTKERN®
     description:
       fr: | # markdown
-        Évolution au sein [weltkern.com](https://weltkern.com), plateforme d'**e-commerce**.
-        Boutique en ligne d'objets de design et de polices de caractères sur une stack monolithique **Laravel** et **Solid.js**.
+        Évolution au sein de [weltkern.com](https://weltkern.com), plateforme d'**e-commerce** commercialisant
+        objets de design et polices de caractères. Stack monolithique **Laravel** et **Solid.js**.
 
     subsections:
       - from: 2024
         title:
-          when_design_relevant: Lead Developer & Designer
+          when_design_relevant: "Lead Developer\n& Designer"
           else: Lead Developer
         description:
           fr: | # markdown
@@ -33,7 +39,7 @@ experiences:
 
       - from: 2023
         title:
-          when_design_relevant: Fullstack Developer & Designer
+          when_design_relevant: "Fullstack Developer\n& Designer"
           else: Fullstack Developer
         description:
           fr: | # markdown
@@ -44,14 +50,16 @@ experiences:
 
       - from: 2022
         title:
-          when_design_relevant: Frontend Developer & Designer
+          when_design_relevant: "Frontend Developer\n& Designer"
           else: Frontend Developer
         description:
           fr: | # markdown
-            - Intégration frontend **Solid.js** et **Vue.js**
-            - mise en place CMS avec **Kirby CMS**
+            - Intégration frontend **Solid.js** (storefront) et **Vue.js** (admin)
+            - mise en place **Kirby CMS** pour contenu produits et éditorial
             - design **UI**/**UX** responsif **Figma**
-            - optimisation SEO et performance, **KeyCDN**.
+            - optimisation SEO et performance, **KeyCDN**
+            - design de composants **SCSS modules** et **Tailwind CSS**
+            - maintient du frontend **React** existant avant migration.
 
   - company: AUAUST
     description:
@@ -69,17 +77,17 @@ experiences:
             Dès 2022 jusqu'à aujourd'hui, création, évolution et maintenance d'une variété de projets **TypeScript** **open-source** tous accessibles sur [github.com/AUAUST](https://github.com/AUAUST).
 
             - [Primitive Kit](https://github.com/AUAUST/lib-js-primitive-kit#readme), bibliothèque d'utilitaires **TypeScript qui** facilite l'usage des primitifs
-            - [Jaune](https://github.com/AUAUST/lib-js-jaune#readme), classe **Color** avec outils de manipulation des couleurs en TypeScript et CSS
+            - [Jaune](https://github.com/AUAUST/lib-js-jaune#readme), classe **Color** aide à la manipulation des couleurs pour TypeScript et CSS
             - [G-Class](https://github.com/AUAUST/lib-js-g-class#readme), alternative plus complète à [clsx](https://github.com/lukeed/clsx)
             - tous utilisés en production.
 
       - from: 2021
         title:
-          when_design_relevant: Freelance Developer & Designer
+          when_design_relevant: "Freelance Developer\n& Designer"
           else: Freelance Developer
         description:
           fr: | # markdown
-            Dès 2021, divers projets freelance de la planification à la mise en ligne et maintenance à long terme.
+            Dès 2021, divers projets web freelance de la planification et du maquettage à la mise en ligne et maintenance à long terme.
 
             - [lambert-forte.ch](https://lambert-forte.ch), Kirby CMS
             - [auaust.ch](https://auaust.ch), one-pager Solid.js statique

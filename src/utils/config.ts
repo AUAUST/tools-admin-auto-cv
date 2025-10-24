@@ -59,6 +59,7 @@ export interface Experience {
 
 export interface Resume {
   about: Translation;
+  languages: Translation;
   ai_and_automation: Translation;
   notice: Translation;
   experiences: (Experience & {
