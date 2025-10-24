@@ -17,12 +17,12 @@
     "solid-markdown": "^2.0.14"
   },
   "devDependencies": {
-    "@tailwindcss/vite": "^4.1.14",
+    "@tailwindcss/vite": "^4.1.16",
     "@types/js-yaml": "^4.0.9",
-    "@types/node": "^24.6.0",
-    "tailwindcss": "^4.1.14",
+    "@types/node": "^24.9.1",
+    "tailwindcss": "^4.1.16",
     "typescript": "~5.9.3",
-    "vite": "^7.1.7",
-    "vite-plugin-solid": "^2.11.8"
+    "vite": "^7.1.12",
+    "vite-plugin-solid": "^2.11.10"
   }
 }
