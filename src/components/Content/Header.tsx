@@ -22,9 +22,9 @@ export function Header() {
             <hr class="mt-4 mb-1" />
 
             <div class="col-span-full grid grid-cols-4 text-base">
-              <h3>{t(section)}</h3>
+              <h3 class="font-medium text-black trim-text-box">{t(section)}</h3>
 
-              <div class="col-span-3 text-balance leading-normal">
+              <div class="col-span-3 text-pretty leading-snug">
                 {md(resume[section])}
               </div>
             </div>

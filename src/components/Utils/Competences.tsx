@@ -9,6 +9,8 @@ export function Competences(props: { competences: Competence[] }) {
         {t("competences")}
       </h2>
 
+      <hr class="mt-4 mb-1" />
+
       <For each={props.competences}>
         {(experience) => <Competence competence={experience} />}
       </For>

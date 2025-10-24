@@ -1,12 +1,10 @@
 about:
   fr: | # markdown
-    Avec 5 *ans* d'expérience en développement web fullstack, je développe des sites web avec une approche
+    Avec mes années d'expérience en développement web fullstack, je développe des sites web avec une approche
     centrée sur l'expérience utilisateur, biais issu de mon diplôme en design et communication visuelle.
-    Mes outils de prédilection sont Laravel, Kirby CMS en backend; Vue.js, Solid.js et Tailwind CSS en frontend.
   en: | # markdown
-    With 5 years of experience in fullstack web development, I build websites with a user-centric approach,
+    With my years of experience in fullstack web development, I build websites with a user-centric approach,
     a bias stemming from my degree in design and visual communication.
-    My tools of choice are Laravel, Kirby CMS in the backend; Vue.js, Solid.js and Tailwind CSS in the frontend.
 
 languages:
   fr: |
@@ -15,37 +13,36 @@ languages:
     Native French speaker, fluent and professional working proficiency in English, basic German.
 
 competences:
-  - title: Développement Backend
+  - title:
+      fr: Développement Backend
     description:
       fr: | # markdown
-        Conception et développement d’applications backend PHP à l’aide de **Laravel** (10-12) et **Kirby** CMS (3-5),
-        assurant la performance et la fiabilité par l’intégration d’outils d’analyse et de supervision tels que **Laravel Telescope** et **Plausible**.
-        Mise en place et maintenance d’environnements **Ubuntu**, gestion serveur avec **Ploi.io**, bases de données **MariaDB** et **Redis**.
+        - Conception d'architectures backend PHP modernes avec **Laravel 10-12** et **Kirby CMS**
+        - analyse et supervision avec les outils **Laravel Telescope**, **Google Analytics**, **Plausible**
+        - gestion de bases de données **MariaDB**, **PostgresSQL** et **Redis**
+        - tests unitaires et d'intégration **Pest**
+        - **CI/CD** avec **GitHub Actions**
 
   - title: Développement Frontend
     description:
       fr: | # markdown
-        Développement d’interfaces réactives TypeScript avec **Solid.js**, **Vue.js** et **React**,
-        faisant usage de technologies modernes telles que **Tailwind CSS** et les **SCSS modules**
-        pour des expériences utilisateur performantes et engageantes.
-
-  - title: UI/UX & Design
-    description:
-      fr: | # markdown
-        Conception de designs UI/UX intuitifs et esthétiques avec **Figma**, création de composants réutilisables en **Tailwind CSS** et **SCSS modules**,
-        garantissant une expérience utilisateur optimale et cohérente.
-
-  - title: Gestion de projet
-    description:
-      fr: | # markdown
-        Maîtrise des méthodologies agiles, notamment **Scrum** et **Kanban**, pour la planification, le suivi et la livraison efficace de projets web,
-        assurant la satisfaction des parties prenantes et le respect des délais.
+        - Développement d’interfaces réactives TypeScript avec **Solid.js**, **Vue** et **React**,
+        - intégration de styles avec **Tailwind CSS** et **modules SCSS**
+        - consommation d’APIs via **Inertia.js** et **API RESTful**, **Axios**
 
   - title: Gestion d'équipe
     description:
       fr: | # markdown
-        Leadership technique et gestion de petites équipes, incluant le recrutement basé sur les besoins et compétences,
-        la planification des sprints et l’organisation de la roadmap, assurant la livraison de projets de haute qualité dans les délais impartis.
+        - Leadership technique et gestion de petites équipes
+        - **recrutement** basé sur les **besoins** et **compétences**
+        - délégation des tâches et coordination entre les membres de l'équipe selon les forces individuelles
+
+  - title: Gestion de projet
+    description:
+      fr: | # markdown
+        - Approche **Agile** centrée sur la réduction du **time-to-market** des **MVP**
+        - planification des **sprints** et l’organisation de la roadmap, assurant la livraison de projets de qualité dans les délais impartis
+        - réévaluation continue des objectifs en combinant évolution des besoins et feedbacks internes et utilisateurs
 
 experiences:
   - company: WELTKERN®
@@ -65,7 +62,7 @@ experiences:
             - **recrutement**, **gestion** d'une équipe de **4 développeurs freelance**
             - configuration des outils monitoring **Laravel Telescope** et statistiques **Plausible**, analyse des données
             - définition du **MVP** pour la refonte de la plateforme
-            - organisation du roadmap et **planning des sprints**.
+            - organisation du roadmap et **planning des sprints**
 
       - from: 2023
         title:
@@ -76,9 +73,9 @@ experiences:
             - Setup et développement backend **Laravel 11**
             - mise en place des bases de données, migrations **MariaDB** et **Redis**
             - API **Inertia.js**
-            - webhooks **Mollie** pour gestion des paiements
+            - webhooks **Mollie** pour process des paiements
             - mise en place infrastructure serveur **Ubuntu** avec **Ploi.io** sur VPS Infomaniak
-            - système de backup **rClone** avec **SwissBackup**.
+            - système de backup **rClone** avec **SwissBackup**
 
       - from: 2022
         title:
@@ -86,18 +83,18 @@ experiences:
           else: Frontend Developer
         description:
           fr: | # markdown
-            - Intégration frontend **Solid.js** (storefront) et **Vue.js** (admin)
+            - Intégration frontend **Solid.js** (storefront) et **Vue** (admin)
             - mise en place **Kirby CMS** pour contenu produits et éditorial
             - design **UI**/**UX** responsif **Figma**
-            - optimisation SEO et performance, **KeyCDN**
+            - optimisation des performances avec **KeyCDN**
             - design de composants **SCSS modules** et **Tailwind CSS**
-            - maintient du frontend **React** existant avant migration.
+            - maintient du frontend **React** existant avant migration
 
   - company: AUAUST
     description:
       fr: | # markdown
-        Activités freelance en développement web fullstack et design graphique pour des projets
-        open-source, des clients et des collaborations académiques.
+        Activités freelance en développement web fullstack et design graphique pour des
+        outils open‑source, des clients et des projets personnels.
 
     subsections:
       - from: 2022
@@ -111,7 +108,7 @@ experiences:
             - [Primitive Kit](https://github.com/AUAUST/lib-js-primitive-kit#readme), bibliothèque d'utilitaires **TypeScript qui** facilite l'usage des primitifs
             - [Jaune](https://github.com/AUAUST/lib-js-jaune#readme), classe **Color** aide à la manipulation des couleurs pour TypeScript et CSS
             - [G-Class](https://github.com/AUAUST/lib-js-g-class#readme), alternative plus complète à [clsx](https://github.com/lukeed/clsx)
-            - tous utilisés en production.
+            - tous utilisés en production
 
       - from: 2021
         title:
@@ -124,7 +121,7 @@ experiences:
             - [lambert-forte.ch](https://lambert-forte.ch), Kirby CMS
             - [auaust.ch](https://auaust.ch), one-pager Solid.js statique
             - [apademide.ch](https://apademide.ch), Kirby CMS
-            - projets de bachelor pour l'écal, Solid.js, vanilla TypeScript.
+            - projets de bachelor pour l'écal, Solid.js, vanilla TypeScript
 
 ai_and_automation:
   fr: J'utilise l'IA et j'automatise!

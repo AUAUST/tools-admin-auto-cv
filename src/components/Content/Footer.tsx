@@ -13,6 +13,7 @@ export function Footer() {
 
       <footer class="grid grid-cols-4 text-xs">
         <h3 class="font-medium">{md(resume.ai_and_automation)}</h3>
+
         <div class="col-span-3 text-balance leading-snug wrap-normal break-keep">
           {md(resume.notice)}
         </div>

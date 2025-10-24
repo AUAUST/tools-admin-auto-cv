@@ -47,8 +47,8 @@ export function SubExperience(props: { experience: Experience }) {
     <div class="grid grid-cols-12 mt-3">
       <div class="text-sm text-gray-500">{props.experience.from}</div>
 
-      <div class="col-span-3 pl-2">
-        <h4 class="text-lg font-[450] text-black leading-tight trim-text-box whitespace-pre-line">
+      <div class="col-span-3">
+        <h4 class="text-lg font-[450] text-black leading-tight trim-text-box whitespace-pre-line pr-2">
           {md(props.experience.title)}
         </h4>
       </div>

@@ -1,5 +1,5 @@
 .markdown {
-  /* @apply text-balance; */
+  @apply text-pretty;
 }
 
 .markdown a {
@@ -26,6 +26,7 @@
   @apply text-gray-900;
 
   font-weight: 475;
+  white-space: nowrap;
 }
 
 .markdown ul li {
@@ -36,5 +37,8 @@
   @apply font-mono text-gray-500;
 
   content: " ; ";
-  /* padding-right: 0.75em; */
+}
+
+.markdown ul li:last-child::after {
+  content: ".";
 }
