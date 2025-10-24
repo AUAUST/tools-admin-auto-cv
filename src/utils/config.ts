@@ -20,6 +20,7 @@ export function getYamlContent<T>(filename: string): T {
 }
 
 export interface DocumentConfig {
+  title: string;
   language: Language;
   languages: Language[];
   dimensions: { width: number; height: number };

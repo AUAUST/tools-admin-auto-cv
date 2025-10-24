@@ -1,5 +1,9 @@
 # All dimensions are in millimeters (mm)
 
+title:
+  fr: aurian-aubert-cv-{date}
+  en: aurian-aubert-resume-{date}
+
 language: fr
 languages: [fr, en]
 
