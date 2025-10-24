@@ -11,13 +11,11 @@ export function Content() {
     <div class="h-full flex flex-col justify-between">
       <Header />
 
-      <div>
-        <Competences competences={resume.competences} />
+      <Competences competences={resume.competences} />
 
-        <Experiences experiences={resume.experiences} />
+      <Experiences experiences={resume.experiences} />
 
-        <Footer />
-      </div>
+      <Footer />
     </div>
   );
 }

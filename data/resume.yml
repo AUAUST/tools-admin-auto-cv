@@ -10,45 +10,46 @@ languages:
   fr: |
     Français langue maternelle, anglais courant et professionnel avancé, allemand élémentaire.
   en: |
-    Native French speaker, fluent and professional working proficiency in English, basic German.
+    French native, English fluent professional, German basic.
 
 competences:
   - title:
       fr: Développement Backend
     description:
       fr: | # markdown
-        - Conception d'architectures backend PHP modernes avec **Laravel 10-12** et **Kirby CMS**
-        - analyse et supervision avec les outils **Laravel Telescope**, **Google Analytics**, **Plausible**
-        - gestion de bases de données **MariaDB**, **PostgresSQL** et **Redis**
-        - tests unitaires et d'intégration **Pest**
+        - Développement backend PHP avec **Laravel 10-12** et **Kirby CMS**
+        - Supervision avec les outils **Laravel Telescope**, **Google Analytics**, **Plausible**
+        - Gestion et usage des DB **MariaDB**, **PostgresSQL** et **Redis**
+        - Tests unitaires et d'intégration **Pest**
         - **CI/CD** avec **GitHub Actions**
 
   - title: Développement Frontend
     description:
       fr: | # markdown
-        - Développement d’interfaces réactives TypeScript avec **Solid.js**, **Vue** et **React**,
-        - intégration de styles avec **Tailwind CSS** et **modules SCSS**
-        - consommation d’APIs via **Inertia.js** et **API RESTful**, **Axios**
+        - Développement d’interfaces avec **Solid.js**, **Vue** et **React**
+        - Styling avec **Tailwind CSS** et **modules SCSS**
+        - Consommation d’APIs via **Inertia.js** et **API RESTful**, **Axios**
+        - Participation à la conception **UX/UI** grâce aux compétences en design
 
   - title: Gestion d'équipe
     description:
       fr: | # markdown
         - Leadership technique et gestion de petites équipes
-        - **recrutement** basé sur les **besoins** et **compétences**
-        - délégation des tâches et coordination entre les membres de l'équipe selon les forces individuelles
+        - **Recrutement** basé sur les **besoins** et **compétences**
+        - Délégation des tâches et coordination entre les membres de l'équipe selon les forces individuelles
 
   - title: Gestion de projet
     description:
       fr: | # markdown
-        - Approche **Agile** centrée sur la réduction du **time-to-market** des **MVP**
-        - planification des **sprints** et l’organisation de la roadmap, assurant la livraison de projets de qualité dans les délais impartis
-        - réévaluation continue des objectifs en combinant évolution des besoins et feedbacks internes et utilisateurs
+        - Approche **Agile** axée sur la réduction du **time-to-market** des **MVP**
+        - Planification des sprints et l’organisation de la roadmap
+        - Adaptation et réévaluation continue des objectifs basés sur les feedbacks internes et utilisateurs
 
 experiences:
   - company: WELTKERN®
     description:
       fr: | # markdown
-        Évolution au sein de [weltkern.com](https://weltkern.com), plateforme d'**e-commerce** commercialisant
+        Évolution au sein de [weltkern.com](https://weltkern.com), plateforme d'**e-commerce** suisse commercialisant
         objets de design et polices de caractères. Stack monolithique **Laravel** et **Solid.js**.
 
     subsections:
@@ -60,7 +61,7 @@ experiences:
           fr: | # markdown
             - Prise des décisions techniques et architecturales
             - **recrutement**, **gestion** d'une équipe de **4 développeurs freelance**
-            - configuration des outils monitoring **Laravel Telescope** et statistiques **Plausible**, analyse des données
+            - analyse des données des outils monitoring **Laravel Telescope** et **Plausible** pour la détection et la correction des points de friction
             - définition du **MVP** pour la refonte de la plateforme
             - organisation du roadmap et **planning des sprints**
 
@@ -70,11 +71,12 @@ experiences:
           else: Fullstack Developer
         description:
           fr: | # markdown
-            - Setup et développement backend **Laravel 11**
-            - mise en place des bases de données, migrations **MariaDB** et **Redis**
+            - Développement backend **Laravel 10-11**
+            - mise en place des bases de données **MariaDB** et **Redis**
             - API **Inertia.js**
             - webhooks **Mollie** pour process des paiements
-            - mise en place infrastructure serveur **Ubuntu** avec **Ploi.io** sur VPS Infomaniak
+            - gestion serveur avec **Ploi.io** sur **VPS Infomaniak**
+            - déploiements continus avec **Ploi.io** et **GitHub Actions** permettant les hotfixes en production sans downtime en moins de 15 minutes
             - système de backup **rClone** avec **SwissBackup**
 
       - from: 2022

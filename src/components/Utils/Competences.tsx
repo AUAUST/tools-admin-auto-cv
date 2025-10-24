@@ -5,7 +5,7 @@ import { md, t } from "../../utils/label";
 export function Competences(props: { competences: Competence[] }) {
   return (
     <div>
-      <h2 class="text-2xl font-medium text-black trim-text-box -mb-2 mt-6">
+      <h2 class="text-2xl font-semibold text-black trim-text-box -mb-2 mt-6">
         {t("competences")}
       </h2>
 
@@ -21,9 +21,9 @@ export function Competences(props: { competences: Competence[] }) {
 export function Competence(props: { competence: Competence }) {
   return (
     <div>
-      <div class="grid grid-cols-12 mb-2">
+      <div class="grid grid-cols-12 mb-2.5">
         <div class="col-span-4">
-          <h3 class="text-lg font-medium text-black leading-tight trim-text-box whitespace-pre-line">
+          <h3 class="text-lg font-medium text-black leading-tight trim-text-box whitespace-pre-line pl-2">
             {md(props.competence.title)}
           </h3>
         </div>

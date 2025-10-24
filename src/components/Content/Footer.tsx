@@ -9,10 +9,10 @@ export function Footer() {
 
   return (
     <Show when={flags.isEnabled("automation_relevant")}>
-      <hr class="mb-1 mt-8" />
+      <hr class="mb-1 mt-2" />
 
       <footer class="grid grid-cols-4 text-xs">
-        <h3 class="font-medium">{md(resume.ai_and_automation)}</h3>
+        <h3 class="font-medium text-black">{md(resume.ai_and_automation)}</h3>
 
         <div class="col-span-3 text-balance leading-snug wrap-normal break-keep">
           {md(resume.notice)}
