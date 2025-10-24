@@ -1,10 +1,14 @@
 import { For } from "solid-js";
 import type { Experience, Resume } from "../../utils/config";
-import { md } from "../../utils/label";
+import { md, t } from "../../utils/label";
 
 export function Experiences(props: { experiences: Experience[] }) {
   return (
     <div>
+      <h2 class="text-2xl font-medium text-black trim-text-box -mb-2">
+        {t("experiences")}
+      </h2>
+
       <For each={props.experiences}>
         {(experience) => <Experience experience={experience} />}
       </For>
@@ -41,11 +45,12 @@ export function Experience(props: {
 export function SubExperience(props: { experience: Experience }) {
   return (
     <div class="grid grid-cols-12 mt-3">
-      <div class="col-span-4 pl-2">
-        <h4 class="text-xl font-medium text-black leading-tight trim-text-box whitespace-pre-line">
+      <div class="text-sm text-gray-500">{props.experience.from}</div>
+
+      <div class="col-span-3 pl-2">
+        <h4 class="text-lg font-[450] text-black leading-tight trim-text-box whitespace-pre-line">
           {md(props.experience.title)}
         </h4>
-        <div class="text-sm text-gray-500">{props.experience.from}</div>
       </div>
 
       <div class="col-span-8">

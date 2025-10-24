@@ -57,6 +57,11 @@ export interface Experience {
   subsections?: Experience[];
 }
 
+export interface Competence {
+  title: Translation;
+  description: Translation;
+}
+
 export interface Resume {
   about: Translation;
   languages: Translation;
@@ -65,6 +70,7 @@ export interface Resume {
   experiences: (Experience & {
     company?: Translation;
   })[];
+  competences: Competence[];
 }
 
 export const getResume = once(() => getYamlContent<Resume>("resume"));

@@ -1,21 +1,27 @@
-about:
-  fr: À propos
-  en: About
-languages:
-  fr: Langues
-  en: Languages
-today:
-  fr: Aujourd'hui
-  en: Today
 fr:
-  fr: Français
   en: French
+  fr: Français
 en:
-  fr: Anglais
   en: English
-specialist:
-  fr: spécialiste
-  en: specialist
+  fr: Anglais
+about:
+  en: About
+  fr: À propos
 and:
-  fr: et
   en: and
+  fr: et
+competences:
+  en: Competences
+  fr: Compétences
+experiences:
+  en: Experiences
+  fr: Expériences
+languages:
+  en: Languages
+  fr: Langues
+specialist:
+  en: specialist
+  fr: spécialiste
+today:
+  en: Today
+  fr: Aujourd'hui

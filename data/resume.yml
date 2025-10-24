@@ -15,7 +15,37 @@ languages:
     Native French speaker, fluent and professional working proficiency in English, basic German.
 
 competences:
-  backend_php: ""
+  - title: Développement Backend
+    description:
+      fr: | # markdown
+        Conception et développement d’applications backend PHP à l’aide de **Laravel** (10-12) et **Kirby** CMS (3-5),
+        assurant la performance et la fiabilité par l’intégration d’outils d’analyse et de supervision tels que **Laravel Telescope** et **Plausible**.
+        Mise en place et maintenance d’environnements **Ubuntu**, gestion serveur avec **Ploi.io**, bases de données **MariaDB** et **Redis**.
+
+  - title: Développement Frontend
+    description:
+      fr: | # markdown
+        Développement d’interfaces réactives TypeScript avec **Solid.js**, **Vue.js** et **React**,
+        faisant usage de technologies modernes telles que **Tailwind CSS** et les **SCSS modules**
+        pour des expériences utilisateur performantes et engageantes.
+
+  - title: UI/UX & Design
+    description:
+      fr: | # markdown
+        Conception de designs UI/UX intuitifs et esthétiques avec **Figma**, création de composants réutilisables en **Tailwind CSS** et **SCSS modules**,
+        garantissant une expérience utilisateur optimale et cohérente.
+
+  - title: Gestion de projet
+    description:
+      fr: | # markdown
+        Maîtrise des méthodologies agiles, notamment **Scrum** et **Kanban**, pour la planification, le suivi et la livraison efficace de projets web,
+        assurant la satisfaction des parties prenantes et le respect des délais.
+
+  - title: Gestion d'équipe
+    description:
+      fr: | # markdown
+        Leadership technique et gestion de petites équipes, incluant le recrutement basé sur les besoins et compétences,
+        la planification des sprints et l’organisation de la roadmap, assurant la livraison de projets de haute qualité dans les délais impartis.
 
 experiences:
   - company: WELTKERN®
@@ -32,10 +62,10 @@ experiences:
         description:
           fr: | # markdown
             - Prise des décisions techniques et architecturales
-            - configuration des outils monitoring **Laravel Telescope** et statistiques **Plausible**
-            - **recrutement**, **gestion** d'une équipe de 4 **développeurs freelance**
-            - mise en place infrastructure serveur **Ubuntu** avec **Ploi.io** sur VPS Infomaniak
-            - système de backup **rClone** avec **SwissBackup**.
+            - **recrutement**, **gestion** d'une équipe de **4 développeurs freelance**
+            - configuration des outils monitoring **Laravel Telescope** et statistiques **Plausible**, analyse des données
+            - définition du **MVP** pour la refonte de la plateforme
+            - organisation du roadmap et **planning des sprints**.
 
       - from: 2023
         title:
@@ -44,9 +74,11 @@ experiences:
         description:
           fr: | # markdown
             - Setup et développement backend **Laravel 11**
-            - base de données, migrations **MariaDB** et **Redis**
+            - mise en place des bases de données, migrations **MariaDB** et **Redis**
             - API **Inertia.js**
-            - webhooks **Mollie** pour gestion des paiements.
+            - webhooks **Mollie** pour gestion des paiements
+            - mise en place infrastructure serveur **Ubuntu** avec **Ploi.io** sur VPS Infomaniak
+            - système de backup **rClone** avec **SwissBackup**.
 
       - from: 2022
         title:
@@ -71,7 +103,7 @@ experiences:
       - from: 2022
         title:
           fr: Mainteneur Open‑Source
-          en: Maintainer of Open-Source Projects
+          en: "Open-Source\nProjects Maintainer"
         description:
           fr: | # markdown
             Dès 2022 jusqu'à aujourd'hui, création, évolution et maintenance d'une variété de projets **TypeScript** **open-source** tous accessibles sur [github.com/AUAUST](https://github.com/AUAUST).
