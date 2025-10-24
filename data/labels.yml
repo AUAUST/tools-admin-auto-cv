@@ -16,6 +16,9 @@ competences:
 experiences:
   en: Experiences
   fr: Expériences
+generation_date:
+  en: Generated on
+  fr: Généré le
 languages:
   en: Languages
   fr: Langues

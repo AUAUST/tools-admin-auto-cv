@@ -21,7 +21,7 @@ export function Header() {
           <>
             <hr class="mt-4 mb-1" />
 
-            <div class="col-span-full grid grid-cols-4 text-base">
+            <div class="grid grid-cols-4 text-base">
               <h3 class="font-medium text-black trim-text-box">{t(section)}</h3>
 
               <div class="col-span-3 text-pretty leading-snug">
