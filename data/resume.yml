@@ -4,8 +4,8 @@ about:
     je souhaite aujourd’hui intégrer une équipe Laravel pour participer
     à la conception de produits à forte valeur technique et créative.
   en: | # markdown
-    With my years of experience in fullstack web development, I build websites with a user-centric approach,
-    a bias stemming from my degree in design and visual communication.
+    Experienced full-stack developer with a background in visual design,
+    I’m looking to join a Laravel-focused team to contribute to the creation of technically robust and creatively driven products.
 
 languages:
   fr: |
@@ -16,6 +16,7 @@ languages:
 competences:
   - title:
       fr: Développement backend
+      en: Backend Development
     description:
       fr: | # markdown
         - Développement backend **Laravel 10-12** et **Kirby CMS**
@@ -23,28 +24,53 @@ competences:
         - Gestion et usage de **MariaDB**, **PostgreSQL** et **Redis**
         - Tests **Pest**
         - **CI/CD** avec **GitHub Actions**
+      en: | # markdown
+        - Backend development with **Laravel 10-12** and **Kirby CMS**
+        - Monitoring and analytics using **Laravel Telescope**, **Google Analytics**, **Plausible**
+        - Database management with **MariaDB**, **PostgreSQL** and **Redis**
+        - Unit and integration testing with **Pest**
+        - **CI/CD** pipelines using **GitHub Actions**
 
-  - title: Développement frontend
+  - title:
+      fr: Développement frontend
+      en: Frontend development
     description:
       fr: | # markdown
         - Développement d’interfaces **Solid.js**, **Vue** et **React**
         - Styling **Tailwind CSS** et **modules SCSS**
         - Consommation d’APIs **Inertia.js**, **API RESTful** avec **Axios**
         - Participation à la conception **UX/UI**
+      en: | # markdown
+        - Development of reactive interfaces using **Solid.js**, **Vue**, and **React**
+        - Styling with **Tailwind CSS** and **SCSS modules**
+        - API consumption via **Inertia.js** and **RESTful API** calls with **Axios**
+        - Contribution to **UX/UI** design
 
-  - title: Gestion d'équipe
+  - title:
+      fr: Gestion d'équipe
+      en: Team management
     description:
       fr: | # markdown
         - Leadership technique et gestion de petites équipes
         - **Recrutement** basé sur les **besoins** et **compétences**
         - Délégation et coordination dans l'équipe selon les forces individuelles
+      en: | # markdown
+        - Technical leadership and small-team management
+        - **Recruitment** based on **skills** and **project needs**
+        - Delegation and coordination within the team according to individual strengths
 
-  - title: Gestion de projet
+  - title:
+      fr: Gestion de projet
+      en: Project management
     description:
       fr: | # markdown
         - Approche **Agile** centrée sur la réduction du **time-to-market**
         - Planification des sprints et organisation de la roadmap
         - Adaptation et réévaluation continue des objectifs selon feedbacks internes et utilisateurs
+      en: | # markdown
+        - **Agile** approach focused on reducing **time-to-market**
+        - Sprint planning and roadmap organization
+        - Continuous adaptation and reassessment of goals based on internal and user feedback
 
 experiences:
   - company: WELTKERN®
@@ -52,6 +78,9 @@ experiences:
       fr: | # markdown
         Évolution au sein de [weltkern.com](https://weltkern.com), plateforme d'**e-commerce** suisse commercialisant
         objets de design et polices de caractères. Stack monolithique **Laravel** et **Solid.js**.
+      en: | # markdown
+        Growth within [weltkern.com](https://weltkern.com), a Swiss **e-commerce** platform selling design objects and typefaces.
+        Monolithic stack based on **Laravel** and **Solid.js**.
 
     subsections:
       - from: 2024
@@ -65,6 +94,12 @@ experiences:
             - analyse des données des outils monitoring **Laravel Telescope** et **Plausible**, détection et correction des points de friction
             - définition du **MVP** pour la refonte de la plateforme
             - organisation du roadmap et **planning des sprints**
+          en: | # markdown
+            - Technical and architectural leadership
+            - **Recruitment** and **management** of **4 freelance developers**
+            - Data analysis via **Laravel Telescope** and **Plausible**, identifying and resolving friction points
+            - Definition of the **MVP** for the platform redesign
+            - Roadmap organization and **sprint planning**
 
       - from: 2023
         title:
@@ -79,6 +114,14 @@ experiences:
             - gestion serveur avec **Ploi.io** sur **VPS Infomaniak**
             - déploiements continus avec **Ploi.io** et **GitHub Actions** permettant les hotfixes en production sans downtime en moins de 15 minutes
             - système de backup **rClone** avec **SwissBackup**
+          en: | # markdown
+            - Backend development with **Laravel 10-11**
+            - Database setup with **MariaDB** and **Redis**
+            - **Inertia.js** API integration
+            - **Mollie** webhooks for payment processing
+            - Server management using **Ploi.io** on **Infomaniak VPS**
+            - Continuous deployment via **Ploi.io** and **GitHub Actions**, enabling production hotfixes in under 15 minutes
+            - Backup system with **rClone** and **SwissBackup**
 
       - from: 2022
         title:
@@ -92,12 +135,22 @@ experiences:
             - optimisation des performances avec **KeyCDN**
             - design de composants **SCSS modules** et **Tailwind CSS**
             - maintient du frontend **React** existant avant migration
+          en: | # markdown
+            - Frontend integration with **Solid.js** (storefront) and **Vue** (admin)
+            - Implementation of **Kirby CMS** for product and editorial content
+            - Responsive **UI/UX** design with **Figma**
+            - Performance optimization using **KeyCDN**
+            - Component styling with **SCSS modules** and **Tailwind CSS**
+            - Maintenance of the existing **React** frontend prior to migration
 
   - company: AUAUST
     description:
       fr: | # markdown
         Activités freelance en développement web fullstack et design graphique pour des
         outils open‑source, des clients et des projets personnels.
+      en: | # markdown
+        Freelance activity in full-stack web development and graphic design,
+        focused on open-source tools, client work, and personal projects.
 
     subsections:
       - from: 2022
@@ -112,6 +165,13 @@ experiences:
             - [Jaune](https://github.com/AUAUST/lib-js-jaune#readme), classe **Color** aide à la manipulation des couleurs pour TypeScript et CSS
             - [G-Class](https://github.com/AUAUST/lib-js-g-class#readme), alternative plus complète à [clsx](https://github.com/lukeed/clsx)
             - tous utilisés en production
+          en: | # markdown
+            Since 2022, creation, evolution and maintenance of various **TypeScript open-source** projects, all available on [github.com/AUAUST](https://github.com/AUAUST).
+
+            - [Primitive Kit](https://github.com/AUAUST/lib-js-primitive-kit#readme): **TypeScript** utility library simplifying the use of primitives
+            - [Jaune](https://github.com/AUAUST/lib-js-jaune#readme): **Color** class for color manipulation in TypeScript and CSS
+            - [G-Class](https://github.com/AUAUST/lib-js-g-class#readme): extended alternative to [clsx](https://github.com/lukeed/clsx)
+            - all used in production
 
       - from: 2021
         title:
@@ -126,10 +186,20 @@ experiences:
             - [apademide.ch](https://apademide.ch), Kirby CMS
             - projets de bachelor pour l'écal, Solid.js, vanilla TypeScript
 
+          en: | # markdown
+            Since 2021, freelance web projects from planning and prototyping to deployment and long-term maintenance.
+
+            - [lambert-forte.ch](https://lambert-forte.ch), Kirby CMS
+            - [auaust.ch](https://auaust.ch), static one-pager built with Solid.js
+            - [apademide.ch](https://apademide.ch), Kirby CMS
+            - Bachelor projects for ÉCAL, Solid.js, vanilla TypeScript
+
   - company: ēracom
     description:
       fr: | # markdown
         Diplômé d'un CFC de graphisme avec prix de l’école et de la SGD (Swiss Graphic Designers) reconnaissant les meilleurs résultats et moyennes de ma promotion.
+      en: | # markdown
+        Graduated with a **CFC in Graphic Design**, awarded the school prize and the **SGD (Swiss Graphic Designers)** distinction for best results and top average in the program.
 
 ai_and_automation:
   fr: J'utilise l'IA et j'automatise!
@@ -140,7 +210,5 @@ notice:
     La technologie fait gagner du temps. Ce CV a été généré à l'aide d'un outil custom qui m'a permis de l'adapter à votre offre d'emploi.
     Il est accessible en open-source sur [github.com/AUAUST/tools-admin-auto-cv](https://github.com/AUAUST/tools-admin-auto-cv#readme).
   en: | # markdown
-    Technology saves time. I generated this resume using a custom tool that allowed me to quickly adapt it to your job offer,
-    highlighting the most relevant skills and experiences.
-    It is accessible open-source at [github.com/AUAUST/tools-admin-auto-cv](https://github.com/AUAUST/tools-admin-auto-cv#readme).
-    This is the kind of optimization I bring to my daily work, ensuring both efficiency and quality.
+    Technology saves time. This resume was generated using a custom tool that allowed me to tailor it to your job offer.
+    It is available as open-source on [github.com/AUAUST/tools-admin-auto-cv](https://github.com/AUAUST/tools-admin-auto-cv#readme).
