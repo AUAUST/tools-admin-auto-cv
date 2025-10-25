@@ -197,9 +197,9 @@ experiences:
   - company: ēracom
     description:
       fr: | # markdown
-        Diplômé d'un CFC de graphisme avec prix de l’école et de la SGD (Swiss Graphic Designers) reconnaissant les meilleurs résultats et moyennes de ma promotion.
+        Diplômé d'un **CFC de graphisme** avec prix de l’école et de la SGD (Swiss Graphic Designers) reconnaissant les meilleurs résultats et moyennes de ma promotion.
       en: | # markdown
-        Graduated with a **CFC in Graphic Design**, awarded the school prize and the **SGD (Swiss Graphic Designers)** distinction for best results and top average in the program.
+        Graduated with a **CFC in Graphic Design**, awarded the school prize and the SGD (Swiss Graphic Designers) distinction for best results and top average in the program.
 
 ai_and_automation:
   fr: J'utilise l'IA et j'automatise!
