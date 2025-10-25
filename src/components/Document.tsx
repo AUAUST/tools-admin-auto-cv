@@ -1,7 +1,13 @@
 import { cl } from "@auaust/g-class";
 import { s } from "@auaust/primitive-kit";
 import { min } from "@auaust/primitive-kit/numbers";
-import { createSignal, For, onMount, type ParentProps } from "solid-js";
+import {
+  createEffect,
+  createSignal,
+  For,
+  onMount,
+  type ParentProps,
+} from "solid-js";
 import { useFlags } from "../contexts/FlagsContext";
 import { useLanguage } from "../contexts/LanguageContext";
 import { getDocumentConfig } from "../utils/config";
@@ -26,21 +32,24 @@ export function Document(props: ParentProps) {
       )
     );
 
-  window.addEventListener("resize", updateScale);
+  createEffect(
+    () =>
+      (document.title = label(config.title).replace(
+        "{date}",
+        new Date()
+          .toLocaleDateString("fr", {
+            year: "2-digit",
+            month: "2-digit",
+            day: "2-digit",
+          })
+          .split("/")
+          .reverse()
+          .join("")
+      ))
+  );
 
   onMount(() => {
-    document.title = label(config.title).replace(
-      "{date}",
-      new Date()
-        .toLocaleDateString("fr", {
-          year: "2-digit",
-          month: "2-digit",
-          day: "2-digit",
-        })
-        .split("/")
-        .reverse()
-        .join("")
-    );
+    window.addEventListener("resize", updateScale);
 
     setTimeout(() => updateScale());
   });
