@@ -153,14 +153,14 @@ experiences:
             - design **UI**/**UX** responsif **Figma**
             - optimisation des performances avec **KeyCDN**
             - design de composants **SCSS modules** et **Tailwind CSS**
-            - maintient du frontend **React** existant avant migration
+            - maintient du site **WordPress** & **React** existant avant migration
           en: | # markdown
             - Frontend integration with **Solid.js** (storefront) and **Vue** (admin)
             - Implementation of **Kirby CMS** for product and editorial content
             - Responsive **UI/UX** design with **Figma**
             - Performance optimization using **KeyCDN**
             - Component styling with **SCSS modules** and **Tailwind CSS**
-            - Maintenance of the existing **React** frontend prior to migration
+            - Maintenance of the existing **WordPress** & **React** frontend prior to migration
 
   - company: AUAUST
     description:
