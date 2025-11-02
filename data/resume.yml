@@ -1,4 +1,15 @@
 about:
+  when_master_mode:
+    fr: | # markdown
+      Développeur full-stack expérimenté Laravel et TypeScript, titulaire d'un CFC en design visuel.
+      La lisibilité, la structure et la durabilité du code sont la garantie d'un projet pérenne.
+      Intérêt particulier pour les applications où l'UI/UX est au cœur du processus de développement.
+      Mainteneur de plusieurs projets open-source TypeScript.
+    en: | # markdown
+      Experienced Laravel and TypeScript full-stack developer with a background in visual design.
+      Readability, structure, and durability of code are the guarantees of a sustainable project.
+      Interest in applications where UI/UX is central to the development process.
+      Maintainer of several TypeScript open-source projects.
   when_target_laravel:
     fr: | # markdown
       Développeur full-stack expérimenté, titulaire d'un CFC en design visuel,
@@ -28,9 +39,9 @@ about:
 
 languages:
   fr: |
-    Français langue maternelle, anglais avancé (C1+), allemand élémentaire.
+    Français langue maternelle, anglais avancé C1+, allemand élémentaire A2.
   en: |
-    French native, English fluent (C1+), German basic.
+    French native, English fluent C1+, German basic A2.
 
 competences:
   - title:

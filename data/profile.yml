@@ -2,6 +2,9 @@ first_name: Aurian
 last_name: Aubert
 
 title:
+  when_master_mode:
+    fr: Développeur web fullstack et designer spécialisé Laravel et TypeScript
+    en: Laravel and TypeScript-focused fullstack web developer and designer
   when_target_laravel:
     fr: Développeur web fullstack spécialisé Laravel
     en: Laravel-focused fullstack web developer
@@ -34,10 +37,13 @@ contacts:
 
   - type: address
     label:
-      fr: Sullens, Vaud, Suisse
-      en: Sullens, Vaud, Switzerland
+      fr: Arzier, Vaud, Suisse
+      en: Arzier, Vaud, Switzerland
 
 specialty_frontend:
+  when_master_mode:
+    fr: développement TypeScript, UI/UX design
+    en: TypeScript development, UI/UX design
   when_design_relevant:
     fr: frontends orientés design
     en: design-driven frontends
@@ -46,6 +52,9 @@ specialty_frontend:
     en: TypeScript ecosystems
 
 specialty_backend:
+  when_master_mode:
+    fr: PHP moderne avec Laravel
+    en: modern PHP with Laravel
   when_target_laravel:
     fr: PHP moderne
     en: modern PHP
