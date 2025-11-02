@@ -91,6 +91,12 @@ function Contacts() {
           </Show>
         )}
       </For>
+
+      <Show when={flags.isEnabled("references_on_request")}>
+        <span class="font-mono text-sm leading-relaxed whitespace-nowrap">
+          {t("references_on_request")}
+        </span>
+      </Show>
     </address>
   );
 }

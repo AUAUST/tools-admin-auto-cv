@@ -5,6 +5,7 @@
   "github": true,
   "website": true,
   "address": false,
+  "references_on_request": true,
   "target_laravel": false,
   "frontend_first": false,
   "startup_relevant": true,

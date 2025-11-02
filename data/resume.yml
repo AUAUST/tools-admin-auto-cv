@@ -1,7 +1,7 @@
 about:
   when_target_laravel:
     fr: | # markdown
-      Développeur full-stack expérimenté, formé au design visuel,
+      Développeur full-stack expérimenté, titulaire d'un CFC en design visuel,
       je souhaite aujourd’hui intégrer une équipe Laravel pour participer
       à la conception de produits à forte valeur technique et créative.
     en: | # markdown
@@ -14,11 +14,11 @@ about:
       une équipe créative où je serai en mesure de mettre à profit mes compétences techniques et
       mon sens esthétique.
     en: | # markdown
-      Web developer and graphic designer, I’m looking to join a creative team
+      Web developer and graphic designer diplômé, I’m looking to join a creative team
       where I can leverage both my technical skills and aesthetic sense.
   else:
     fr: | # markdown
-      Développeur full-stack expérimenté, formé au design visuel,
+      Développeur full-stack expérimenté, titulaire d'un CFC en design visuel,
       je cherche à rejoindre une équipe de développeurs web où je pourrai contribuer
       à la création de produits à forte valeur technique.
     en: | # markdown
@@ -28,9 +28,9 @@ about:
 
 languages:
   fr: |
-    Français langue maternelle, anglais courant et professionnel avancé, allemand élémentaire.
+    Français langue maternelle, anglais avancé (C1+), allemand élémentaire.
   en: |
-    French native, English fluent professional, German basic.
+    French native, English fluent (C1+), German basic.
 
 competences:
   - title:
@@ -38,32 +38,32 @@ competences:
       en: Backend Development
     description:
       fr: | # markdown
-        - Développement backend **Laravel 10-12** et **Kirby CMS**
+        - **Laravel 10-12** et **Kirby CMS**
         - Supervision avec **Laravel Telescope**, **Google Analytics**, **Plausible**
         - Gestion et usage de **MariaDB**, **PostgreSQL** et **Redis**
         - Tests **Pest**
-        - **CI/CD** avec **GitHub Actions**
+        - **CI/CD** avec **GitHub Actions**, **Ploi.io**
       en: | # markdown
-        - Backend development with **Laravel 10-12** and **Kirby CMS**
+        - **Laravel 10-12** and **Kirby CMS**
         - Monitoring and analytics using **Laravel Telescope**, **Google Analytics**, **Plausible**
         - Database management with **MariaDB**, **PostgreSQL** and **Redis**
         - Unit and integration testing with **Pest**
-        - **CI/CD** pipelines using **GitHub Actions**
+        - **CI/CD** pipelines using **GitHub Actions**, **Ploi.io**
 
   - title:
       fr: Développement frontend
       en: Frontend development
     description:
       fr: | # markdown
-        - Développement d’interfaces **Solid.js**, **Vue** et **React**
+        - Interfaces **Solid.js**, **Vue** et **React**
         - Styling **Tailwind CSS** et **modules SCSS**
         - Consommation d’APIs **Inertia.js**, **API RESTful** avec **Axios**
-        - Participation à la conception **UX/UI**
+        - Conception **UX/UI**
       en: | # markdown
         - Development of reactive interfaces using **Solid.js**, **Vue**, and **React**
         - Styling with **Tailwind CSS** and **SCSS modules**
         - API consumption via **Inertia.js** and **RESTful API** calls with **Axios**
-        - Contribution to **UX/UI** design
+        - **UX/UI** design
 
   - title:
       fr: Gestion d'équipe
@@ -72,22 +72,24 @@ competences:
       fr: | # markdown
         - Leadership technique et gestion de petites équipes
         - **Recrutement** basé sur les **besoins** et **compétences**
-        - Délégation et coordination dans l'équipe selon les forces individuelles
+        - Analyse des forces individuelles
       en: | # markdown
         - Technical leadership and small-team management
         - **Recruitment** based on **skills** and **project needs**
-        - Delegation and coordination within the team according to individual strengths
+        - Analysis of individual strengths
 
   - title:
       fr: Gestion de projet
       en: Project management
     description:
       fr: | # markdown
-        - Approche **Agile** centrée sur la réduction du **time-to-market**
+        - Approche **Agile** intérative et incrémentale
+        - Réduction du **time-to-market**
         - Planification des sprints et organisation de la roadmap
         - Adaptation et réévaluation continue des objectifs selon feedbacks internes et utilisateurs
       en: | # markdown
-        - **Agile** approach focused on reducing **time-to-market**
+        - **Agile** iterative and incremental approach
+        - Reduction of **time-to-market**
         - Sprint planning and roadmap organization
         - Continuous adaptation and reassessment of goals based on internal and user feedback
 
@@ -109,16 +111,16 @@ experiences:
         description:
           fr: | # markdown
             - Pilotage technique et architectural
-            - **recrutement**, **encadrement** de **4 développeurs freelance**
-            - analyse des données des outils monitoring **Laravel Telescope** et **Plausible**, détection et correction des points de friction
-            - définition du **MVP** pour la refonte de la plateforme
-            - organisation du roadmap et **planning des sprints**
+            - **Recrutement**, **encadrement** de **4 développeurs freelance**
+            - Correction des points de friction avec **Laravel Telescope**, **Plausible**
+            - Définition du **MVP** pour la refonte de la plateforme
+            - Planification des sprints et roadmap
           en: | # markdown
             - Technical and architectural leadership
             - **Recruitment** and **management** of **4 freelance developers**
-            - Data analysis via **Laravel Telescope** and **Plausible**, identifying and resolving friction points
+            - Correction of bottlenecks using **Laravel Telescope**, **Plausible**
             - Definition of the **MVP** for the platform redesign
-            - Roadmap organization and **sprint planning**
+            - Sprint planning and roadmap organization
 
       - from: 2023
         title:
@@ -127,12 +129,12 @@ experiences:
         description:
           fr: | # markdown
             - Développement backend **Laravel 10-11**
-            - mise en place des bases de données **MariaDB** et **Redis**
+            - Mise en place des bases de données **MariaDB** et **Redis**
             - API **Inertia.js**
-            - webhooks **Mollie** pour process des paiements
-            - gestion serveur avec **Ploi.io** sur **VPS Infomaniak**
-            - déploiements continus avec **Ploi.io** et **GitHub Actions** permettant les hotfixes en production sans downtime en moins de 15 minutes
-            - système de backup **rClone** avec **SwissBackup**
+            - Webhooks **Mollie** pour process des paiements
+            - Gestion serveur avec **Ploi.io** sur **VPS Infomaniak**
+            - Déploiements continus avec **Ploi.io** et **GitHub Actions** permettant les hotfixes en production sans downtime en moins de 15 minutes
+            - Système de backup **rClone** avec **SwissBackup**
           en: | # markdown
             - Backend development with **Laravel 10-11**
             - Database setup with **MariaDB** and **Redis**
@@ -149,11 +151,11 @@ experiences:
         description:
           fr: | # markdown
             - Intégration frontend **Solid.js** (storefront) et **Vue** (admin)
-            - mise en place **Kirby CMS** pour contenu produits et éditorial
-            - design **UI**/**UX** responsif **Figma**
-            - optimisation des performances avec **KeyCDN**
-            - design de composants **SCSS modules** et **Tailwind CSS**
-            - maintient du site **WordPress** & **React** existant avant migration
+            - Mise en place **Kirby CMS** pour contenu produits et éditorial
+            - Design **UI**/**UX** responsif **Figma**
+            - Optimisation des performances avec **KeyCDN**
+            - Design de composants **SCSS modules** et **Tailwind CSS**
+            - Maintient du site **WordPress** & **React** existant avant migration
           en: | # markdown
             - Frontend integration with **Solid.js** (storefront) and **Vue** (admin)
             - Implementation of **Kirby CMS** for product and editorial content
@@ -166,10 +168,10 @@ experiences:
     description:
       fr: | # markdown
         Activités freelance en développement web fullstack et design graphique pour des
-        outils open‑source, des clients et des projets personnels.
+        outils open‑source, des clients (PME, universitaires) et des projets personnels.
       en: | # markdown
         Freelance activity in full-stack web development and graphic design,
-        focused on open-source tools, client work, and personal projects.
+        focused on open-source tools, client work (SMEs, academics), and personal projects.
 
     subsections:
       - from: 2022
@@ -178,7 +180,7 @@ experiences:
           en: "Open-Source\nProjects Maintainer"
         description:
           fr: | # markdown
-            Dès 2022 jusqu'à aujourd'hui, création, évolution et maintenance d'une variété de projets **TypeScript** **open-source** tous accessibles sur [github.com/AUAUST](https://github.com/AUAUST).
+            Depuis 2022, création, évolution et maintenance d'une variété de projets **TypeScript** **open-source** tous accessibles sur [github.com/AUAUST](https://github.com/AUAUST).
 
             - [Primitive Kit](https://github.com/AUAUST/lib-js-primitive-kit#readme), bibliothèque d'utilitaires **TypeScript qui** facilite l'usage des primitifs
             - [Jaune](https://github.com/AUAUST/lib-js-jaune#readme), classe **Color** aide à la manipulation des couleurs pour TypeScript et CSS
@@ -198,7 +200,7 @@ experiences:
           else: Freelance Developer
         description:
           fr: | # markdown
-            Dès 2021, divers projets web freelance de la planification et du maquettage à la mise en ligne et maintenance à long terme.
+            Depuis 2021, projets web freelance de la planification et du maquettage à la mise en ligne et maintenance à long terme.
 
             - [lambert-forte.ch](https://lambert-forte.ch), Kirby CMS
             - [auaust.ch](https://auaust.ch), one-pager Solid.js statique
@@ -216,7 +218,7 @@ experiences:
   - company: ēracom
     description:
       fr: | # markdown
-        Diplômé d'un **CFC de graphisme** avec prix de l’école et de la SGD (Swiss Graphic Designers) reconnaissant les meilleurs résultats et moyennes de ma promotion.
+        **CFC de graphisme** avec prix de l’école et de la SGD (Swiss Graphic Designers) reconnaissant les meilleurs résultats et moyennes de ma promotion.
       en: | # markdown
         Graduated with a **CFC in Graphic Design**, awarded the school prize and the SGD (Swiss Graphic Designers) distinction for best results and top average in the program.
 
