@@ -1,15 +1,15 @@
 about:
   when_master_mode:
     fr: | # markdown
-      Développeur full-stack expérimenté Laravel et TypeScript, titulaire d'un CFC en design visuel.
-      La lisibilité, la structure et la durabilité du code sont la garantie d'un projet pérenne.
-      Intérêt particulier pour les applications où l'UI/UX est au cœur du processus de développement.
-      Mainteneur de plusieurs projets open-source TypeScript.
+      Diplômé en design visuel, je conçois des applications où structure du code, clarté et pérennité
+      guident l’architecture autant que l’expérience utilisateur.
+      Intéressé par les environnements où exigence technique et créativité se rejoignent.
+      Mainteneur de plusieurs projets open-source TypeScript utilisés en production.
     en: | # markdown
-      Experienced Laravel and TypeScript full-stack developer with a background in visual design.
-      Readability, structure, and durability of code are the guarantees of a sustainable project.
-      Interest in applications where UI/UX is central to the development process.
-      Maintainer of several TypeScript open-source projects.
+      Graduated in visual design, I build applications where code structure, clarity,
+      and maintainability guide the architecture as much as user experience.
+      Interested in environments where technical excellence and creativity meet.
+      Maintainer of several TypeScript open-source projects used in production.
   when_target_laravel:
     fr: | # markdown
       Développeur full-stack expérimenté, titulaire d'un CFC en design visuel,
@@ -121,17 +121,23 @@ experiences:
           else: Lead Developer
         description:
           fr: | # markdown
-            - Pilotage technique et architectural
-            - **Recrutement**, **encadrement** de **4 développeurs freelance**
-            - Correction des points de friction avec **Laravel Telescope**, **Plausible**
-            - Définition du **MVP** pour la refonte de la plateforme
-            - Planification des sprints et roadmap
+            - Refonte complète de la plateforme, pilotage technique et architectural
+            - **Recrutement**, **encadrement**, **coordination** de **4 développeurs freelance**
+            - Nouvelle architecture réduit le temps de chargement moyen de **15s** à **200ms**
+            - Migration de **Stripe** vers **Mollie**, réduction mesurée des **frais de transaction de 30%**
+            - Élimination des goulets d’étranglement avec **Laravel Telescope** et **Plausible**
+            - Définition du **MVP** et des priorités selon les objectifs business
+            - Planification des **sprints** et pilotage de la **roadmap**
+            - **Revues de code** et **tests** garantissant stabilité et cadence de release
           en: | # markdown
-            - Technical and architectural leadership
-            - **Recruitment** and **management** of **4 freelance developers**
-            - Correction of bottlenecks using **Laravel Telescope**, **Plausible**
-            - Definition of the **MVP** for the platform redesign
-            - Sprint planning and roadmap organization
+            - Complete platform redesign, technical and architectural leadership
+            - **Recruitment**, **mentorship**, and **coordination** of a team of **4 freelance developers**
+            - New architecture reduced average load time from **15s** to **200ms**
+            - Migration from **Stripe** to **Mollie**, achieving a measured **30% reduction in transaction fees**
+            - Elimination of bottlenecks using **Laravel Telescope** and **Plausible**
+            - Definition of the **MVP** and priorities based on business goals
+            - **Sprint** planning and **roadmap** management
+            - **Code reviews** and **testing** ensuring stability and release cadence
 
       - from: 2023
         title:
@@ -139,7 +145,7 @@ experiences:
           else: Fullstack Developer
         description:
           fr: | # markdown
-            - Développement backend **Laravel 10-11**
+            - Développement **Laravel 10-11**
             - Mise en place des bases de données **MariaDB** et **Redis**
             - API **Inertia.js**
             - Webhooks **Mollie** pour process des paiements
@@ -147,7 +153,7 @@ experiences:
             - Déploiements continus avec **Ploi.io** et **GitHub Actions** permettant les hotfixes en production sans downtime en moins de 15 minutes
             - Système de backup **rClone** avec **SwissBackup**
           en: | # markdown
-            - Backend development with **Laravel 10-11**
+            - Development with **Laravel 10-11**
             - Database setup with **MariaDB** and **Redis**
             - **Inertia.js** API integration
             - **Mollie** webhooks for payment processing
