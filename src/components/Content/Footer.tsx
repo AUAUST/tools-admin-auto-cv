@@ -11,7 +11,7 @@ export function Footer() {
 
   return (
     <Show when={flags.isEnabled("automation_relevant")}>
-      <hr class="mb-1 mt-2" />
+      <hr class="mb-1 -mt-2" />
 
       <footer class="grid grid-cols-12 text-xs leading-snug">
         <h3 class="col-span-3 font-medium text-black">

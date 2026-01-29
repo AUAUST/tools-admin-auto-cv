@@ -12,8 +12,8 @@ title:
     fr: Développeur web fullstack alliant design et code
     en: Fullstack web developer bridging design and code
   else:
-    fr: Développeur web fullstack
-    en: Fullstack web developer
+    fr: Développeur web fullstack certifié Agile
+    en: Fullstack web developer Agile certified
 
 contacts:
   - type: email

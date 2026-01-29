@@ -5,7 +5,7 @@ import { md, t } from "../../utils/label";
 export function Experiences(props: { experiences: Experience[] }) {
   return (
     <div>
-      <h2 class="text-2xl font-semibold text-black trim-text-box -mb-2">
+      <h2 class="text-2xl font-semibold text-black trim-text-box mb-2">
         {t("experiences")}
       </h2>
 
@@ -20,10 +20,10 @@ export function Experience(props: {
   experience: Resume["experiences"][number];
 }) {
   return (
-    <div class="mb-5">
-      <hr class="mt-4 mb-1" />
+    <div class="">
+      <hr class="mb-1" />
 
-      <div class="grid grid-cols-4 mb-2">
+      <div class="grid grid-cols-4 mb-1">
         <div>
           <h3 class="text-base font-normal text-black pl-2">
             {md(props.experience.company)}
@@ -44,7 +44,7 @@ export function Experience(props: {
 
 export function SubExperience(props: { experience: Experience }) {
   return (
-    <div class="grid grid-cols-12 mt-2.5">
+    <div class="grid grid-cols-12 mt-2 last-of-type:mb-5">
       <div class="text-xs text-gray-600 trim-text-box pl-2">
         {props.experience.from}
       </div>

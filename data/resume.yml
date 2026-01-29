@@ -29,11 +29,11 @@ about:
       where I can leverage both my technical skills and aesthetic sense.
   else:
     fr: | # markdown
-      Développeur full-stack expérimenté, titulaire d'un CFC en design visuel,
+      Développeur full-stack expérimenté, certifié en management Agile, titulaire d'un CFC en design visuel,
       je cherche à rejoindre une équipe de développeurs web où je pourrai contribuer
       à la création de produits à forte valeur technique.
     en: | # markdown
-      Experienced full-stack developer with a background in visual design,
+      Experienced full-stack developer with a background in visual design, certified in Agile management,
       I’m looking to join a web development team where I can contribute
       to the creation of technically robust products.
 
@@ -104,6 +104,12 @@ competences:
         - Sprint planning and roadmap organization
         - Continuous adaptation and reassessment of goals based on internal and user feedback
 
+  - title: Agile
+    description:
+      fr: | # markdown
+        - Certifié **Scrum Master** par **Scrum.org**
+        - 2 ans d'expérience pratiques en gestion de projet Agile
+
 experiences:
   - company: WELTKERN®
     description:
@@ -127,7 +133,7 @@ experiences:
             - Migration de **Stripe** vers **Mollie**, réduction mesurée des **frais de transaction de 30%**
             - Élimination des goulets d’étranglement avec **Laravel Telescope** et **Plausible**
             - Définition du **MVP** et des priorités selon les objectifs business
-            - Planification des **sprints** et pilotage de la **roadmap**
+            - Planification des **sprints** et gestion du **backlog**
             - **Revues de code** et **tests** garantissant stabilité et cadence de release
           en: | # markdown
             - Complete platform redesign, technical and architectural leadership
@@ -145,7 +151,7 @@ experiences:
           else: Fullstack Developer
         description:
           fr: | # markdown
-            - Développement **Laravel 10-11**
+            - Développement **Laravel 10-12**
             - Mise en place des bases de données **MariaDB** et **Redis**
             - API **Inertia.js**
             - Webhooks **Mollie** pour process des paiements
@@ -153,7 +159,7 @@ experiences:
             - Déploiements continus avec **Ploi.io** et **GitHub Actions** permettant les hotfixes en production sans downtime en moins de 15 minutes
             - Système de backup **rClone** avec **SwissBackup**
           en: | # markdown
-            - Development with **Laravel 10-11**
+            - Development with **Laravel 10-12**
             - Database setup with **MariaDB** and **Redis**
             - **Inertia.js** API integration
             - **Mollie** webhooks for payment processing
@@ -231,6 +237,13 @@ experiences:
             - [auaust.ch](https://auaust.ch), static one-pager built with Solid.js
             - [apademide.ch](https://apademide.ch), Kirby CMS
             - Bachelor projects for ÉCAL, Solid.js, vanilla TypeScript
+
+  - company: Scrum
+    description:
+      fr: | # markdown
+        Formation et certification **Scrum Master** par **Scrum.org**.
+      en: | # markdown
+        **Scrum Master** training and certification by **Scrum.org**.
 
   - company: ēracom
     description:
