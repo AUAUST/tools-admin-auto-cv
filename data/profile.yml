@@ -5,14 +5,23 @@ title:
   when_master_mode:
     fr: Développeur web fullstack et designer spécialisé Laravel et TypeScript
     en: Laravel and TypeScript-focused fullstack web developer and designer
+
+  when_target_python:
+    fr: Développeur web fullstack spécialisé Python
+    en: Python-focused fullstack web developer
+
   when_target_laravel:
     fr: Développeur web fullstack spécialisé Laravel
     en: Laravel-focused fullstack web developer
+
   when_design_relevant:
     fr: Développeur web fullstack alliant design et code
     en: Fullstack web developer bridging design and code
+
   else:
-    fr: Développeur web fullstack certifié Agile
+    fr: |
+      Développeur fullstack
+      certifié Agile
     en: Fullstack web developer Agile certified
 
 contacts:
@@ -48,13 +57,19 @@ specialty_frontend:
     fr: frontends orientés design
     en: design-driven frontends
   else:
-    fr: écosystèmes TypeScript
-    en: TypeScript ecosystems
+    ""
+    # fr: écosystèmes TypeScript
+    # en: TypeScript ecosystems
 
 specialty_backend:
   when_master_mode:
     fr: PHP moderne avec Laravel
     en: modern PHP with Laravel
+
+  when_target_python:
+    fr: développement sur stack moderne
+    en: development on modern stack
+
   when_target_laravel:
     fr: PHP moderne
     en: modern PHP

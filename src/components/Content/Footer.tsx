@@ -1,11 +1,11 @@
 import { Show } from "solid-js";
 import { useFlags } from "../../contexts/FlagsContext";
 import { useLanguage } from "../../contexts/LanguageContext";
-import { getResume } from "../../utils/config";
-import { md, t } from "../../utils/label";
+import { useResume } from "../../contexts/ResumeContext";
+import { t } from "../../utils/label";
 
 export function Footer() {
-  const resume = getResume();
+  const resume = useResume();
   const flags = useFlags();
   const language = useLanguage();
 
@@ -15,11 +15,11 @@ export function Footer() {
 
       <footer class="grid grid-cols-12 text-xs leading-snug">
         <h3 class="col-span-3 font-medium text-black">
-          {md(resume.ai_and_automation)}
+          {resume.md("ai_and_automation")}
         </h3>
 
         <div class="col-span-7 text-balance wrap-normal break-keep">
-          {md(resume.notice)}
+          {resume.md("notice")}
         </div>
 
         <div class="col-span-2 text-right">

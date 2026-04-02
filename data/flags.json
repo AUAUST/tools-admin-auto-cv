@@ -5,11 +5,5 @@
   "github": true,
   "website": true,
   "address": false,
-  "references_on_request": true,
-  "master_mode": false,
-  "target_laravel": false,
-  "frontend_first": false,
-  "startup_relevant": true,
-  "design_relevant": true,
-  "automation_relevant": true
+  "references_on_request": true
 }

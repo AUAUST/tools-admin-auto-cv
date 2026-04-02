@@ -6,48 +6,44 @@ import {
   type ParentProps,
 } from "solid-js";
 import { createStore } from "solid-js/store";
-import flagsConfig from "../../data/flags.json";
+import globalFlagsConfig from "../../data/flags.json";
+import { useResume } from "./ResumeContext";
 
-export type Flag = keyof typeof flagsConfig;
+export type Flag = keyof typeof globalFlagsConfig | (string & {});
 
-const FlagsContext = createContext<{
-  enabled: Flag[];
-  all: Flag[];
-  toggle(flag: Flag): void;
-  isEnabled(flag: Flag): boolean;
-  exists(flag: Flag): boolean;
-}>();
+const FlagsContext = createContext<ReturnType<typeof createFlags>>();
 
-export function FlagsProvider(props: ParentProps) {
+function createFlags() {
+  const resume = useResume();
+
   const [flags, setFlags] = createStore<Record<Flag, boolean>>(
-    O.keys(flagsConfig).reduce((acc, key) => {
-      acc[key] = B(flagsConfig[key]);
-      return acc;
-    }, {} as Record<Flag, boolean>)
+    O.keys(globalFlagsConfig).reduce(
+      (acc, key) => {
+        acc[key] = B(globalFlagsConfig[key]);
+        return acc;
+      },
+      {} as Record<Flag, boolean>,
+    ),
   );
 
   const toggle = (flag: Flag) => setFlags(flag, (v) => !v);
 
-  const allFlags = createMemo(() => O.keys(flags));
+  const localFlags = createMemo(() => O.keys(resume.flags));
 
-  const enabledFlags = createMemo(() =>
-    allFlags().filter((flag) => flags[flag])
-  );
-
-  const value = {
-    get enabled() {
-      return enabledFlags();
-    },
-    get all() {
-      return allFlags();
+  return {
+    globals: O.keys(globalFlagsConfig),
+    get locals() {
+      return localFlags();
     },
     toggle,
     isEnabled: (flag: Flag) => !!flags[flag],
     exists: (flag: any): flag is Flag => O.in(flag, flags),
   };
+}
 
+export function FlagsProvider(props: ParentProps) {
   return (
-    <FlagsContext.Provider value={value}>
+    <FlagsContext.Provider value={createFlags()}>
       {props.children}
     </FlagsContext.Provider>
   );

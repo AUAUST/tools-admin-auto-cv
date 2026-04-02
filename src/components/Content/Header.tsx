@@ -2,11 +2,12 @@ import { capitalize } from "@auaust/primitive-kit/strings";
 import { children, For, Show } from "solid-js";
 import { Dynamic } from "solid-js/web";
 import { useFlags } from "../../contexts/FlagsContext";
-import { getProfile, getResume } from "../../utils/config";
+import { useResume } from "../../contexts/ResumeContext";
+import { getProfile } from "../../utils/config";
 import { label, md, t, type Translation } from "../../utils/label";
 
 export function Header() {
-  const resume = getResume();
+  const resume = useResume();
 
   return (
     <header>
@@ -25,7 +26,7 @@ export function Header() {
               <h3 class="font-medium text-black trim-text-box">{t(section)}</h3>
 
               <div class="col-span-3 text-pretty leading-snug">
-                {md(resume[section])}
+                {resume.md(section)}
               </div>
             </div>
           </>
@@ -40,16 +41,23 @@ function Title() {
   const flags = useFlags();
 
   const specialty = children(() => {
-    const [a, b] = flags.isEnabled("frontend_first")
+    const [aRaw, bRaw] = flags.isEnabled("frontend_first")
       ? [profile.specialty_frontend, profile.specialty_backend]
       : [profile.specialty_backend, profile.specialty_frontend];
 
-    return [md(capitalize(label(a))), " ", t("and"), " ", md(b)];
+    const a = label(aRaw);
+    const b = label(bRaw);
+
+    if (!a || !b) {
+      return md(capitalize(a || b));
+    }
+
+    return [md(capitalize(a)), " ", t("and"), " ", md(b)];
   });
 
   return (
     <div>
-      <h1 class="leading-none font-normal text-black text-3xl mb-2.5 text-balance">
+      <h1 class="leading-none font-normal text-black text-3xl mb-2.5 text-balance whitespace-pre">
         {md(profile.title)}
       </h1>
 

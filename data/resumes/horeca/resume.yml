@@ -10,22 +10,25 @@ about:
       and maintainability guide the architecture as much as user experience.
       Interested in environments where technical excellence and creativity meet.
       Maintainer of several TypeScript open-source projects used in production.
+
   when_target_laravel:
     fr: | # markdown
-      Développeur full-stack expérimenté, titulaire d'un CFC en design visuel,
-      je souhaite aujourd’hui intégrer une équipe Laravel pour participer
-      à la conception de produits à forte valeur technique et créative.
+      Mes années d’expérience en développement full-stack Laravel
+      me permettent de concevoir et de faire évoluer des plateformes web
+      avec un focus sur la performance et la simplification des workflows complexes.
+
     en: | # markdown
       Experienced full-stack developer with a background in visual design,
       I’m looking to join a Laravel-focused team to contribute to the creation
       of technically robust and creatively driven products.
+
   when_design_relevant:
     fr: | # markdown
       Développeur web et designer graphique, je cherche aujourd'hui à rejoindre
       une équipe créative où je serai en mesure de mettre à profit mes compétences techniques et
       mon sens esthétique.
     en: | # markdown
-      Web developer and graphic designer diplômé, I’m looking to join a creative team
+      Web developer and graphic designer graduate, I’m looking to join a creative team
       where I can leverage both my technical skills and aesthetic sense.
   else:
     fr: | # markdown
@@ -33,7 +36,7 @@ about:
       je cherche à rejoindre une équipe de développeurs web où je pourrai contribuer
       à la création de produits à forte valeur technique.
     en: | # markdown
-      Experienced full-stack developer with a background in visual design, certified in Agile management,
+      Experienced full-stack developer with a background in visual design, Agile certified,
       I’m looking to join a web development team where I can contribute
       to the creation of technically robust products.
 
@@ -49,7 +52,7 @@ competences:
       en: Backend Development
     description:
       fr: | # markdown
-        - **Laravel 10-12** et **Kirby CMS**
+        - **Laravel 10-12** et **Python**
         - Supervision avec **Laravel Telescope**, **Google Analytics**, **Plausible**
         - Gestion et usage de **MariaDB**, **PostgreSQL** et **Redis**
         - Tests **Pest**
@@ -91,7 +94,7 @@ competences:
 
   - title:
       fr: Gestion de projet
-      en: Project management
+      en: Agile methodology
     description:
       fr: | # markdown
         - Approche **Agile** intérative et incrémentale
@@ -99,16 +102,10 @@ competences:
         - Planification des sprints et organisation de la roadmap
         - Adaptation et réévaluation continue des objectifs selon feedbacks internes et utilisateurs
       en: | # markdown
-        - **Agile** iterative and incremental approach
+        - Certified **Scrum Master** by **Scrum.org** with 2 years of practical experience
         - Reduction of **time-to-market**
         - Sprint planning and roadmap organization
         - Continuous adaptation and reassessment of goals based on internal and user feedback
-
-  - title: Agile
-    description:
-      fr: | # markdown
-        - Certifié **Scrum Master** par **Scrum.org**
-        - 2 ans d'expérience pratiques en gestion de projet Agile
 
 experiences:
   - company: WELTKERN®
@@ -123,8 +120,9 @@ experiences:
     subsections:
       - from: 2024
         title:
-          when_design_relevant: "Lead developer\n& designer"
-          else: Lead Developer
+          Lead Developer
+          # when_design_relevant: "Lead developer\n& designer"
+          # else: Lead Developer
         description:
           fr: | # markdown
             - Refonte complète de la plateforme, pilotage technique et architectural
@@ -139,16 +137,16 @@ experiences:
             - Complete platform redesign, technical and architectural leadership
             - **Recruitment**, **mentorship**, and **coordination** of a team of **4 freelance developers**
             - New architecture reduced average load time from **15s** to **200ms**
-            - Migration from **Stripe** to **Mollie**, achieving a measured **30% reduction in transaction fees**
-            - Elimination of bottlenecks using **Laravel Telescope** and **Plausible**
+            - Migration to a new PSP achieving a measured **30% reduction in transaction fees**
+            - Detection and elimination of bottlenecks using analytics tools
             - Definition of the **MVP** and priorities based on business goals
             - **Sprint** planning and **roadmap** management
             - **Code reviews** and **testing** ensuring stability and release cadence
 
       - from: 2023
         title:
-          when_design_relevant: "Fullstack developer\n& designer"
-          else: Fullstack Developer
+          Fullstack Developer
+          # when_design_relevant: "Fullstack developer\n& designer"
         description:
           fr: | # markdown
             - Développement **Laravel 10-12**
@@ -169,8 +167,9 @@ experiences:
 
       - from: 2022
         title:
-          when_design_relevant: "Frontend developer\n& designer"
-          else: Frontend Developer
+          Frontend Developer
+          # when_design_relevant: "Frontend developer\n& designer"
+          # else: Frontend Developer
         description:
           fr: | # markdown
             - Intégration frontend **Solid.js** (storefront) et **Vue** (admin)
@@ -187,16 +186,25 @@ experiences:
             - Component styling with **SCSS modules** and **Tailwind CSS**
             - Maintenance of the existing **WordPress** & **React** frontend prior to migration
 
-  - company: AUAUST
+  - company: "" # AUAUST
     description:
-      fr: | # markdown
-        Activités freelance en développement web fullstack et design graphique pour des
-        outils open‑source, des clients (PME, universitaires) et des projets personnels.
-      en: | # markdown
-        Freelance activity in full-stack web development and graphic design,
-        focused on open-source tools, client work (SMEs, academics), and personal projects.
+      ""
+      # fr: | # markdown
+      #   Activités freelance en développement web fullstack et design graphique pour des
+      #   outils open‑source, des clients (PME, universitaires) et des projets personnels.
+      # en: | # markdown
+      #   Freelance activity in full-stack web development and graphic design,
+      #   focused on open-source tools, client work (SMEs, academics), and personal projects.
 
     subsections:
+      - from: 2025
+        title: Scrum Master
+        description:
+          fr: | # markdown
+            Depuis 2025, certifié **Scrum Master** par **Scrum.org** en gestion de projets Agile, avec une approche centrée sur les besoins et compétences de l'équipe.
+          en: | # markdown
+            Since 2025, **Scrum Master** certification by **Scrum.org** for Agile project management, with a focus on team needs and skills.
+
       - from: 2022
         title:
           fr: "Mainteneur\nopen‑source"
@@ -238,12 +246,12 @@ experiences:
             - [apademide.ch](https://apademide.ch), Kirby CMS
             - Bachelor projects for ÉCAL, Solid.js, vanilla TypeScript
 
-  - company: Scrum
-    description:
-      fr: | # markdown
-        Formation et certification **Scrum Master** par **Scrum.org**.
-      en: | # markdown
-        **Scrum Master** training and certification by **Scrum.org**.
+  # - company: Scrum
+  #   description:
+  #     fr: | # markdown
+  #       Formation et certification **Scrum Master** par **Scrum.org**.
+  #     en: | # markdown
+  #       **Scrum Master** training and certification by **Scrum.org**.
 
   - company: ēracom
     description:

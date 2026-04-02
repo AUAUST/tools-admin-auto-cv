@@ -5,7 +5,7 @@ import { md, t } from "../../utils/label";
 export function Experiences(props: { experiences: Experience[] }) {
   return (
     <div>
-      <h2 class="text-2xl font-semibold text-black trim-text-box mb-2">
+      <h2 class="text-2xl font-semibold text-black trim-text-box mb-1.5">
         {t("experiences")}
       </h2>
 

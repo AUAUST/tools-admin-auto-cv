@@ -10,6 +10,7 @@ import {
 } from "solid-js";
 import { useFlags } from "../contexts/FlagsContext";
 import { useLanguage } from "../contexts/LanguageContext";
+import { useResume } from "../contexts/ResumeContext";
 import { getDocumentConfig } from "../utils/config";
 import { label, t } from "../utils/label";
 import { mm } from "../utils/units";
@@ -18,6 +19,7 @@ export function Document(props: ParentProps) {
   const config = getDocumentConfig();
   const language = useLanguage();
   const flags = useFlags();
+  const resume = useResume();
 
   const [fit, setFit] = createSignal<"real" | "fit">("fit");
   const [scale, setScale] = createSignal(1);
@@ -28,8 +30,8 @@ export function Document(props: ParentProps) {
     setScale(
       min(
         window.innerWidth / doc.offsetWidth,
-        window.innerHeight / doc.offsetHeight
-      )
+        window.innerHeight / doc.offsetHeight,
+      ),
     );
 
   createEffect(
@@ -44,8 +46,8 @@ export function Document(props: ParentProps) {
           })
           .split("/")
           .reverse()
-          .join("")
-      ))
+          .join(""),
+      )),
   );
 
   onMount(() => {
@@ -65,7 +67,7 @@ export function Document(props: ParentProps) {
       >
         <style>
           {`@page { size: ${mm(config.dimensions.width)} ${mm(
-            config.dimensions.height
+            config.dimensions.height,
           )}; margin: 0; }`}
         </style>
         {props.children}
@@ -85,9 +87,45 @@ export function Document(props: ParentProps) {
         </button>
 
         <fieldset class="px-0.5 pl-2 pr-6 text-white border border-white">
-          <legend>Flags</legend>
+          <legend>Variant</legend>
 
-          <For each={flags.all}>
+          <For each={resume.names}>
+            {(name) => (
+              <label class="block">
+                <input
+                  type="radio"
+                  checked={resume.name === name}
+                  onChange={() => resume.select(name)}
+                  class="mr-2"
+                />
+                {name}
+              </label>
+            )}
+          </For>
+        </fieldset>
+
+        <fieldset class="px-0.5 pl-2 pr-6 text-white border border-white">
+          <legend>Global flags</legend>
+
+          <For each={flags.globals}>
+            {(flag) => (
+              <label class="block">
+                <input
+                  type="checkbox"
+                  checked={flags.isEnabled(flag)}
+                  onChange={() => flags.toggle(flag)}
+                  class="mr-2"
+                />
+                {s(flag).splitWords().join(" ").toTitleCase().value}
+              </label>
+            )}
+          </For>
+        </fieldset>
+
+        <fieldset class="px-0.5 pl-2 pr-6 text-white border border-white">
+          <legend>Contextual flags</legend>
+
+          <For each={flags.locals}>
             {(flag) => (
               <label class="block">
                 <input
