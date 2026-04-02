@@ -1,6 +1,7 @@
 import { B, O } from "@auaust/primitive-kit";
 import {
   createContext,
+  createEffect,
   createMemo,
   useContext,
   type ParentProps,
@@ -29,6 +30,14 @@ function createFlags() {
   const toggle = (flag: Flag) => setFlags(flag, (v) => !v);
 
   const localFlags = createMemo(() => O.keys(resume.flags));
+
+  createEffect(() => {
+    for (const flag of localFlags()) {
+      if (!(flag in flags)) {
+        setFlags(flag, B(resume.flags[flag]));
+      }
+    }
+  });
 
   return {
     globals: O.keys(globalFlagsConfig),

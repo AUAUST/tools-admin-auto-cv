@@ -1,10 +1,10 @@
 import { capitalize } from "@auaust/primitive-kit/strings";
-import { children, For, Show } from "solid-js";
+import { createMemo, For, Show } from "solid-js";
 import { Dynamic } from "solid-js/web";
 import { useFlags } from "../../contexts/FlagsContext";
 import { useResume } from "../../contexts/ResumeContext";
 import { getProfile } from "../../utils/config";
-import { label, md, t, type Translation } from "../../utils/label";
+import { label, t, type Translation } from "../../utils/label";
 
 export function Header() {
   const resume = useResume();
@@ -37,31 +37,39 @@ export function Header() {
 }
 
 function Title() {
-  const profile = getProfile();
-  const flags = useFlags();
+  const resume = useResume();
 
-  const specialty = children(() => {
-    const [aRaw, bRaw] = flags.isEnabled("frontend_first")
-      ? [profile.specialty_frontend, profile.specialty_backend]
-      : [profile.specialty_backend, profile.specialty_frontend];
+  const subtitle = createMemo(() => {
+    const subtitles = (resume.get("subtitles") as Translation[])
+      .map((l) => label(l))
+      .filter(Boolean);
 
-    const a = label(aRaw);
-    const b = label(bRaw);
-
-    if (!a || !b) {
-      return md(capitalize(a || b));
+    if (!subtitles.length) {
+      return null;
     }
 
-    return [md(capitalize(a)), " ", t("and"), " ", md(b)];
+    const children = [];
+
+    for (let i = 0; i < subtitles.length; i++) {
+      if (i === 0) {
+        children.push(capitalize(subtitles[i]));
+      } else if (i < subtitles.length - 1) {
+        children.push(", ", subtitles[i]);
+      } else {
+        children.push(" ", t("and"), " ", subtitles[i]);
+      }
+    }
+
+    return children;
   });
 
   return (
     <div>
       <h1 class="leading-none font-normal text-black text-3xl mb-2.5 text-balance whitespace-pre">
-        {md(profile.title)}
+        {resume.md("title")}
       </h1>
 
-      <h2 class="text-xl">{specialty()}</h2>
+      <h2 class="text-xl">{subtitle()}</h2>
     </div>
   );
 }

@@ -50,9 +50,6 @@ export const getDocumentConfig = once(() =>
 export type Profile = {
   first_name: string;
   last_name: string;
-  title: Translation;
-  specialty_frontend: Translation;
-  specialty_backend: Translation;
   contacts: {
     type: "email" | "phone" | "linkedin" | "github" | "website" | "address";
     value: string;
@@ -75,6 +72,8 @@ export type Competence = {
 };
 
 export type Resume = {
+  title: Translation;
+  subtitles: Translation[];
   about: Translation;
   languages: Translation;
   ai_and_automation: Translation;

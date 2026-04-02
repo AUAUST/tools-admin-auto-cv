@@ -1,3 +1,10 @@
+title: |
+  Employé de bar
+  polyvalent et souriant
+
+subtitles:
+  - Disponible immédiatement, week-end et soirs
+
 about:
   when_master_mode:
     fr: | # markdown

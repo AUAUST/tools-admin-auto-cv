@@ -2,8 +2,8 @@
   "email": true,
   "phone": true,
   "linkedin": true,
-  "github": true,
-  "website": true,
+  "github": false,
+  "website": false,
   "address": false,
   "references_on_request": true
 }
