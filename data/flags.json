@@ -5,5 +5,7 @@
   "github": false,
   "website": false,
   "address": false,
-  "references_on_request": true
+  "references_on_request": true,
+  "show_footnote": true,
+  "show_generation_date": false
 }

@@ -76,7 +76,10 @@ export type Resume = {
   subtitles: Translation[];
   about: Translation;
   languages: Translation;
-  ai_and_automation: Translation;
+  footnote: {
+    title: Translation;
+    text: Translation;
+  };
   notice: Translation;
   experiences: (Experience & {
     company?: Translation;

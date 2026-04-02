@@ -6,18 +6,6 @@ subtitles:
   - Disponible immédiatement, week-end et soirs
 
 about:
-  when_master_mode:
-    fr: | # markdown
-      Diplômé en design visuel, je conçois des applications où structure du code, clarté et pérennité
-      guident l’architecture autant que l’expérience utilisateur.
-      Intéressé par les environnements où exigence technique et créativité se rejoignent.
-      Mainteneur de plusieurs projets open-source TypeScript utilisés en production.
-    en: | # markdown
-      Graduated in visual design, I build applications where code structure, clarity,
-      and maintainability guide the architecture as much as user experience.
-      Interested in environments where technical excellence and creativity meet.
-      Maintainer of several TypeScript open-source projects used in production.
-
   when_target_laravel:
     fr: | # markdown
       Mes années d’expérience en développement full-stack Laravel
@@ -266,15 +254,3 @@ experiences:
         **CFC de graphisme** avec prix de l’école et de la SGD (Swiss Graphic Designers) reconnaissant les meilleurs résultats et moyennes de ma promotion.
       en: | # markdown
         Graduated with a **CFC in Graphic Design**, awarded the school prize and the SGD (Swiss Graphic Designers) distinction for best results and top average in the program.
-
-ai_and_automation:
-  fr: J'utilise l'IA et j'automatise!
-  en: I use AI and automate!
-
-notice:
-  fr: | # markdown
-    La technologie fait gagner du temps. Ce CV a été généré à l'aide d'un outil custom qui m'a permis de l'adapter à votre offre d'emploi.
-    Il est accessible en open-source sur [github.com/AUAUST/tools-admin-auto-cv](https://github.com/AUAUST/tools-admin-auto-cv#readme).
-  en: | # markdown
-    Technology saves time. This resume was generated using a custom tool that allowed me to tailor it to your job offer.
-    It is available as open-source on [github.com/AUAUST/tools-admin-auto-cv](https://github.com/AUAUST/tools-admin-auto-cv#readme).
