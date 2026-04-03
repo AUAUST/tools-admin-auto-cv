@@ -60,7 +60,8 @@ export type Profile = {
 export const getProfile = once(() => getYamlContent<Profile>("profile"));
 
 export type Experience = {
-  from: number;
+  from: Translation;
+  to?: Translation;
   title: Translation;
   description: Translation;
   subsections?: Experience[];

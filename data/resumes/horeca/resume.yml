@@ -3,37 +3,9 @@ title: |
   polyvalent et souriant
 
 subtitles:
-  - Disponible immédiatement, week-end et soirs
-
-about:
-  when_target_laravel:
-    fr: | # markdown
-      Mes années d’expérience en développement full-stack Laravel
-      me permettent de concevoir et de faire évoluer des plateformes web
-      avec un focus sur la performance et la simplification des workflows complexes.
-
-    en: | # markdown
-      Experienced full-stack developer with a background in visual design,
-      I’m looking to join a Laravel-focused team to contribute to the creation
-      of technically robust and creatively driven products.
-
-  when_design_relevant:
-    fr: | # markdown
-      Développeur web et designer graphique, je cherche aujourd'hui à rejoindre
-      une équipe créative où je serai en mesure de mettre à profit mes compétences techniques et
-      mon sens esthétique.
-    en: | # markdown
-      Web developer and graphic designer graduate, I’m looking to join a creative team
-      where I can leverage both my technical skills and aesthetic sense.
-  else:
-    fr: | # markdown
-      Développeur full-stack expérimenté, certifié en management Agile, titulaire d'un CFC en design visuel,
-      je cherche à rejoindre une équipe de développeurs web où je pourrai contribuer
-      à la création de produits à forte valeur technique.
-    en: | # markdown
-      Experienced full-stack developer with a background in visual design, Agile certified,
-      I’m looking to join a web development team where I can contribute
-      to the creation of technically robust products.
+  - Disponible immédiatement
+  - soirs, week-end
+  - horaires flexibles
 
 languages:
   fr: |
@@ -41,216 +13,143 @@ languages:
   en: |
     French native, English fluent C1+, German basic A2.
 
+about:
+  fr: | # markdown
+    Expérimenté au service lors d’événements, avec une expérience
+    professionnelle dans un environnement exigeant, je suis à l'aise
+    sous pression et dans le travail d'équipe.
+    Je cherche à rejoindre un bar en support opérationnel, barback, runner,
+    motivé pour un poste fixe ou en extra.
+
 competences:
   - title:
-      fr: Développement backend
-      en: Backend Development
+      fr: Travail sous pression
     description:
       fr: | # markdown
-        - **Laravel 10-12** et **Python**
-        - Supervision avec **Laravel Telescope**, **Google Analytics**, **Plausible**
-        - Gestion et usage de **MariaDB**, **PostgreSQL** et **Redis**
-        - Tests **Pest**
-        - **CI/CD** avec **GitHub Actions**, **Ploi.io**
-      en: | # markdown
-        - **Laravel 10-12** and **Kirby CMS**
-        - Monitoring and analytics using **Laravel Telescope**, **Google Analytics**, **Plausible**
-        - Database management with **MariaDB**, **PostgreSQL** and **Redis**
-        - Unit and integration testing with **Pest**
-        - **CI/CD** pipelines using **GitHub Actions**, **Ploi.io**
+        -	Habitué aux environnements exigeants avec délais serrés
+        - Gestion des priorités en situation d’urgence et maintien de la qualité
+        -	Capacité à rester efficace et concentré en période de forte charge
 
   - title:
-      fr: Développement frontend
-      en: Frontend development
+      fr: Esprit d'équipe
     description:
       fr: | # markdown
-        - Interfaces **Solid.js**, **Vue** et **React**
-        - Styling **Tailwind CSS** et **modules SCSS**
-        - Consommation d’APIs **Inertia.js**, **API RESTful** avec **Axios**
-        - Conception **UX/UI**
-      en: | # markdown
-        - Development of reactive interfaces using **Solid.js**, **Vue**, and **React**
-        - Styling with **Tailwind CSS** and **SCSS modules**
-        - API consumption via **Inertia.js** and **RESTful API** calls with **Axios**
-        - **UX/UI** design
+        - Coordination avec l'équipe pour atteindre le but commun
+        - Communication claire pour fluidifier et éviter les blocages
+        -	Travail en équipe lors d’événements à forte affluence
+        -	Adaptation au rythme collectif et soutien des autres membres
 
   - title:
-      fr: Gestion d'équipe
-      en: Team management
+      fr: Adaptabilité et apprentissage rapide
     description:
       fr: | # markdown
-        - Leadership technique et gestion de petites équipes
-        - **Recrutement** basé sur les **besoins** et **compétences**
-        - Analyse des forces individuelles
-      en: | # markdown
-        - Technical leadership and small-team management
-        - **Recruitment** based on **skills** and **project needs**
-        - Analysis of individual strengths
+        -	Prise en main rapide de nouveaux environnements
+        -	Apprentissage autonome de nouvelles méthodes selon les besoins
+        -	Capacité d'adaptation en fonction des priorités
+        -	Intégration rapide dans de nouvelles équipes et contextes
 
   - title:
-      fr: Gestion de projet
-      en: Agile methodology
+      fr: Fiabilité et rigueur
     description:
       fr: | # markdown
-        - Approche **Agile** intérative et incrémentale
-        - Réduction du **time-to-market**
-        - Planification des sprints et organisation de la roadmap
-        - Adaptation et réévaluation continue des objectifs selon feedbacks internes et utilisateurs
-      en: | # markdown
-        - Certified **Scrum Master** by **Scrum.org** with 2 years of practical experience
-        - Reduction of **time-to-market**
-        - Sprint planning and roadmap organization
-        - Continuous adaptation and reassessment of goals based on internal and user feedback
+        - Attention portée aux détails et à la qualité du travail rendu
+        - Exécution précise des tâches même en environnement dynamique
+        - Engagement dans la durée
 
 experiences:
+  - company: Associations et événements
+    description:
+      fr: | # markdown
+        Membre d'associations locales, j'ai participé à divers événements culturels et festifs,
+        développant des compétences en organisation, logistique et accueil.
+
+    subsections:
+      - from: 2020
+        to: now
+        title: Service bénévole
+        description:
+          fr: | # markdown
+            - Service boissons et petite restauration lors d’événements
+            - Gestion de la caisse
+            - Mise en place, réapprovisionnement et rangement
+            - Service nocturne lors de manifestations à forte affluence
+            - manifestations locales, repas de soutien, désalpes, fêtes 1er août, cantonale de Givrins
+
+      - from: 2021
+        to: now
+        title: Protection Civile
+        description:
+          fr: | # markdown
+            - Travail d'équipe
+            - Organisation de lieux d'événements
+            - Gestion des flux de personnes et maintien de la sécurité
+            - Formation continue aux premiers secours et gestion de situations d’urgence
+
   - company: WELTKERN®
     description:
       fr: | # markdown
-        Évolution au sein de [weltkern.com](https://weltkern.com), plateforme d'**e-commerce** suisse commercialisant
-        objets de design et polices de caractères. Stack monolithique **Laravel** et **Solid.js**.
-      en: | # markdown
-        Growth within [weltkern.com](https://weltkern.com), a Swiss **e-commerce** platform selling design objects and typefaces.
-        Monolithic stack based on **Laravel** and **Solid.js**.
+        Évolution au sein de [weltkern.com](https://weltkern.com), plateforme d'**e-commerce** suisse
+        d'objets de design et de journalisme culturel.
 
     subsections:
-      - from: 2024
-        title:
-          Lead Developer
-          # when_design_relevant: "Lead developer\n& designer"
-          # else: Lead Developer
-        description:
-          fr: | # markdown
-            - Refonte complète de la plateforme, pilotage technique et architectural
-            - **Recrutement**, **encadrement**, **coordination** de **4 développeurs freelance**
-            - Nouvelle architecture réduit le temps de chargement moyen de **15s** à **200ms**
-            - Migration de **Stripe** vers **Mollie**, réduction mesurée des **frais de transaction de 30%**
-            - Élimination des goulets d’étranglement avec **Laravel Telescope** et **Plausible**
-            - Définition du **MVP** et des priorités selon les objectifs business
-            - Planification des **sprints** et gestion du **backlog**
-            - **Revues de code** et **tests** garantissant stabilité et cadence de release
-          en: | # markdown
-            - Complete platform redesign, technical and architectural leadership
-            - **Recruitment**, **mentorship**, and **coordination** of a team of **4 freelance developers**
-            - New architecture reduced average load time from **15s** to **200ms**
-            - Migration to a new PSP achieving a measured **30% reduction in transaction fees**
-            - Detection and elimination of bottlenecks using analytics tools
-            - Definition of the **MVP** and priorities based on business goals
-            - **Sprint** planning and **roadmap** management
-            - **Code reviews** and **testing** ensuring stability and release cadence
-
-      - from: 2023
-        title:
-          Fullstack Developer
-          # when_design_relevant: "Fullstack developer\n& designer"
-        description:
-          fr: | # markdown
-            - Développement **Laravel 10-12**
-            - Mise en place des bases de données **MariaDB** et **Redis**
-            - API **Inertia.js**
-            - Webhooks **Mollie** pour process des paiements
-            - Gestion serveur avec **Ploi.io** sur **VPS Infomaniak**
-            - Déploiements continus avec **Ploi.io** et **GitHub Actions** permettant les hotfixes en production sans downtime en moins de 15 minutes
-            - Système de backup **rClone** avec **SwissBackup**
-          en: | # markdown
-            - Development with **Laravel 10-12**
-            - Database setup with **MariaDB** and **Redis**
-            - **Inertia.js** API integration
-            - **Mollie** webhooks for payment processing
-            - Server management using **Ploi.io** on **Infomaniak VPS**
-            - Continuous deployment via **Ploi.io** and **GitHub Actions**, enabling production hotfixes in under 15 minutes
-            - Backup system with **rClone** and **SwissBackup**
-
       - from: 2022
-        title:
-          Frontend Developer
-          # when_design_relevant: "Frontend developer\n& designer"
-          # else: Frontend Developer
+        to: 2025
+        title: Lead Developer
         description:
           fr: | # markdown
-            - Intégration frontend **Solid.js** (storefront) et **Vue** (admin)
-            - Mise en place **Kirby CMS** pour contenu produits et éditorial
-            - Design **UI**/**UX** responsif **Figma**
-            - Optimisation des performances avec **KeyCDN**
-            - Design de composants **SCSS modules** et **Tailwind CSS**
-            - Maintient du site **WordPress** & **React** existant avant migration
-          en: | # markdown
-            - Frontend integration with **Solid.js** (storefront) and **Vue** (admin)
-            - Implementation of **Kirby CMS** for product and editorial content
-            - Responsive **UI/UX** design with **Figma**
-            - Performance optimization using **KeyCDN**
-            - Component styling with **SCSS modules** and **Tailwind CSS**
-            - Maintenance of the existing **WordPress** & **React** frontend prior to migration
+            - Développeur web responsable du site e-commerce
+            - Recrutement et coordination de l'équipe de développeurs
+            - Suivi de la qualité du travail et du respect des délais
+            - Environnement exigeant avec délais courts
+            - Assurance de la sécurité technique
+            - Résolution rapide de problèmes en situation critique
 
-  - company: "" # AUAUST
-    description:
-      ""
-      # fr: | # markdown
-      #   Activités freelance en développement web fullstack et design graphique pour des
-      #   outils open‑source, des clients (PME, universitaires) et des projets personnels.
-      # en: | # markdown
-      #   Freelance activity in full-stack web development and graphic design,
-      #   focused on open-source tools, client work (SMEs, academics), and personal projects.
-
-    subsections:
-      - from: 2025
-        title: Scrum Master
-        description:
-          fr: | # markdown
-            Depuis 2025, certifié **Scrum Master** par **Scrum.org** en gestion de projets Agile, avec une approche centrée sur les besoins et compétences de l'équipe.
-          en: | # markdown
-            Since 2025, **Scrum Master** certification by **Scrum.org** for Agile project management, with a focus on team needs and skills.
-
-      - from: 2022
-        title:
-          fr: "Mainteneur\nopen‑source"
-          en: "Open-Source\nProjects Maintainer"
-        description:
-          fr: | # markdown
-            Depuis 2022, création, évolution et maintenance d'une variété de projets **TypeScript** **open-source** tous accessibles sur [github.com/AUAUST](https://github.com/AUAUST).
-
-            - [Primitive Kit](https://github.com/AUAUST/lib-js-primitive-kit#readme), bibliothèque d'utilitaires **TypeScript qui** facilite l'usage des primitifs
-            - [Jaune](https://github.com/AUAUST/lib-js-jaune#readme), classe **Color** aide à la manipulation des couleurs pour TypeScript et CSS
-            - [G-Class](https://github.com/AUAUST/lib-js-g-class#readme), alternative plus complète à [clsx](https://github.com/lukeed/clsx)
-            - tous utilisés en production
-          en: | # markdown
-            Since 2022, creation, evolution and maintenance of various **TypeScript open-source** projects, all available on [github.com/AUAUST](https://github.com/AUAUST).
-
-            - [Primitive Kit](https://github.com/AUAUST/lib-js-primitive-kit#readme): **TypeScript** utility library simplifying the use of primitives
-            - [Jaune](https://github.com/AUAUST/lib-js-jaune#readme): **Color** class for color manipulation in TypeScript and CSS
-            - [G-Class](https://github.com/AUAUST/lib-js-g-class#readme): extended alternative to [clsx](https://github.com/lukeed/clsx)
-            - all used in production
-
-      - from: 2021
-        title:
-          when_design_relevant: "Freelance developer\n& designer"
-          else: Freelance Developer
-        description:
-          fr: | # markdown
-            Depuis 2021, projets web freelance de la planification et du maquettage à la mise en ligne et maintenance à long terme.
-
-            - [lambert-forte.ch](https://lambert-forte.ch), Kirby CMS
-            - [auaust.ch](https://auaust.ch), one-pager Solid.js statique
-            - [apademide.ch](https://apademide.ch), Kirby CMS
-            - projets de bachelor pour l'écal, Solid.js, vanilla TypeScript
-
-          en: | # markdown
-            Since 2021, freelance web projects from planning and prototyping to deployment and long-term maintenance.
-
-            - [lambert-forte.ch](https://lambert-forte.ch), Kirby CMS
-            - [auaust.ch](https://auaust.ch), static one-pager built with Solid.js
-            - [apademide.ch](https://apademide.ch), Kirby CMS
-            - Bachelor projects for ÉCAL, Solid.js, vanilla TypeScript
-
-  # - company: Scrum
-  #   description:
-  #     fr: | # markdown
-  #       Formation et certification **Scrum Master** par **Scrum.org**.
-  #     en: | # markdown
-  #       **Scrum Master** training and certification by **Scrum.org**.
-
-  - company: ēracom
+  - company: Freelance
     description:
       fr: | # markdown
-        **CFC de graphisme** avec prix de l’école et de la SGD (Swiss Graphic Designers) reconnaissant les meilleurs résultats et moyennes de ma promotion.
-      en: | # markdown
-        Graduated with a **CFC in Graphic Design**, awarded the school prize and the SGD (Swiss Graphic Designers) distinction for best results and top average in the program.
+        - Identité visuelle du [Chocolate Festival](https://chocolate-festival.ch/presentation/#historique)
+        - graphisme avec [Themrok](https://apademide.ch/fr/kama), DJ lausannois
+        - développement [project bachelor écal](https://ecal.ch/fr/feed/projects/8420/modulat/)
+        - web et branding avec [lambert-forte.ch](https://lambert-forte.ch)
+
+    subsections:
+      - from: 2019
+        to: now
+        title: Design et développement
+        description:
+          fr: | # markdown
+            - Collaboration avec clients variés sur des projets créatifs
+            - Gestion directe de la relation client
+            - Organisation autonome du travail et respect des délais
+            - Compréhension des besoins et capacité à proposer des solutions adaptées et concrètes
+
+  - company: Dipômes
+    subsections:
+      - from: 2018
+        to: 2022
+        title: | # markdown
+          CFC de graphisme
+        description:
+          fr: | # markdown
+            Diplômé de l'**ēracom**, j'ai été récompensé par le prix de l’école
+            et la distinction de la SGD (Swiss Graphic Designers) reconnaissant
+            la qualité de mon travail et les meilleurs résultats tout au long de ma formation.
+
+      - from: 2018
+        to: 2022
+        title: | # markdown
+          Maturité professionnelle
+          en arts appliqués
+        description:
+          fr: | # markdown
+            En parallèle de mon CFC, obtention d'une **maturité professionnelle** avec spécialisation
+            en arts appliqués, culture, information et communication.
+
+footnote:
+  title:
+    fr: | # markdown
+      Besoin de plus d'informations ?
+
+  text:
+    fr: | # markdown
+      N'hésitez pas à me contacter pour toute question ou demande d'informations supplémentaires!

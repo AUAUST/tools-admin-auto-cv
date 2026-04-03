@@ -21,4 +21,7 @@ h6,
 p,
 .trim-text-box {
   text-box: trim-start cap alphabetic;
+  text-wrap: balance;
+
+  overflow-wrap: normal;
 }

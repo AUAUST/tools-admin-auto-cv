@@ -69,7 +69,7 @@ function Title() {
         {resume.md("title")}
       </h1>
 
-      <h2 class="text-xl">{subtitle()}</h2>
+      <h2 class="text-xl leading-snug">{subtitle()}</h2>
     </div>
   );
 }

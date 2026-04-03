@@ -1,6 +1,6 @@
-import { For } from "solid-js";
+import { For, Match, Switch } from "solid-js";
 import type { Experience, Resume } from "../../utils/config";
-import { md, t } from "../../utils/label";
+import { md, t, type Translation } from "../../utils/label";
 
 export function Experiences(props: { experiences: Experience[] }) {
   return (
@@ -45,9 +45,7 @@ export function Experience(props: {
 export function SubExperience(props: { experience: Experience }) {
   return (
     <div class="grid grid-cols-12 mt-2 last-of-type:mb-5">
-      <div class="text-xs text-gray-600 trim-text-box pl-2">
-        {props.experience.from}
-      </div>
+      <Timestamp {...props.experience} />
 
       <div class="col-span-3 trim-text-box">
         <h4 class="text-lg font-[450] text-black leading-tight whitespace-pre-line pr-2">
@@ -60,6 +58,22 @@ export function SubExperience(props: { experience: Experience }) {
           {md(props.experience.description)}
         </div>
       </div>
+    </div>
+  );
+}
+
+function Timestamp({ from, to }: { from: Translation; to?: Translation }) {
+  return (
+    <div class="text-xs text-gray-600 trim-text-box pl-2">
+      <Switch fallback={md(from)}>
+        <Match when={to === "now"}>
+          {t("since")} {md(from)}
+        </Match>
+
+        <Match when={to}>
+          {md(from)} - {md(to)}
+        </Match>
+      </Switch>
     </div>
   );
 }

@@ -1,4 +1,4 @@
-import { O, S } from "@auaust/primitive-kit";
+import { N, O, S } from "@auaust/primitive-kit";
 import { keys } from "@auaust/primitive-kit/objects";
 import type { JSX } from "solid-js";
 import { SolidMarkdown } from "solid-markdown";
@@ -22,7 +22,7 @@ export type Label =
     };
 
 function getFlaggedTranslation(
-  source: FlaggedTranslation | Translation
+  source: FlaggedTranslation | Translation,
 ): Translation | undefined {
   const flags = useFlags();
 
@@ -31,7 +31,7 @@ function getFlaggedTranslation(
   }
 
   const conditions = keys(source).filter((k) =>
-    S(k).startsWith("when_")
+    S(k).startsWith("when_"),
   ) as string[];
 
   if (!conditions.length) {
@@ -53,7 +53,7 @@ function getFlaggedTranslation(
 
 function getTranslation(
   source: Translation,
-  language: Language
+  language: Language,
 ): string | undefined {
   if (!source) {
     return undefined;
@@ -76,6 +76,12 @@ function getTranslation(
   }
 }
 
+function fix(label: string): string {
+  return S.mapReplace(label, {
+    "-": "‑", // replace hypens with non-breaking hyphens
+  });
+}
+
 export function label(
   ...sources: (FlaggedTranslation | Label | undefined | null | false)[]
 ): string {
@@ -86,8 +92,8 @@ export function label(
       continue;
     }
 
-    if (S.isStrict(source)) {
-      return source;
+    if (S.isStrict(source) || N.is(source)) {
+      return source.toString();
     }
 
     source = ((source as any).label ||
@@ -95,8 +101,8 @@ export function label(
       (source as any).value ||
       source) as Translation;
 
-    if (S.isStrict(source)) {
-      return source;
+    if (S.isStrict(source) || N.is(source)) {
+      return source.toString();
     }
 
     const flagged = getFlaggedTranslation(source);
