@@ -1,7 +1,7 @@
 {
   "email": true,
   "phone": true,
-  "linkedin": true,
+  "linkedin": false,
   "github": false,
   "website": false,
   "address": false,

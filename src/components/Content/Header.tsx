@@ -53,11 +53,15 @@ function Title() {
     for (let i = 0; i < subtitles.length; i++) {
       if (i === 0) {
         children.push(capitalize(subtitles[i]));
-      } else if (i < subtitles.length - 1) {
-        children.push(", ", subtitles[i]);
       } else {
-        children.push(" ", t("and"), " ", subtitles[i]);
+        children.push(", ", subtitles[i]);
       }
+
+      // else if (i < subtitles.length - 1) {
+      //   children.push(", ", subtitles[i]);
+      // } else {
+      //   children.push(" ", t("and"), " ", subtitles[i]);
+      // }
     }
 
     return children;
