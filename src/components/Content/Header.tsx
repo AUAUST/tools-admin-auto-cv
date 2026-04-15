@@ -11,7 +11,7 @@ export function Header() {
 
   return (
     <header>
-      <div class="grid grid-cols-2 gap-x-2 mb-8">
+      <div class="grid grid-cols-2 gap-x-2 mb-5">
         <Title />
 
         <Contacts />
@@ -40,7 +40,8 @@ function Title() {
   const resume = useResume();
 
   const subtitle = createMemo(() => {
-    const subtitles = (resume.get("subtitles") as Translation[])
+    const subtitles = resume
+      .get("subtitles")
       .map((l) => label(l))
       .filter(Boolean);
 

@@ -2,7 +2,6 @@ import { s } from "@auaust/primitive-kit";
 import { keys } from "@auaust/primitive-kit/objects";
 import {
   createContext,
-  createEffect,
   createMemo,
   createSignal,
   useContext,
@@ -19,7 +18,7 @@ import { md } from "../utils/label";
 const ResumeContext = createContext<ReturnType<typeof createResume>>();
 
 function createResume() {
-  const resumeNames = Array.from(
+  const names = Array.from(
     new Set(
       keys(files)
         .map((key) => s(key).after("resumes/").before("/").value)
@@ -28,9 +27,9 @@ function createResume() {
   );
 
   const [current, setCurrent] = createSignal<string>(
-    resumeNames.indexOf(getDocumentConfig().resume) > -1
+    names.indexOf(getDocumentConfig().resume) > -1
       ? getDocumentConfig().resume
-      : resumeNames[0],
+      : names[0],
   );
 
   const content = createMemo<Resume>(() =>
@@ -41,17 +40,15 @@ function createResume() {
     () => getYamlContent(`resumes/${current()}/flags`) || {},
   );
 
-  createEffect(() => console.log("Current resume:", current(), flags()));
-
   return {
     get names() {
-      return resumeNames;
+      return names;
     },
     get name() {
       return current();
     },
     select(resume: string) {
-      if (!resumeNames.includes(resume)) {
+      if (!names.includes(resume)) {
         throw new Error(`Resume not found: ${resume}`);
       }
 
@@ -60,10 +57,10 @@ function createResume() {
     get content() {
       return content();
     },
-    get(property: keyof Resume) {
+    get<K extends keyof Resume>(property: K): Resume[K] {
       return content()[property];
     },
-    md(property: keyof Resume) {
+    md<K extends keyof Resume>(property: K) {
       // @ts-expect-error
       return md(content()[property]);
     },

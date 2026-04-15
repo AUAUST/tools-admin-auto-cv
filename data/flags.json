@@ -1,8 +1,8 @@
 {
   "email": true,
   "phone": true,
-  "linkedin": false,
-  "github": false,
+  "linkedin": true,
+  "github": true,
   "website": false,
   "address": false,
   "references_on_request": true,

@@ -1,7 +1,6 @@
 {
   "target_python": false,
   "target_laravel": false,
-  "frontend_first": false,
-  "startup_relevant": true,
-  "design_relevant": true
+  "target_typescript": true,
+  "design_relevant": false
 }
