@@ -1,6 +1,10 @@
-title: |
-  Employé de bar
-  support opérationnel
+title:
+  when_target_bar: |
+    Employé de bar
+    support opérationnel
+  when_target_guinguette: |
+    Employé polyvalent
+    service et restauration
 
 subtitles:
   - Disponible immédiatement
@@ -14,58 +18,89 @@ languages:
     French native, English fluent C1+, German basic A2.
 
 about:
-  fr: | # markdown
-    Souriant et fiable, avec expérience en service lors d’événements et habitué aux environnements exigeants,
-    je suis à l’aise sous pression et en équipe. Disponible immédiatement, je cherche
-    un poste en support bar (barback, runner ou service), en extra ou fixe.
+  when_target_bar:
+    fr: | # markdown
+      Souriant et fiable, avec expérience en service lors d’événements et habitué aux environnements exigeants,
+      je suis à l’aise sous pression et en équipe. Disponible immédiatement, je cherche
+      un poste en support bar (barback, runner ou service), en extra ou fixe.
+  when_target_guinguette:
+    fr: | # markdown
+      Souriant et fiable, avec expérience en service, j’apprécie les environnements vivants
+      mêlant culture, restauration et musique. À l’aise en équipe et polyvalent, je suis motivé aussi bien en service,
+      au bar, en cuisine ou sur l’événementiel. Disponible pour la saison, en fixe ou en extra.
 
 competences:
   - title:
-      fr: Travail sous pression
-    description:
-      fr: | # markdown
-        -	Habitué aux environnements exigeants avec délais serrés
-        - Gestion des priorités en situation d’urgence et maintien de la qualité
-        -	Capacité à rester efficace et concentré en rush
-
-  - title:
       fr: Esprit d'équipe
     description:
-      fr: | # markdown
-        - Coordination avec l'équipe pour atteindre le but commun
-        - Communication claire pour éviter les blocages
-        -	Travail en équipe lors d’événements à forte affluence
-        -	Adaptation au rythme collectif et soutien des autres membres
+      when_target_bar:
+        fr: | # markdown
+          - Coordination avec les collègues pour assurer un service fluide
+          - Communication efficace pour éviter les blocages
+          - Travail en équipe lors de rushs et d’événements à forte affluence
+          - Adaptation au rythme collectif et soutien des autres membres
+      when_target_guinguette:
+        fr: | # markdown
+          - Communication!
+          - Coordination et soutien mutuel pendant les rushs
+          - Collaboration entre les équipes de service, cuisine et événementiel
 
   - title:
-      fr: Adaptabilité et apprentissage rapide
+      fr: Adaptabilité
     description:
-      fr: | # markdown
-        -	Prise en main rapide de nouveaux environnements
-        -	Apprentissage autonome de nouvelles méthodes selon les besoins
-        -	Capacité d'adaptation en fonction des priorités
-        -	Intégration rapide dans de nouvelles équipes et contextes
+      when_target_bar:
+        fr: | # markdown
+          -	Prise en main rapide de nouveaux environnements
+          -	Apprentissage autonome de nouvelles méthodes selon les besoins
+          -	Capacité d'adaptation en fonction des priorités
+          -	Intégration rapide dans de nouvelles équipes et contextes
+      when_target_guinguette:
+        fr: | # markdown
+          - Intégration rapide dans de nouveaux environnements
+          - Compréhension et prise en main autonome de nouvelles méthodes
+          - Flexibilité selon les priorités
+
+  - title:
+      fr: Gestion du rush
+    description:
+      when_target_bar:
+        fr: | # markdown
+          -	Habitué aux environnements exigeants avec délais serrés
+          - Gestion des priorités en situation d’urgence et maintien de la qualité
+          -	Capacité à rester efficace et concentré en rush
+      when_target_guinguette:
+        fr: | # markdown
+          - Prioritisation entre les tâches *urgentes* et *importantes*
+          - Maintient de la qualité du service
+          - Big smile jusqu'au départ du dernier client (voire après) ☺
 
   - title:
       fr: Fiabilité et rigueur
     description:
-      fr: | # markdown
-        - Attention portée aux détails et à la qualité du travail
-        - Exécution précise des tâches même en environnement dynamique
-        - Endurance lors d'événements prolongés
-        - Engagement à long terme
+      when_target_bar:
+        fr: | # markdown
+          - Attention portée aux détails et à la qualité du travail
+          - Exécution précise des tâches même en environnement dynamique
+          - Endurance lors d'événements prolongés
+          - Engagement à long terme
+      when_target_guinguette:
+        fr: | # markdown
+          - Ponctualité, attention aux détails
+          - Endurance lors d'événements prolongés
+          - Engagement sur la durée
+          - De la région
 
 experiences:
   - company: Associations et événements
     description:
       fr: | # markdown
-        Membre d'associations locales, j'ai participé à divers événements culturels et festifs de 100 à plusieurs milliers de personnes,
-        développant des compétences en organisation, logistique et accueil.
+        Membre d'associations locales, je participe à de nombreux événements culturels et festifs depuis des années,
+        de 100 à plusieurs milliers de personnes, développant des compétences en organisation, logistique et accueil.
 
     subsections:
       - from: 2020
         to: now
-        title: Service bénévole
+        title: Service et restauration
         description:
           fr: | # markdown
             - Bar et restauration lors d’événements

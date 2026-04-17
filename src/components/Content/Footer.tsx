@@ -22,7 +22,7 @@ export function Footer() {
             {md(resume.content.footnote.title)}
           </h3>
 
-          <div class="col-span-7 text-balance wrap-normal break-keep">
+          <div class="col-span-9 text-balance wrap-normal break-keep whitespace-pre">
             {md(resume.content.footnote.text)}
           </div>
         </Show>

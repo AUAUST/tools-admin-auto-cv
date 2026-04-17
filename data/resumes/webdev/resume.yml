@@ -157,7 +157,7 @@ experiences:
             - Refonte de la plateforme, réduction des temps de chargement moyens de **15s** à **200ms**
             - **Recrutement**, **encadrement**, **coordination** de **4 développeurs freelance**
             - Migration de **Stripe** vers **Mollie**, réduction mesurée des **frais de transaction de 20%**
-            - Analyse des bottlenecks avec **Laravel Telescope** et **Plausible**
+            - Détection bottlenecks avec **Laravel Telescope** et **Plausible**
             - Planification des **sprints** et gestion des priorités
             - **Revues de code** et **tests** garantissant stabilité et cadence de release
 
@@ -177,12 +177,12 @@ experiences:
         description:
           fr: | # markdown
             - Interfaces **TypeScript**, **Solid.js**, **Vue.js**
-            - Backend **Laravel**, **MariaDB**, **PostgreSQL**, **Redis**
+            - Backend **Laravel**, **MariaDB**, **PostgreSQL**
             - Mise en place de l'infrastructure, **VPS Infomaniak**
             - CI/CD avec **Ploi.io** et **GitHub Actions**
-            - API **Inertia.js** et **RESTful**
-            - Providers de paiement (**Mollie**, **Stripe**) et mails (**Mailchimp**) via API et webhooks
-            - Performance avec **KeyCDN**, caching
+            - API **Inertia** et **RESTful**
+            - Providers de paiement **Mollie**, **Stripe** et mails **Mailchimp** via API et webhooks
+            - Performance avec **KeyCDN**, caching **Redis**
             - Design et **UI/UX** avec **TailwindCSS**, **Figma**, **Sketch**
 
   - company: Divers
@@ -286,7 +286,7 @@ footnote:
 
   text:
     fr: | # markdown
-      La technologie fait gagner du temps. Ce CV a été mis en page par un outil custom accessible en open-source sur [github.com/AUAUST/tools-admin-auto-cv](https://github.com/AUAUST/tools-admin-auto-cv#readme).
+      Toujours en quête d'efficacité, ce CV a été mis en page par un outil custom et open‑source [github.com/AUAUST/tools-admin-auto-cv](https://github.com/AUAUST/tools-admin-auto-cv#readme).
       Son contenu, toutefois, n'a pas été généré par une IA.
     en: | # markdown
       Technology saves time. This resume was generated using a custom tool that allowed me to tailor it to your job offer.
