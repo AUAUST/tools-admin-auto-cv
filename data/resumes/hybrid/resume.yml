@@ -5,13 +5,12 @@ title:
 
 subtitles:
   - fr: |
-      Sites modernes et performants
+      À l’interface du design et du code
 
 about:
   fr: | # markdown
-    Développeur diplômé en design, j'associe ces compétences
-    pour créer des produits web modernes dont la stratégie intègre
-    autant l'expérience utilisateur que la fiabilité technique et la performance.
+    Développeur issu du design, je conçois des applications web où expérience utilisateur,
+    choix techniques et contraintes business sont pensés ensemble, du besoin à la mise en production.
 
 languages:
   fr: |
@@ -20,28 +19,28 @@ languages:
 competences:
   - title: Programmation
     description: | # markdown
-      - Conception, maintien et évolution d’applications web fiables et performantes, des besoins métier à la mise en production
-      - Projets en production utilisant **TypeScript**, **Laravel**, **Python**, **Vue.js**, **SQL** et **No SQL**, **Redis**
-      - Infrastructure **Linux**, **Docker**, **CI/CD**
+      - Conception et évolution d’applications web, des besoins métier à la mise en production
+      - Développement en **TypeScript**, **Laravel**, **Python**, **Vue.js**
+      - Gestion des données (**SQL**, **NoSQL**, **Redis**) et de l’infrastructure (**Linux**, **Docker**, **CI/CD**)
 
   - title: Gestion de projet
     description: | # markdown
-      - Organisation du développement et des priorités produit, de la planification à la livraison
-      - Recrutement et encadrement de freelances
-      - Alignement des décisions entre enjeux techniques, design et business
+      - Organisation du développement et des priorités produit jusqu’à la livraison
+      - Recrutement et encadrement de développeurs freelance
+      - Coordination quotidienne entre technique, design et enjeux métier
 
   - title: Vision produit
     description: | # markdown
-      - Conception de solutions web en arbitrant entre contraintes techniques, expérience utilisateur et objectifs business
-      - Analyse des données et des usages pour orienter les choix produit
-      - Prise de décision basée sur l'analyse et l'expérimentation
+      - Conception de solutions web en arbitrant entre contraintes techniques, usage et objectifs business
+      - Analyse des usages et des données pour orienter les évolutions
+      - Prise de décision produit basée sur l’expérimentation
 
 experiences:
   - company: WELTKERN®
     description:
       fr: | # markdown
         Évolution au sein de [weltkern.com](https://weltkern.com), plateforme **e-commerce** lausannoise.
-        Refonte progressive d’un produit existant vers une base plus fiable et performante.
+        Refonte progressive du produit vers une architecture plus performante et maintenable.
 
     subsections:
       - from: 2023
@@ -49,31 +48,30 @@ experiences:
         title: Lead Developer
         description:
           fr: | # markdown
-            - Responsable de la refonte de la plateforme et de sa mise en production
-            - Amélioration majeure des performances (**15s** → **150ms**) et réduction des coûts mesurée (**-20% sur les paiements**)
-            - Recrutement et coordination équipe de 7 freelances
-            - Définition des pratiques QA, **code reviews**, **documentation**, **tests**, **CI/CD**
+            - Refonte complète de la plateforme jusqu’à sa mise en production
+            - Réduction du temps de chargement (**15s** → **150ms**) et des coûts de paiement (**-20%**)
+            - Recrutement et encadrement d’une équipe de 7 développeurs freelance
+            - Mise en place de pratiques assurant qualité et stabilité des livraisons (**tests**, **code reviews**, **CI/CD**)
 
       - from: 2022
         to: 2023
         title: Fullstack Developer
         description:
           fr: | # markdown
-            - Développement de la V2 en parallèle de la maintenance de la V1
-            - Quotidien mêlant programmation, planification et communication avec les parties prenantes
-            - Sélection et intégration des outils externes
-            - Suivi de la performance et optimisation (**Plausible**, **KeyCDN**)
-            - Formation de l'équipe et support client
+            - Développement de la V2 tout en maintenant la V1 en production
+            - Travail quotidien mêlant développement, choix techniques et échanges avec les parties prenantes
+            - Intégration des services externes et structuration de l’architecture applicative
+            - Suivi de la performance et optimisations (**Plausible**, **KeyCDN**)
             - **Laravel**, **Solid.js**, **MariaDB**, **Redis**
 
       - from: 2022
         title: Frontend Developer
         description:
           fr: | # markdown
-            - Maintenance et optimisation de la plateforme existante
-            - Développement d’interfaces, amélioration de l’expérience utilisateur
-            - Participation à la mise en place du nouveau design system
-            - Coordination avec les développeurs de la V1
+            - Maintenance et évolution de la plateforme existante
+            - Développement d’interfaces et amélioration des parcours utilisateurs
+            - Contribution à la mise en place du design system
+            - Coordination technique avec l’équipe en place
 
   - company: Projets parallèles
     subsections:
@@ -85,8 +83,8 @@ experiences:
 
         description:
           fr: | # markdown
-            - Réalisation de projets web et design pour des clients variés, de la conception à la production
-            - Gestion des projets et relation client, web apps, graphisme, identité visuelle
+            - Conception et développement de sites et applications pour des clients variés
+            - Gestion autonome des projets, de la définition du besoin à la mise en ligne
             - [lambert-forte.ch](https://lambert-forte.ch)
             - [Chocolate Festival](https://chocolate-festival.ch/presentation/#historique)
             - [auaust.ch](https://auaust.ch)
@@ -100,8 +98,9 @@ experiences:
 
         description:
           fr: | # markdown
-            - Développement et maintenance de projets **open-source** utilisés en **production**, accessibles sur [github.com/AUAUST](https://github.com/AUAUST)
-            - Des outils pour améliorer la productivité et la qualité du code
+            - Développement et maintenance de librairies **open-source** utilisées en production
+            - Outils visant à simplifier des problématiques récurrentes et améliorer la qualité du code
+            - [github.com/AUAUST](https://github.com/AUAUST)
 
   - company: Diplômes et certifications
     subsections:
