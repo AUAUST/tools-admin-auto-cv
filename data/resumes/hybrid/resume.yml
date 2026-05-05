@@ -19,21 +19,21 @@ languages:
 competences:
   - title: Programmation
     description: | # markdown
-      - Conception et évolution d’applications web, des besoins métier à la mise en production
+      - Conception et évolution d’applications web, des besoins métier à la mise en **production**
       - Développement en **TypeScript**, **Laravel**, **Python**, **Vue.js**
       - Gestion des données (**SQL**, **NoSQL**, **Redis**) et de l’infrastructure (**Linux**, **Docker**, **CI/CD**)
 
   - title: Gestion de projet
     description: | # markdown
       - Organisation du développement et des priorités produit jusqu’à la livraison
-      - Recrutement et encadrement de développeurs freelance
-      - Coordination quotidienne entre technique, design et enjeux métier
+      - **Recrutement** et encadrement de développeurs freelance
+      - **Coordination** quotidienne entre technique, design et enjeux métier
 
   - title: Vision produit
     description: | # markdown
       - Conception de solutions web en arbitrant entre contraintes techniques, usage et objectifs business
-      - Analyse des usages et des données pour orienter les évolutions
-      - Prise de décision produit basée sur l’expérimentation
+      - **Analyse** des usages et des données pour orienter les évolutions
+      - **Prise de décision** produit basée sur l’expérimentation
 
 experiences:
   - company: WELTKERN®
@@ -49,9 +49,9 @@ experiences:
         description:
           fr: | # markdown
             - Refonte complète de la plateforme jusqu’à sa mise en production
-            - Réduction du temps de chargement (**15s** → **150ms**) et des coûts de paiement (**-20%**)
-            - Recrutement et encadrement d’une équipe de 7 développeurs freelance
-            - Mise en place de pratiques assurant qualité et stabilité des livraisons (**tests**, **code reviews**, **CI/CD**)
+            - **Réduction** du temps de chargement (**15s** → **150ms**) et des **coûts** de paiement (**-20%**)
+            - **Recrutement** et encadrement d’une équipe de 7 développeurs freelance
+            - Mise en place de pratiques assurant **qualité** et **stabilité** des livraisons (**tests**, **code reviews**, **CI/CD**)
 
       - from: 2022
         to: 2023
@@ -83,7 +83,7 @@ experiences:
 
         description:
           fr: | # markdown
-            - Conception et développement de sites et applications pour des clients variés
+            - Conception et développement de sites et applications pour des **clients variés**
             - Gestion autonome des projets, de la définition du besoin à la mise en ligne
             - [lambert-forte.ch](https://lambert-forte.ch)
             - [Chocolate Festival](https://chocolate-festival.ch/presentation/#historique)
@@ -99,7 +99,7 @@ experiences:
         description:
           fr: | # markdown
             - Développement et maintenance de librairies **open-source** utilisées en production
-            - Outils visant à simplifier des problématiques récurrentes et améliorer la qualité du code
+            - Outils visant à **simplifier** des problématiques récurrentes et améliorer la **qualité** du code
             - [github.com/AUAUST](https://github.com/AUAUST)
 
   - company: Diplômes et certifications
@@ -108,13 +108,13 @@ experiences:
         title: Python Associate
         description:
           fr: | # markdown
-            Certifié **PCAP** par **Python Institute**, confirmant mes connaissances approfondies en programmation générale et mes compétences Python.
+            Certifié **PCAP** par **Python Institute**, confirmant mes **connaissances approfondies** en programmation générale et mes compétences Python.
 
       - from: 2025
         title: Scrum Master
         description:
           fr: | # markdown
-            Certifié **PSM 1** par **Scrum.org** en gestion de projets SCRUM, confirmant ma capacité à organiser et à travailler efficacement dans une équipe agile.
+            Certifié **PSM 1** par **Scrum.org** en gestion de projets SCRUM, confirmant ma **capacité à organiser** et à **travailler efficacement** dans une équipe agile.
 
       - from: 2018
         title: | # markdown
