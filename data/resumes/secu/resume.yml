@@ -2,8 +2,8 @@ title: |
   Agent de sécurité
 
 subtitles:
-  - Horaires flexibles
-  - disponible soirs et week-ends
+  - Expérience en gestion du public
+  - à l'aise sous pression
 
 languages:
   fr: |
@@ -11,16 +11,17 @@ languages:
 
 about:
   fr: | # markdown
-    De sang froid et habitué à travailler dans des environnements stressants,
+    D'un tempérament calme, habitué aux environnements stressants et
+    au fort esprit d'équipe, je cherche un poste d'agent de sécurité.
+    Disponible immédiatement, pour des horaires flexibles, de nuit et les week-ends.
 
 competences:
   - title:
-      fr: Sang-froid et gestion de conflit
+      fr: Sang-froid et gestion du stress
     description:
       fr: | # markdown
-        - Tempérament calme et posé
-        - Capacité à désamorcer les tensions verbalement
-        - Observation rapide des comportements à risque
+        - Tempérament calme et posé, y compris en situation tendue
+        - Observateur attentif
         - Prise de décision claire en situation de stress
         - Communication ferme, respectueuse et concise
 
@@ -28,71 +29,65 @@ competences:
       fr: Fiabilité et autonomie
     description:
       fr: | # markdown
-        - Ponctualité stricte et respect des consignes
         - Sens des responsabilités et discrétion
-        - Capacité à tenir un poste seul sur la durée
+        - Ponctualité stricte et respect des consignes
         - Rigueur dans l'exécution des tâches
-        - Engagement professionnel et constance
+        - Grand esprit d'équipe, mais capable de tenir un poste seul
+        - Engagement et constance à long terme
 
   - title:
-      fr: Mobilité et sécurité terrain
+      fr: Mobilité
     description:
       fr: | # markdown
-        - Permis B
-        - Spécialiste chauffeur à la Protection Civile
-        - Formé aux interventions de régulation du trafic
-        - Conduite sûre et adaptée aux situations d’urgence
-        - Connaissance des règles de sécurité routière et terrain
+        - Permis B avec voiture
+        - Spécialiste chauffeur à la Protection Civile, formé aux interventions de régulation du trafic
+        - À l’aise dans des environnements variés
 
   - title:
-      fr: |
-        Aptitude à être
-        agent de sécurité
+      fr: Profil
+
     description:
       fr: | # markdown
         - Nationalité suisse, domicilié canton de Vaud
         - Casier judiciaire vierge, solvable
         - Plein exercice des droits civils
-        - Bonne condition physique
-        - 23 ans
-        - Disponibilité immédiate
+        - 23 ans, 178 cm, 75 kg
+        - Aucun problème médical
 
 experiences:
-  - company: Associations et événements
-    description:
-      fr: | # markdown
-        Membre d'associations locales, j'ai participé à divers événements culturels et festifs de 100 à plusieurs milliers de personnes,
-        développant des compétences en organisation, logistique et accueil.
-
+  - company: null
     subsections:
-      - from: 2020
-        to: now
-        title: Service bénévole
-        description:
-          fr: | # markdown
-            - Bar et restauration lors d’événements
-            - Tirage de bière, préparation de cocktails simples
-            - Encaissement
-            - Mise en place, réapprovisionnement et rangement
-            - Service nocturne lors de manifestations à forte affluence
-            - Manifestations locales, repas de soutien, festivals, événements culturels
-
       - from: 2021
         to: now
         title: Protection Civile
         description:
           fr: | # markdown
+            - Spécialiste chauffeur
+            - Formation premiers secours continue
             - Gestion des flux de personnes
-            - Orientation du public en forte affluence
-            - Travail d'équipe
-            - Organisation de lieux d'événements
-            - Formation continue aux premiers secours
+            - Surveillance
+            - Interventions de régulation du trafic
+            - Organisation de lieux d'événements, parking.
+            Diverses manifestations dans le canton de Vaud, notamment des
+            événements politiques, des festivals (Paléo), des fêtes sportives
+
+      - from: 2017
+        to: now
+        title: Service
+        description:
+          fr: | # markdown
+            - Service nocturne lors de manifestations à forte affluence
+            - Contact avec la clientèle
+            - Gestion de la caisse
+            - Information et orientation du public.
+            Participation à des manifestations d'envergure (Cantonale de Givrins),
+            service au Pavillon, bar à Lausanne, et à de nombreux événements de moindre échelle dans la région
 
   - company: WELTKERN®
     description:
       fr: | # markdown
         Évolution au sein de [weltkern.com](https://weltkern.com), plateforme d'**e-commerce**
-        lausannoise d'objets de design et de journalisme culturel.
+        lausannoise active dans la vente de mobilier et de livres design.
 
     subsections:
       - from: 2022
@@ -100,19 +95,15 @@ experiences:
         title: Lead Developer
         description:
           fr: | # markdown
-            - Développeur web responsable du site e-commerce
-            - Recrutement et coordination de l'équipe de développeurs
-            - Suivi de la qualité du travail et du respect des délais
-            - Environnement exigeant avec délais courts
+            Responsable du développement, chargé du recrutement et de la coordination d'une équipe de développeurs,
+            assurant la qualité du travail et la communication avec les autres départements.
+            Environnement exigeant avec délais courts.
 
-  - company: Freelance
+  - company: Indépendant
     description:
       fr: | # markdown
-        Collaboration avec clients variés, gestion autonome de projets et relation directe.
-        - [Chocolate Festival](https://chocolate-festival.ch/presentation/#historique)
-        - graphisme [Themrok](https://apademide.ch/fr/kama), DJ lausannois
-        - développement [project bachelor écal](https://ecal.ch/fr/feed/projects/8420/modulat/)
-        - web et branding [lambert-forte.ch](https://lambert-forte.ch)
+        Projets freelance de design et développement web dans lesquels je mets à profit
+        mes compétences en relation client et organisation.
 
     subsections:
       - from: 2019
@@ -120,32 +111,34 @@ experiences:
         title: Design et développement
         description:
           fr: | # markdown
-            - Gestion directe de la relation client
-            - Organisation autonome du travail et respect des délais
+            - Communication directe et diplomatique avec le client
             - Compréhension des besoins
-            - Capacité à proposer des solutions adaptées et concrètes
+            - Respect des contraintes et délais
+            - Travail effectué pour [Lambert & Forte fiduciaire SA](https://lambert-forte.ch), [Chocolate Festival](https://chocolate-festival.ch/presentation/#historique) et [projets pour l'écal](https://ecal.ch/fr/feed/projects/8420/modulat/) entre autres
 
   - company: Diplômes
     subsections:
-      - from: 2018
-        to: 2022
-        title: | # markdown
-          CFC de graphisme
+      - from: 2026
+        title: Certification SCRUM
         description:
           fr: | # markdown
-            Diplômé de l'**ēracom**, j'ai été récompensé par le prix de l’école
-            et la distinction de la SGD (Swiss Graphic Designers) reconnaissant
-            la qualité de mon travail et les meilleurs résultats tout au long de ma formation.
+            Méthode de travail en équipe permettant une collaboration efficace en environnement dynamique, avec un accent sur la communication.
 
       - from: 2018
         to: 2022
-        title: | # markdown
-          Maturité professionnelle
-          en arts appliqués
+        title: CFC de graphisme
         description:
           fr: | # markdown
-            En parallèle de mon CFC, obtention d'une **maturité professionnelle** avec spécialisation
-            en arts appliqués, culture, information et communication.
+            Diplômé de l’**ēracom** avec prix de l’école et distinction **SGD**, reconnaissant les meilleurs résultats et la constance durant la formation.
+
+      - from: 2018
+        to: 2022
+        title: Maturité
+
+        description:
+          fr: | # markdown
+            En parallèle du CFC, obtention d’une **maturité professionnelle** spécialisée
+            en information, communication, culture et arts appliqués.
 
 footnote:
   title:
@@ -154,4 +147,4 @@ footnote:
 
   text:
     fr: | # markdown
-      Disponible pour des informations supplémentaires et pour un essai !
+      Je reste à votre disposition pour toute question par téléphone et par e-mail.

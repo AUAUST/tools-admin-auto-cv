@@ -1,11 +1,13 @@
 {
   "email": true,
   "phone": true,
-  "linkedin": false,
-  "github": false,
+  "linkedin": true,
+  "github": true,
   "website": false,
   "address": false,
-  "references_on_request": true,
+  "picture": false,
+  "references_on_request": false,
+  "show_interests": true,
   "show_footnote": true,
   "show_generation_date": false
 }

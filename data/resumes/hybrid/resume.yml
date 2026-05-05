@@ -1,0 +1,153 @@
+title:
+  fr: |
+    Développeur web fullstack
+    & designer
+
+subtitles:
+  - fr: |
+      Sites modernes et performants
+
+about:
+  fr: | # markdown
+    Développeur diplômé en design, j'associe ces compétences
+    pour créer des produits web modernes dont la stratégie intègre
+    autant l'expérience utilisateur que la fiabilité technique et la performance.
+
+languages:
+  fr: |
+    Français langue maternelle, anglais bilingue C1+, allemand élémentaire A2.
+
+competences:
+  - title: Programmation
+    description: | # markdown
+      - Conception, maintien et évolution d’applications web fiables et performantes, des besoins métier à la mise en production
+      - Projets en production utilisant **TypeScript**, **Laravel**, **Python**, **Vue.js**, **SQL** et **No SQL**, **Redis**
+
+  - title: Gestion de projet
+    description: | # markdown
+      - Pilotage de projets et coordination d’équipes en environnement agile
+      - PSM I, recrutement et encadrement de freelances, priorisation
+      - Coordination entre les équipes technique, design et administration grâce à compréhension transversale
+
+  - title: Vision produit
+    description: | # markdown
+      - Capacité de conception de produits cohérents
+      - Association des compétences techniques et de design au service de l’expérience utilisateur
+      - Amélioration itérative, UI/UX, tests A/B, analyse de données en faveur de décisions éclairées
+
+experiences:
+  - company: WELTKERN®
+    description:
+      fr: | # markdown
+        Évolution au sein de [weltkern.com](https://weltkern.com), plateforme **e-commerce** lausannoise.
+        Refonte progressive d’un produit existant vers une base plus fiable et performante.
+
+    subsections:
+      - from: 2023
+        to: 2025
+        title: Lead Developer
+        description:
+          fr: | # markdown
+            - Refonte de la plateforme avec amélioration majeure des performances (**15s** → **150ms**)
+            - Réduction des coûts mesurée, **-20% sur les paiements** grâce au choix d'un nouveau provider
+            - Recrutement et coordination d’une équipe de 7 freelances
+            - Définition des pratiques assurant qualité et stabilité des livraisons
+            - **Code reviews**, **documentation**, **tests automatisés**, **CI/CD**
+
+      - from: 2022
+        to: 2023
+        title: Fullstack Developer
+        description:
+          fr: | # markdown
+            - Planification du développement de la nouvelle plateforme
+            - Construction des fondations techniques (**Laravel**, **Solid.js**, **MariaDB**, **Redis**)
+            - Choix de l'infrastructure, des outils et des intégrations externes
+            - Mise en place de systèmes de suivi de la performance et optimisation (**Plausible**, **KeyCDN**)
+            - Formation de l'équipe et support technique client
+
+      - from: 2022
+        title: Frontend Developer
+        description:
+          fr: | # markdown
+            - Maintien et optimisation de la plateforme existante (**WordPress**, **WooCommerce**, **React**)
+            - Mise à jour du design system (**Figma**, **TailwindCSS**)
+            - Déploiement progressif du nouveau branding
+
+  - company: Projets parallèles
+    subsections:
+      - from: 2021
+        to: now
+        title:
+          fr: |
+            Freelance
+
+        description:
+          fr: | # markdown
+            - Réalisation de projets web et design pour des clients variés, de la conception à la production
+            - Gestion des projets et relation client
+            - Développement moderne **PHP**, **TypeScript**
+            - [lambert-forte.ch](https://lambert-forte.ch)
+            - [Chocolate Festival](https://chocolate-festival.ch/presentation/#historique)
+            - [auaust.ch](https://auaust.ch)
+
+      - from: 2022
+        to: now
+        title:
+          fr: |
+            Librairies
+            open‑source
+
+        description:
+          fr: | # markdown
+            - Développement et maintenance de projets **open-source** utilisés en **production**, accessibles sur [github.com/AUAUST](https://github.com/AUAUST)
+            - Des outils pour améliorer la productivité et la qualité du code
+            - Utilisés dans mes projets professionnels et personnels
+
+  - company: Diplômes et certifications
+    subsections:
+      - from: 2026
+        title: Python Associate
+        description:
+          fr: | # markdown
+            Certifié **PCAP** par **Python Institute**, confirmant mes connaissances approfondies en programmation générale et mes compétences Python.
+
+      - from: 2025
+        title: Scrum Master
+        description:
+          fr: | # markdown
+            Certifié **PSM 1** par **Scrum.org** en gestion de projets SCRUM, confirmant ma capacité à organiser et à travailler efficacement dans une équipe agile.
+
+      - from: 2018
+        title: | # markdown
+          CFC de graphisme
+        description:
+          fr: | # markdown
+            Diplômé de l’**ēracom** avec honneurs, prix de l’école et une distinction **SGD** (Swiss Graphic Designers),
+            reconnaissant les meilleurs résultats de ma promotion.
+
+      - from: 2018
+        title: | # markdown
+          Maturité professionnelle
+        description:
+          fr: | # markdown
+            Parallèle au CFC, obtention d'une **maturité professionnelle** avec spécialisation
+            en information, communication, culture et arts appliqués.
+
+interests:
+  title:
+    fr: Engagements & intérêts
+
+  text:
+    fr: | # markdown
+      Bénévole actif, je participe régulièrement à l’organisation d’événements locaux et culturels.
+      Passionné par les évolutions technologiques, je maintiens une veille active et prends part à des rencontres de la communauté.
+      Le temps qu'il me reste, je le passe suspendu à un parapente.
+
+footnote:
+  title:
+    fr: J'utilise l'IA et j'automatise!
+
+  text:
+    fr: | # markdown
+      Ce CV a été mis en page par un outil open‑source → [github.com/AUAUST/tools-admin-auto-cv](https://github.com/AUAUST/tools-admin-auto-cv#readme).
+      Son contenu n'a **pas** été généré par une IA.

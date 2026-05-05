@@ -1,3 +1,4 @@
+import { cl } from "@auaust/g-class";
 import { capitalize } from "@auaust/primitive-kit/strings";
 import { createMemo, For, Show } from "solid-js";
 import { Dynamic } from "solid-js/web";
@@ -8,13 +9,27 @@ import { label, t, type Translation } from "../../utils/label";
 
 export function Header() {
   const resume = useResume();
+  const flags = useFlags();
 
   return (
     <header>
-      <div class="grid grid-cols-2 gap-x-2 mb-5">
+      <div
+        class={cl(
+          "grid gap-x-2 mb-5",
+          flags.isEnabled("picture")
+            ? "grid-cols-[3fr_3fr_1fr]"
+            : "grid-cols-2",
+        )}
+      >
         <Title />
 
         <Contacts />
+
+        <Show when={flags.isEnabled("picture")}>
+          <div class="w-full relative -mt-4 h-24">
+            <div class="w-full absolute aspect-square bg-black" />
+          </div>
+        </Show>
       </div>
 
       <For each={["about", "languages"] as const}>
