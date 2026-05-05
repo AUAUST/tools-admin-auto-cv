@@ -22,18 +22,19 @@ competences:
     description: | # markdown
       - Conception, maintien et évolution d’applications web fiables et performantes, des besoins métier à la mise en production
       - Projets en production utilisant **TypeScript**, **Laravel**, **Python**, **Vue.js**, **SQL** et **No SQL**, **Redis**
+      - Infrastructure **Linux**, **Docker**, **CI/CD**
 
   - title: Gestion de projet
     description: | # markdown
-      - Pilotage de projets et coordination d’équipes en environnement agile
-      - PSM I, recrutement et encadrement de freelances, priorisation
-      - Coordination entre les équipes technique, design et administration grâce à compréhension transversale
+      - Organisation du développement et des priorités produit, de la planification à la livraison
+      - Recrutement et encadrement de freelances
+      - Alignement des décisions entre enjeux techniques, design et business
 
   - title: Vision produit
     description: | # markdown
-      - Capacité de conception de produits cohérents
-      - Association des compétences techniques et de design au service de l’expérience utilisateur
-      - Amélioration itérative, UI/UX, tests A/B, analyse de données en faveur de décisions éclairées
+      - Conception de solutions web en arbitrant entre contraintes techniques, expérience utilisateur et objectifs business
+      - Analyse des données et des usages pour orienter les choix produit
+      - Prise de décision basée sur l'analyse et l'expérimentation
 
 experiences:
   - company: WELTKERN®
@@ -48,30 +49,31 @@ experiences:
         title: Lead Developer
         description:
           fr: | # markdown
-            - Refonte de la plateforme avec amélioration majeure des performances (**15s** → **150ms**)
-            - Réduction des coûts mesurée, **-20% sur les paiements** grâce au choix d'un nouveau provider
-            - Recrutement et coordination d’une équipe de 7 freelances
-            - Définition des pratiques assurant qualité et stabilité des livraisons
-            - **Code reviews**, **documentation**, **tests automatisés**, **CI/CD**
+            - Responsable de la refonte de la plateforme et de sa mise en production
+            - Amélioration majeure des performances (**15s** → **150ms**) et réduction des coûts mesurée (**-20% sur les paiements**)
+            - Recrutement et coordination équipe de 7 freelances
+            - Définition des pratiques QA, **code reviews**, **documentation**, **tests**, **CI/CD**
 
       - from: 2022
         to: 2023
         title: Fullstack Developer
         description:
           fr: | # markdown
-            - Planification du développement de la nouvelle plateforme
-            - Construction des fondations techniques (**Laravel**, **Solid.js**, **MariaDB**, **Redis**)
-            - Choix de l'infrastructure, des outils et des intégrations externes
-            - Mise en place de systèmes de suivi de la performance et optimisation (**Plausible**, **KeyCDN**)
-            - Formation de l'équipe et support technique client
+            - Développement de la V2 en parallèle de la maintenance de la V1
+            - Quotidien mêlant programmation, planification et communication avec les parties prenantes
+            - Sélection et intégration des outils externes
+            - Suivi de la performance et optimisation (**Plausible**, **KeyCDN**)
+            - Formation de l'équipe et support client
+            - **Laravel**, **Solid.js**, **MariaDB**, **Redis**
 
       - from: 2022
         title: Frontend Developer
         description:
           fr: | # markdown
-            - Maintien et optimisation de la plateforme existante (**WordPress**, **WooCommerce**, **React**)
-            - Mise à jour du design system (**Figma**, **TailwindCSS**)
-            - Déploiement progressif du nouveau branding
+            - Maintenance et optimisation de la plateforme existante
+            - Développement d’interfaces, amélioration de l’expérience utilisateur
+            - Participation à la mise en place du nouveau design system
+            - Coordination avec les développeurs de la V1
 
   - company: Projets parallèles
     subsections:
@@ -84,8 +86,7 @@ experiences:
         description:
           fr: | # markdown
             - Réalisation de projets web et design pour des clients variés, de la conception à la production
-            - Gestion des projets et relation client
-            - Développement moderne **PHP**, **TypeScript**
+            - Gestion des projets et relation client, web apps, graphisme, identité visuelle
             - [lambert-forte.ch](https://lambert-forte.ch)
             - [Chocolate Festival](https://chocolate-festival.ch/presentation/#historique)
             - [auaust.ch](https://auaust.ch)
@@ -101,7 +102,6 @@ experiences:
           fr: | # markdown
             - Développement et maintenance de projets **open-source** utilisés en **production**, accessibles sur [github.com/AUAUST](https://github.com/AUAUST)
             - Des outils pour améliorer la productivité et la qualité du code
-            - Utilisés dans mes projets professionnels et personnels
 
   - company: Diplômes et certifications
     subsections:
