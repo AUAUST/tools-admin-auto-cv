@@ -1,0 +1,148 @@
+title:
+  fr: |
+    Relation client & accompagnement technique
+
+subtitles:
+  - fr: |
+      Compétences informatiques au service des utilisateurs
+
+about:
+  fr: | # markdown
+    Entre web, gestion de projet et service client, mon parcours m'a permis d'identifier
+    mes motivations durables : comprendre les enjeux techniques et accompagner les utilisateurs dans des projets concrets.
+    Je cherche aujourd’hui une fonction où connaissances techniques et sensibilité humaine constituent une réelle valeur ajoutée.
+
+languages:
+  fr: |
+    **Français** langue maternelle, **anglais** bilingue C1+, **allemand** élémentaire A2.
+
+competences:
+  - title: Relation client
+    description: | # markdown
+      Capacité de **vulgarisation technique**, **résolution de problèmes** et gestion des demandes en temps réel.
+      **Formation** des utilisateurs, écoute et **accompagnement**.
+
+  - title: Culture informatique
+    description: | # markdown
+      Compréhension du cycle de vie logiciel, de l'infrastructure, des protocoles, des enjeux de **sécurité** et de performance, ainsi que des contraintes techniques associées.
+      Développement PHP, Laravel, TypeScript et Python.
+
+  - title: | #markdown
+      Gestion de projet
+    description: | # markdown
+      Plannification du développement logiciel, priorisation des tâches et gestion de petites équipes.
+      Arbitrage entre les **contraintes** techniques, les **besoins** des parties prenantes et les **objectifs** pour orienter les évolutions du produit.
+
+experiences:
+  - company: Meraki
+    description:
+      fr: | # markdown
+        Bar à cocktails et restaurant au centre de Lausanne.
+
+    subsections:
+      - from: 2026
+        to: now
+        title: Barman
+        description:
+          fr: | # markdown
+            Réactivité et professionnalisme dans un **environnement** dynamique et **exigeant**,
+            écoute des besoins et conseils personnalisés.
+            Gestion des stocks, réapprovisionnement et anticipation pour assurer un service fluide.
+            Surtout, beaucoup de plaisir pris dans le contact humain.
+
+  - company: WELTKERN®
+    description:
+      fr: | # markdown
+        Évolution au sein de [weltkern.com](https://weltkern.com), plateforme **e-commerce** lausannoise.
+
+    subsections:
+      - from: 2023
+        to: 2025
+        title: Lead Developer
+        description:
+          fr: | # markdown
+            En plus de mon rôle de développeur, j’ai pris la responsabilité de la **refonte complète** de la plateforme.
+            **Recrutement** et **encadrement** d'une équipe jusqu'à **5 développeurs** freelance,
+            assurant **coordination technique**, conversion des besoins en solutions appropriées
+            et communication constante avec les parties prenantes.
+            Le nouveau site web a réduit les temps de chargement (**10s** → **150ms**),
+            a entraîné une diminution mesurée des frais de transaction (**-20%**)
+            et a facilité la gestion administrative.
+
+      - from: 2022
+        to: 2023
+        title: Fullstack Developer
+        description:
+          fr: | # markdown
+            Quotidien mêlant développement web (**Laravel**, **PHP**, **TypeScript**, **Vue.js**),
+            gestion d'infrastructure (**Ubuntu**, **MariaDB**, **Redis**, **Docker**),
+            ainsi qu'**échanges avec les équipes** produit et administratives
+            pour répondre à leurs besoins et les **former** à l'utilisation des outils mis en place.
+
+  - company: Activités parallèles
+    subsections:
+      - from: 2021
+        to: now
+        title:
+          fr: |
+            Freelance
+
+        description:
+          fr: | # markdown
+            Design et développement de sites web pour des clients variés,
+            **accompagnement** de la définition des besoins à la **mise en production** et la **maintenance**.
+            - [lambert-forte.ch](https://lambert-forte.ch)
+            - [Chocolate Festival](https://chocolate-festival.ch/presentation/#historique)
+            - [auaust.ch](https://auaust.ch)
+            - Maintenance de librairies **open-source** utilisées en production
+            - [github.com/AUAUST](https://github.com/AUAUST)
+
+      - from: 2021
+        to: now
+        title: Protection Civile
+        description:
+          fr: | # markdown
+            Spécialiste chauffeur, amené à prendre part à l'organisation et à la sécurité de lieux d'événements,
+            à travailler en équipe, à assurer l'orientation du public et la gestion des flux de personnes en forte affluence.
+
+  - company: Diplômes et certifications
+    subsections:
+      - from: 2025
+        to: now
+        title: Certifications
+        description:
+          fr: | # markdown
+            1. **Scrum Master** (PSM 1, Scrum.org) → gestion de projets, capacité à organiser et à travailler efficacement dans une équipe agile.
+            2. **Python Associate** (PCAP, Python Institute) → connaissances approfondies en programmation générale et compétences Python.
+
+      - from: 2018
+        title: CFC de graphisme
+        description:
+          fr: | # markdown
+            Diplômé de l’**ēracom** avec honneurs, prix de l’école et une distinction **SGD** (Swiss Graphic Designers),
+            reconnaissant les meilleurs résultats de ma promotion.
+
+      - from: 2018
+        title: Maturité professionnelle
+        description:
+          fr: | # markdown
+            Parallèle au CFC, obtention d'une **maturité professionnelle** avec spécialisation
+            en information, communication, culture et arts appliqués.
+
+interests:
+  title:
+    fr: Engagements & intérêts
+
+  text:
+    fr: | # markdown
+      Bénévole actif, je m'investis dans des événements culturels.
+      Je maintiens une veille technologique et prends part à des rencontres de la communauté tech.
+      Le temps qu'il me reste, je le passe suspendu à un parapente.
+
+footnote:
+  title:
+    fr: Je simplifie les tâches répétitives
+
+  text:
+    fr: | # markdown
+      Ce CV a été mis en page par un outil open‑source développé et maintenu personnellement → [github.com/AUAUST/tools-admin-auto-cv](https://github.com/AUAUST/tools-admin-auto-cv#readme).
