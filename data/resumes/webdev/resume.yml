@@ -37,18 +37,6 @@ subtitles:
         Performance et fiabilité, APIs, infrastructure et production
 
 about:
-  when_master_mode:
-    fr: | # markdown
-      Diplômé en design visuel, je conçois des applications où structure du code, clarté et pérennité
-      guident l’architecture autant que l’expérience utilisateur.
-      Intéressé par les environnements où exigence technique et créativité se rejoignent.
-      Mainteneur de plusieurs projets open-source TypeScript utilisés en production.
-    en: | # markdown
-      Graduated in visual design, I build applications where code structure, clarity,
-      and maintainability guide the architecture as much as user experience.
-      Interested in environments where technical excellence and creativity meet.
-      Maintainer of several TypeScript open-source projects used in production.
-
   when_target_laravel:
     fr: | # markdown
       Client Infomaniak de longue date, sensible aux enjeux de souveraineté technologique, j'aborde avec enthousiasme l'idée de contribuer à vos services.
@@ -295,7 +283,7 @@ footnote:
   text:
     fr: | # markdown
       Ce CV a été mis en page par un outil open‑source → [github.com/AUAUST/tools-admin-auto-cv](https://github.com/AUAUST/tools-admin-auto-cv#readme).
-      Son contenu n'a **pas** été généré par une IA.
+
     en: | # markdown
       Technology saves time. This resume was generated using a custom tool that allowed me to tailor it to your job offer.
       It is available as open-source on [github.com/AUAUST/tools-admin-auto-cv](https://github.com/AUAUST/tools-admin-auto-cv#readme).

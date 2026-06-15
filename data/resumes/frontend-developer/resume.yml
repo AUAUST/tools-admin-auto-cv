@@ -1,0 +1,173 @@
+title:
+  fr: |
+    Développeur Frontend
+    & Designer
+
+  else:
+    fr: Développeur Frontend
+
+subtitles:
+  - fr: Designer graphique diplômé, développeur fullstack par expérience
+
+about:
+  fr: | # markdown
+    Graphiste devenu développeur web habitué à travailler au sein de petites équipes,
+    je me positionne à l’interface du design et du code
+    en mettant ma compréhension visuelle au service de l'expérience utilisateur.
+
+languages:
+  fr: | # markdown
+    **Français** langue maternelle, **anglais** bilingue C1+, **allemand** élémentaire A2.
+
+competences:
+  - title:
+      fr: Frontend
+    description:
+      fr: | # markdown
+        Développement web **performant** avec TypeScript, **Vue.js**,
+        HTML sémantique, **accessibilité** (ARIA, WCAG),
+        CSS moderne (**TailwindCSS**, **SCSS**).
+        Interactions et animations avec **Lottie**, **CSS** et **JavaScript**.
+        Bases de **GSAP**.
+
+  - title:
+      fr: Culture visuelle
+    description:
+      fr: | # markdown
+        Formation en graphisme complétée par des prix et
+        plusieurs années dans une fonderie de polices de caractères.
+        Connaissances approfondies de la **typographie**, des systèmes visuels,
+        des contraintes de production et de l'**importance du détail**.
+
+  - title:
+      fr: Relation client
+    description:
+      fr: | # markdown
+        Capacité de **vulgarisation technique**, d’**accompagnement** et de conseil.
+        Habitué à collaborer avec des profils non techniques,
+        à transformer des besoins en solutions concrètes
+        et à présenter des choix techniques de manière compréhensible.
+
+  - title:
+      fr: Fullstack
+    description:
+      fr: | # markdown
+        Expérience au-delà du frontend. Développement **Laravel** et **Python**,
+        gestion d’infrastructure, CI/CD, tests, optimisation et sécurité
+        offrant une **vision globale** qui permet de concevoir des interfaces qui tiennent compte de l'**ensemble du système**.
+
+experiences:
+  - company: WELTKERN®
+    description:
+      fr: | # markdown
+        Évolution au sein de [weltkern.com](https://weltkern.com), plateforme d'**e-commerce** lausannoise commercialisant
+        objets de design et polices de caractères. Stack optimisée **Laravel** et **TypeScript**, **Inertia**.
+
+    subsections:
+      - from: 2022
+        to: 2023
+        title: Frontend Developer
+        description:
+          fr: | # markdown
+            - Développement d’interfaces avec **Vue.js**, **SCSS** et **TailwindCSS**
+            - Collaboration quotidienne avec l'équipe design pour transformer les besoins et maquettes en interfaces performantes et maintenables
+            - Formation continue sur les bonnes pratiques **A11Y** et suivi des recommandations **WCAG**
+
+      - from: 2023
+        to: 2024
+        title: Fullstack Developer
+        description:
+          fr: | # markdown
+            - Ajout des responsabilités backend au rôle frontend
+            - Développement **Laravel**, intégration de services tiers via API et webhooks,
+              gestion de l’**infrastructure**, mise en place **CI/CD** et monitoring de la plateforme
+            - **Montée en compétence** sur toute la stack
+            - Collaboration avec les équipes marketing et administration pour répondre aux besoins
+              et faciliter la gestion de la plateforme
+
+      - from: 2024
+        to: 2025
+        title: Lead Developer
+        description:
+          fr: | # markdown
+            - Responsable de la refonte de la plateforme
+            - **Recrutement** et coordination d’une équipe de 5 développeurs freelance
+            - Planification et arbitrage des choix techniques
+            - **Réduction** du temps de chargement (**15s** → **150ms**) et des frais de transaction (**-20%**)
+            - Mise en place de pratiques assurant **qualité** et **stabilité** des livraisons (**tests**, **code reviews**)
+            - Maintien du rôle frontend et participation active à la nouvelle **UI/UX**
+
+  - company: Activités parallèles
+    subsections:
+      - from: 2021
+        to: now
+        title:
+          fr: |
+            Freelance
+
+        description:
+          fr: | # markdown
+            - Projets web pour
+              des clients culturels ([Chocolate Festival](https://chocolate-festival.ch/presentation/#historique)),
+              des agences ([Lambert & Forte](https://lambert-forte.ch)),
+              des amis ([projet de diplôme écal d'Hugo Scholl](https://ecal.ch/fr/feed/projects/8420/modulat/))
+            - Gestion des projets et relation client de la définition des besoins jusqu'au support à long terme
+
+      - from: 2022
+        to: now
+        title:
+          fr: |
+            Librairies
+            open‑source
+
+        description:
+          fr: | # markdown
+            - Développement et maintenance de librairies **TypeScript** utilisées en **production**
+            - Attention particulière portée à la qualité, à la **maintenabilité du code** et à l’expérience développeur
+            - [github.com/AUAUST](https://github.com/AUAUST)
+
+  - company: Diplômes et certifications
+    subsections:
+      - from: 2025
+        to: 2026
+        title: Certifications
+        description:
+          fr: | # markdown
+            1. **Scrum Master** (PSM 1, Scrum.org) → gestion de projets, capacité à organiser et à travailler efficacement dans une équipe agile.
+            2. **Python Associate** (PCAP, Python Institute) → connaissances approfondies en programmation générale et compétences Python.
+
+      - from: 2018
+        # to: 2022
+        title: | # markdown
+          CFC de graphisme
+        description:
+          fr: | # markdown
+            Diplômé de l’**ēracom** avec un prix de l’école et une distinction **SGD**,
+            reconnaissant les meilleurs résultats et la constance durant la formation.
+
+      - from: 2018
+        # to: 2022
+        title: | # markdown
+          Maturité professionnelle
+        description:
+          fr: | # markdown
+            En parallèle de mon CFC, obtention d'une **maturité professionnelle** avec spécialisation
+            en arts appliqués, culture, information et communication.
+
+interests:
+  title:
+    fr: Engagements & intérêts
+
+  text:
+    fr: | # markdown
+      Bénévole actif, je m'investis dans des événements locaux.
+      Je maintiens une veille technologique et prends part à des rencontres de la communauté tech.
+      Le temps qu'il me reste, je le passe suspendu à un parapente.
+
+footnote:
+  title:
+    fr: J'utilise l'IA et j'automatise!
+
+  text:
+    fr: | # markdown
+      Ce CV a été mis en page par un outil open‑source → [github.com/AUAUST/tools-admin-auto-cv](https://github.com/AUAUST/tools-admin-auto-cv#readme).
