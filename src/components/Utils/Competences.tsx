@@ -5,7 +5,7 @@ import { md, t } from "../../utils/label";
 export function Competences(props: { competences: Competence[] }) {
   return (
     <div>
-      <h2 class="text-2xl font-semibold text-black trim-text-box -mb-2.5 mt-4">
+      <h2 class="text-2xl font-semibold text-black trim-text-box -mb-2.5 mt-3.5">
         {t("competences")}
       </h2>
 

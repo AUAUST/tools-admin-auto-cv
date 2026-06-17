@@ -6,6 +6,7 @@ import {
   createSignal,
   For,
   onMount,
+  Show,
   type ParentProps,
 } from "solid-js";
 import { useFlags } from "../contexts/FlagsContext";
@@ -122,23 +123,25 @@ export function Document(props: ParentProps) {
           </For>
         </fieldset>
 
-        <fieldset class="px-0.5 pl-2 pr-6 text-white border border-white">
-          <legend>Contextual flags</legend>
+        <Show when={flags.locals.length}>
+          <fieldset class="px-0.5 pl-2 pr-6 text-white border border-white">
+            <legend>Contextual flags</legend>
 
-          <For each={flags.locals}>
-            {(flag) => (
-              <label class="block">
-                <input
-                  type="checkbox"
-                  checked={flags.isEnabled(flag)}
-                  onChange={() => flags.toggle(flag)}
-                  class="mr-2"
-                />
-                {s(flag).splitWords().join(" ").toTitleCase().value}
-              </label>
-            )}
-          </For>
-        </fieldset>
+            <For each={flags.locals}>
+              {(flag) => (
+                <label class="block">
+                  <input
+                    type="checkbox"
+                    checked={flags.isEnabled(flag)}
+                    onChange={() => flags.toggle(flag)}
+                    class="mr-2"
+                  />
+                  {s(flag).splitWords().join(" ").toTitleCase().value}
+                </label>
+              )}
+            </For>
+          </fieldset>
+        </Show>
       </div>
     </>
   );

@@ -30,7 +30,7 @@ export function Experience(props: {
           </h3>
         </div>
 
-        <div class="col-start-2 -col-end-1 text-base leading-normal mb-2 trim-text-box">
+        <div class="col-start-2 -col-end-1 text-base leading-normal mb-1 trim-text-box">
           {md(props.experience.description)}
         </div>
       </div>
@@ -44,7 +44,7 @@ export function Experience(props: {
 
 export function SubExperience(props: { experience: Experience }) {
   return (
-    <div class="grid grid-cols-12 mt-2 last-of-type:mb-5">
+    <div class="grid grid-cols-12 mt-2 last-of-type:mb-4">
       <Timestamp {...props.experience} />
 
       <div class="col-span-3 trim-text-box">
