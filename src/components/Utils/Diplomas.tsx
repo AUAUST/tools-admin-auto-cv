@@ -6,12 +6,12 @@ import { Timestamp } from "./Experience";
 export function Diplomas(props: { diplomas: Diploma[] }) {
   return (
     <Show when={props.diplomas?.length > 0}>
-      <div class="-mt-1.5">
+      <div class="-mt-2.5">
         <h2 class="text-2xl font-[525] text-black trim-text-box mb-1.5">
           {t("diplomas")}
         </h2>
 
-        <hr class="mb-1" />
+        <hr class="-mb-0.5" />
 
         <For each={props.diplomas}>
           {(diploma) => <Diploma diploma={diploma} />}

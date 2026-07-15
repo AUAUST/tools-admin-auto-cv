@@ -3,22 +3,18 @@ title:
     Barman
 
 subtitles:
-  - Disponible la saison d'hiver 2026-2027
+  - Disponible toute la saison d'hiver 2026-2027
 
 languages:
   fr: |
     **Français** langue maternelle, **anglais** bilingue C1+, allemand élémentaire A2.
-  en: |
-    French native, English fluent C1+, German basic A2.
 
 about:
   when_target_bar:
     fr: | # markdown
-      Autant que la qualité du service, ce que j'aime dans
-      le métier de barman, c'est le contact humain. À l’aise avec
-      une clientèle locale comme internationale, je recherche un
-      poste où la qualité du service, l’ambiance et l'échange
-      font partie intégrante de l’expérience.
+      Autant que la qualité du service, c’est le contact humain qui me plaît dans le métier de barman.
+      À l’aise avec une clientèle locale comme internationale,
+      je recherche un établissement où le service et l’ambiance sont aussi importants que les boissons.
 
 competences:
   - title:
@@ -27,9 +23,9 @@ competences:
     description:
       when_target_bar:
         fr: | # markdown
-          - Service chaleureux et attention portée à la satisfaction client
-          - Maintient de la qualité et de l'efficacité du service, y compris sous pression
-          - Sourire jusqu'au départ du dernier client (voire après) ☺
+          - Accueil et service chaleureux
+          - Attention portée à la satisfaction client
+          - Sourire jusqu'au départ du dernier client (voire après)
 
   - title:
       fr: |
@@ -40,7 +36,7 @@ competences:
           - Préparation de cocktails classiques et signature
           - Tirage de bière, boissons variées
           - Système de caisse (Scanpiii) et encaissement
-          - Mise en place, réassort et fermeture
+          - Mise en place et fermeture
 
   - title:
       fr: |
@@ -50,7 +46,7 @@ competences:
         fr: | # markdown
           - Coordination entre bar et cuisine pour assurer la fluidité du service en période d'affluence
           - Soutien des collègues
-          - Contribution à l'ambiance positive et accueillante
+          - Contribution à l'**ambiance positive**
 
   - title:
       fr: |
@@ -58,9 +54,10 @@ competences:
     description:
       when_target_bar:
         fr: | # markdown
-          - Prioritisation des tâches **importantes** et **urgentes**
-          -	Capacité d'adaptation en fonction des priorités et imprévus
-          - Maintien de la qualité du service pendant les pics d'activité
+          - Commandes simultanées
+          -	Adaptation aux imprévus
+          - Maintien de la qualité du service
+          - Prioritisation entre les tâches **importantes** et **urgentes**
 
   - title:
       fr: |
@@ -73,14 +70,14 @@ competences:
           - Service de nuit et lors d'événements prolongés
           - De la région
           - Motorisé, permis B
-          -	Intégration rapide dans de nouvelles équipes
+          -	Intégration rapide dans l'équipe
 
 experiences:
   - company: Service et événementiel
     description:
       fr: | # markdown
         Entre travail et bénévolat, dans divers événements de quelques dizaines à plusieurs milliers de personnes,
-        j'ai développé des compétences dans l'accueil, le service et l'organisation.
+        j’ai développé un sens du service et de la gestion des fortes affluences.
 
     subsections:
       - from: 2026
@@ -94,7 +91,7 @@ experiences:
             - Mise en place et fermeture
             - Service en période de forte affluence
             - Collaboration avec une équipe de 4 à 8 personnes
-            - *Plusieurs retours positifs de mes collègues, responsables et de la clientèle ont confirmé que mon naturel pour le contact client se traduit par un service chaleureux, y compris lors des rushs les plus soutenus*
+            - *Les retours positifs de mes collègues, responsables et de la clientèle ont confirmé que mon aisance dans la relation client se traduit par un service chaleureux, y compris lors des rushs les plus soutenus*
 
       - from: 2020
         to: now
@@ -131,7 +128,7 @@ experiences:
             - Développement et design web
             - Recrutement et gestion d'équipe
             - Coordination entre les équipes produit, communication et administratives
-            - *Reconnu pour mon autonomie et ma prise d'initiative, je me suis fais confier la responsabilité de la refonte complète du site web. J'ai notamment recruté et encadré une équipe de cinq développeurs anglophones jusqu'à la mise en production de la nouvelle plateforme*
+            - *Chargé de la refonte complète du site web de l’entreprise, j’ai recruté et encadré une équipe de cinq développeurs, coordonné le projet avec les différentes équipes et assuré son suivi jusqu’à sa livraison*
 
 diplomas:
   - from: 2018
@@ -162,7 +159,7 @@ interests:
     fr: | # markdown
       Bénévole actif, je participe régulièrement à des événements locaux et culturels.
       Passionné par le design et la technologie, je maintiens une veille active et entretiens ma curiosité.
-      Le temps qu'il me reste, je le passe suspendu à un parapente.
+      Je passe le temps qu'il me reste suspendu à un parapente.
 
 footnote:
   title:
