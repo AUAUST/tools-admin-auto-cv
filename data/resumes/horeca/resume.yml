@@ -1,10 +1,9 @@
 title:
   when_target_bar: |
-    Barman expérimenté,
-    motivé et fiable
+    Barman
 
 subtitles:
-  - Disponible toute la saison hiver 2026-2027
+  - Disponible la saison d'hiver 2026-2027
 
 languages:
   fr: |
@@ -15,48 +14,22 @@ languages:
 about:
   when_target_bar:
     fr: | # markdown
-      Autant que la qualité du service, ce que je recherche dans mon rôle de barman, c'est le contact humain.
-      J'aime les bars où l'ambiance et les échanges ont une place autant centrale que les boissons dans l'expérience client.
+      Autant que la qualité du service, ce que j'aime dans
+      le métier de barman, c'est le contact humain. À l’aise avec
+      une clientèle locale comme internationale, je recherche un
+      poste où la qualité du service, l’ambiance et l'échange
+      font partie intégrante de l’expérience.
 
 competences:
   - title:
       fr: |
-        Hospitalité et rush
+        Hospitalité
     description:
       when_target_bar:
         fr: | # markdown
-          - Prioritisation des tâches **importantes** et **urgentes**
+          - Service chaleureux et attention portée à la satisfaction client
           - Maintient de la qualité et de l'efficacité du service, y compris sous pression
-          -	Habitué aux environnements exigeants
-          - Attention aux détails et à la satisfaction du client
           - Sourire jusqu'au départ du dernier client (voire après) ☺
-
-  - title:
-      fr: |
-        Esprit d'équipe
-    description:
-      when_target_bar:
-        fr: | # markdown
-          - Coordination avec l'équipe pour assurer un service fluide
-          - Communication pour éviter les blocages
-          - Adaptation au rythme collectif
-          - Soutien des autres membres
-          - Contribution à l'ambiance positive et accueillante du lieu
-
-  - title:
-      fr: |
-        Fiabilité et adaptabilité
-    description:
-      when_target_bar:
-        fr: | # markdown
-          -	Intégration rapide dans de nouvelles équipes
-          -	Prise en main des nouveaux environnements
-          -	Capacité d'adaptation en fonction des priorités
-          - Ponctualité et attention aux détails
-          - Endurance lors d'événements prolongés
-          - De la région
-          - Disponible pour toute la saison
-          - Motorisé, permis B
 
   - title:
       fr: |
@@ -64,11 +37,43 @@ competences:
     description:
       when_target_bar:
         fr: | # markdown
-          - Préparation de cocktails et mocktails classiques et signature
-          - Tirage de bière
-          - Service de boissons variées
-          - Systèmes de caisse et encaissement rapide
+          - Préparation de cocktails classiques et signature
+          - Tirage de bière, boissons variées
+          - Système de caisse (Scanpiii) et encaissement
           - Mise en place, réassort et fermeture
+
+  - title:
+      fr: |
+        Esprit d'équipe
+    description:
+      when_target_bar:
+        fr: | # markdown
+          - Coordination entre bar et cuisine pour assurer la fluidité du service en période d'affluence
+          - Soutien des collègues
+          - Contribution à l'ambiance positive et accueillante
+
+  - title:
+      fr: |
+        Gestion du rush
+    description:
+      when_target_bar:
+        fr: | # markdown
+          - Prioritisation des tâches **importantes** et **urgentes**
+          -	Capacité d'adaptation en fonction des priorités et imprévus
+          - Maintien de la qualité du service pendant les pics d'activité
+
+  - title:
+      fr: |
+        Fiabilité
+    description:
+      when_target_bar:
+        fr: | # markdown
+          - Ponctuel
+          - Disponible pour toute la saison
+          - Service de nuit et lors d'événements prolongés
+          - De la région
+          - Motorisé, permis B
+          -	Intégration rapide dans de nouvelles équipes
 
 experiences:
   - company: Service et événementiel
@@ -83,9 +88,13 @@ experiences:
         description:
           fr: | # markdown
             - Bar terrasse au centre de Lausanne, engagé pour la **Coupe du Monde**
-            - Clientèle régulière et internationale (français, anglais)
-            - Préparation de cocktails et boissons variées, accueil client, encaissement rapide, mise en place, réassort et fermeture
-            - *Le contact client est l’aspect du métier qui me motive le plus. Plusieurs retours positifs de mes collègues, responsables et de la clientèle ont confirmé que cette motivation se traduit par un service chaleureux, y compris lors des rushs les plus soutenus*
+            - Clientèle locale et internationale
+            - Préparation de cocktails et boissons variées
+            - Encaissement
+            - Mise en place et fermeture
+            - Service en période de forte affluence
+            - Collaboration avec une équipe de 4 à 8 personnes
+            - *Plusieurs retours positifs de mes collègues, responsables et de la clientèle ont confirmé que mon naturel pour le contact client se traduit par un service chaleureux, y compris lors des rushs les plus soutenus*
 
       - from: 2020
         to: now
@@ -102,9 +111,9 @@ experiences:
         title: Protection Civile
         description:
           fr: | # markdown
-            - Gestion des flux de personnes et orientation du public en forte affluence
-            - Rigueur, fiabilité et travail d'équipe
-            - Organisation de lieux d'événements
+            - Gestion des flux de personnes et orientation du public lors d'événements à forte affluence
+            - Travail d'équipe
+            - Organisation et installation de lieux de manifestations
             - Formation continue aux premiers secours
 
   - company: WELTKERN®
@@ -124,27 +133,26 @@ experiences:
             - Coordination entre les équipes produit, communication et administratives
             - *Reconnu pour mon autonomie et ma prise d'initiative, je me suis fais confier la responsabilité de la refonte complète du site web. J'ai notamment recruté et encadré une équipe de cinq développeurs anglophones jusqu'à la mise en production de la nouvelle plateforme*
 
-  - company: Diplômes
-    subsections:
-      - from: 2018
-        to: 2022
-        title: | # markdown
-          CFC de graphisme
-        description:
-          fr: | # markdown
-            Diplômé de l'**ēracom**, j'ai été récompensé par le prix de l’école
-            et la distinction de la SGD (Swiss Graphic Designers) reconnaissant
-            la qualité de mon travail et les meilleurs résultats tout au long de ma formation.
+diplomas:
+  - from: 2018
+    to: 2022
+    title: | # markdown
+      CFC de graphisme
+    description:
+      fr: | # markdown
+        Diplômé de l'**ēracom**, j'ai été récompensé par le prix de l’école
+        et la distinction de la SGD (Swiss Graphic Designers) reconnaissant
+        la qualité de mon travail et les meilleurs résultats tout au long de ma formation.
 
-      - from: 2018
-        to: 2022
-        title: | # markdown
-          Maturité professionnelle
-          en arts appliqués
-        description:
-          fr: | # markdown
-            Obtention d'une **maturité professionnelle** en parallèle de mon CFC, avec spécialisation
-            en arts appliqués, culture, information et communication.
+  - from: 2018
+    to: 2022
+    title: | # markdown
+      Maturité professionnelle
+      en arts appliqués
+    description:
+      fr: | # markdown
+        Obtention d'une **maturité professionnelle** en parallèle de mon CFC, avec spécialisation
+        en arts appliqués, culture, information et communication.
 
 interests:
   title:

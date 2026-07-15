@@ -1,5 +1,6 @@
 import { useResume } from "../../contexts/ResumeContext";
 import { Competences } from "../Utils/Competences";
+import { Diplomas } from "../Utils/Diplomas";
 import { Experiences } from "../Utils/Experience";
 import { Footer } from "./Footer";
 import { Header } from "./Header";
@@ -14,6 +15,8 @@ export function Content() {
       <Competences competences={resume.get("competences")} />
 
       <Experiences experiences={resume.get("experiences")} />
+
+      <Diplomas diplomas={resume.get("diplomas")} />
 
       <Footer />
     </div>

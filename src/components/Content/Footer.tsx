@@ -15,8 +15,8 @@ export function Footer() {
       <Show
         when={flags.isEnabled("show_interests") && resume.content.interests}
       >
-        <div>
-          <hr class="mb-1 -mt-2" />
+        <div class="border-t border-transparent">
+          <hr class="mb-1" />
 
           <section class="grid grid-cols-4 mb-1">
             <h2 class="text-base font-normal text-black pl-2">

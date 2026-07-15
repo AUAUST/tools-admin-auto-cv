@@ -67,6 +67,8 @@ export type Experience = {
   subsections?: Experience[];
 };
 
+export type Diploma = Experience;
+
 export type Competence = {
   title: Translation;
   description: Translation;
@@ -90,6 +92,7 @@ export type Resume = {
     company?: Translation;
   })[];
   competences: Competence[];
+  diplomas: Diploma[];
 };
 
 export const getLabels = once(() =>

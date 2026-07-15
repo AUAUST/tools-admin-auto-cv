@@ -5,7 +5,7 @@ import { md, t, type Translation } from "../../utils/label";
 export function Experiences(props: { experiences: Experience[] }) {
   return (
     <div>
-      <h2 class="text-2xl font-semibold text-black trim-text-box mb-1.5">
+      <h2 class="text-2xl font-[525] text-black trim-text-box mb-1.5">
         {t("experiences")}
       </h2>
 
@@ -20,7 +20,7 @@ export function Experience(props: {
   experience: Resume["experiences"][number];
 }) {
   return (
-    <div class="">
+    <div>
       <hr class="mb-1" />
 
       <div class="grid grid-cols-4 mb-1">
@@ -62,7 +62,13 @@ export function SubExperience(props: { experience: Experience }) {
   );
 }
 
-function Timestamp({ from, to }: { from: Translation; to?: Translation }) {
+export function Timestamp({
+  from,
+  to,
+}: {
+  from: Translation;
+  to?: Translation;
+}) {
   return (
     <div class="text-xs text-gray-600 trim-text-box pl-2">
       <Switch fallback={md(from)}>
