@@ -29,6 +29,18 @@
   white-space: nowrap;
 }
 
+.markdown em {
+  @apply text-gray-600;
+
+  font-size: 0.95em;
+
+  text-decoration: none;
+  text-decoration-color: var(--color-gray-200);
+  text-decoration-thickness: 0.15em;
+  text-decoration-skip-ink: none;
+  text-underline-offset: 0.1em;
+}
+
 .markdown ul li {
   display: inline list-item;
 }

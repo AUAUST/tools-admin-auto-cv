@@ -1,123 +1,109 @@
 title:
   when_target_bar: |
-    Employé de bar
-    support opérationnel
-  when_target_guinguette: |
-    Employé polyvalent
-    service et restauration
+    Barman expérimenté,
+    motivé et fiable
 
 subtitles:
-  - Disponible immédiatement
-  - soirs, week-end
-  - horaires flexibles
+  - Disponible toute la saison hiver 2026-2027
 
 languages:
   fr: |
-    Français langue maternelle, anglais avancé C1+, allemand élémentaire A2.
+    **Français** langue maternelle, **anglais** bilingue C1+, allemand élémentaire A2.
   en: |
     French native, English fluent C1+, German basic A2.
 
 about:
   when_target_bar:
     fr: | # markdown
-      Souriant et fiable, avec expérience en service lors d’événements et habitué aux environnements exigeants,
-      je suis à l’aise sous pression et en équipe. Disponible immédiatement, je cherche
-      un poste en support bar (barback, runner ou service), en extra ou fixe.
-  when_target_guinguette:
-    fr: | # markdown
-      Souriant et fiable, avec expérience en service, j’apprécie les environnements vivants
-      mêlant culture, restauration et musique. À l’aise en équipe et polyvalent, je suis motivé aussi bien en service,
-      au bar, en cuisine ou sur l’événementiel. Disponible pour la saison, en fixe ou en extra.
+      Autant que la qualité du service, ce que je recherche dans mon rôle de barman, c'est le contact humain.
+      J'aime les bars où l'ambiance et les échanges ont une place autant centrale que les boissons dans l'expérience client.
 
 competences:
   - title:
-      fr: Esprit d'équipe
+      fr: |
+        Hospitalité et rush
     description:
       when_target_bar:
         fr: | # markdown
-          - Coordination avec les collègues pour assurer un service fluide
-          - Communication efficace pour éviter les blocages
-          - Travail en équipe lors de rushs et d’événements à forte affluence
-          - Adaptation au rythme collectif et soutien des autres membres
-      when_target_guinguette:
-        fr: | # markdown
-          - Communication!
-          - Coordination et soutien mutuel pendant les rushs
-          - Collaboration entre les équipes de service, cuisine et événementiel
+          - Prioritisation des tâches **importantes** et **urgentes**
+          - Maintient de la qualité et de l'efficacité du service, y compris sous pression
+          -	Habitué aux environnements exigeants
+          - Attention aux détails et à la satisfaction du client
+          - Sourire jusqu'au départ du dernier client (voire après) ☺
 
   - title:
-      fr: Adaptabilité
+      fr: |
+        Esprit d'équipe
     description:
       when_target_bar:
         fr: | # markdown
-          -	Prise en main rapide de nouveaux environnements
-          -	Apprentissage autonome de nouvelles méthodes selon les besoins
+          - Coordination avec l'équipe pour assurer un service fluide
+          - Communication pour éviter les blocages
+          - Adaptation au rythme collectif
+          - Soutien des autres membres
+          - Contribution à l'ambiance positive et accueillante du lieu
+
+  - title:
+      fr: |
+        Fiabilité et adaptabilité
+    description:
+      when_target_bar:
+        fr: | # markdown
+          -	Intégration rapide dans de nouvelles équipes
+          -	Prise en main des nouveaux environnements
           -	Capacité d'adaptation en fonction des priorités
-          -	Intégration rapide dans de nouvelles équipes et contextes
-      when_target_guinguette:
-        fr: | # markdown
-          - Intégration rapide dans de nouveaux environnements
-          - Compréhension et prise en main autonome de nouvelles méthodes
-          - Flexibilité selon les priorités
-
-  - title:
-      fr: Gestion du rush
-    description:
-      when_target_bar:
-        fr: | # markdown
-          -	Habitué aux environnements exigeants avec délais serrés
-          - Gestion des priorités en situation d’urgence et maintien de la qualité
-          -	Capacité à rester efficace et concentré en rush
-      when_target_guinguette:
-        fr: | # markdown
-          - Prioritisation entre les tâches *urgentes* et *importantes*
-          - Maintient de la qualité du service
-          - Big smile jusqu'au départ du dernier client (voire après) ☺
-
-  - title:
-      fr: Fiabilité et rigueur
-    description:
-      when_target_bar:
-        fr: | # markdown
-          - Attention portée aux détails et à la qualité du travail
-          - Exécution précise des tâches même en environnement dynamique
+          - Ponctualité et attention aux détails
           - Endurance lors d'événements prolongés
-          - Engagement à long terme
-      when_target_guinguette:
-        fr: | # markdown
-          - Ponctualité, attention aux détails
-          - Endurance lors d'événements prolongés
-          - Engagement sur la durée
           - De la région
+          - Disponible pour toute la saison
+          - Motorisé, permis B
+
+  - title:
+      fr: |
+        Compétences bar
+    description:
+      when_target_bar:
+        fr: | # markdown
+          - Préparation de cocktails et mocktails classiques et signature
+          - Tirage de bière
+          - Service de boissons variées
+          - Systèmes de caisse et encaissement rapide
+          - Mise en place, réassort et fermeture
 
 experiences:
-  - company: Associations et événements
+  - company: Service et événementiel
     description:
       fr: | # markdown
-        Membre d'associations locales, je participe à de nombreux événements culturels et festifs depuis des années,
-        de 100 à plusieurs milliers de personnes, développant des compétences en organisation, logistique et accueil.
+        Entre travail et bénévolat, dans divers événements de quelques dizaines à plusieurs milliers de personnes,
+        j'ai développé des compétences dans l'accueil, le service et l'organisation.
 
     subsections:
-      - from: 2020
-        to: now
-        title: Service et restauration
+      - from: 2026
+        title: Barman au Meraki
         description:
           fr: | # markdown
-            - Bar et restauration lors d’événements
-            - Tirage de bière, préparation de cocktails simples
-            - Encaissement
-            - Mise en place, réapprovisionnement et rangement
+            - Bar terrasse au centre de Lausanne, engagé pour la **Coupe du Monde**
+            - Clientèle régulière et internationale (français, anglais)
+            - Préparation de cocktails et boissons variées, accueil client, encaissement rapide, mise en place, réassort et fermeture
+            - *Le contact client est l’aspect du métier qui me motive le plus. Plusieurs retours positifs de mes collègues, responsables et de la clientèle ont confirmé que cette motivation se traduit par un service chaleureux, y compris lors des rushs les plus soutenus*
+
+      - from: 2020
+        to: now
+        title: Service en événements
+        description:
+          fr: | # markdown
+            - Mise en place de lieux d'événements
+            - Tirage de bière, préparation de cocktails et petite restauration
             - Service nocturne lors de manifestations à forte affluence
-            - Manifestations locales, repas de soutien, festivals, événements culturels
+            - *Lors de festivals, de fêtes de village et de repas de soutien, je mets à profit mon enthousiasme et ma motivation pour faire vivre des associations locales*
 
       - from: 2021
         to: now
         title: Protection Civile
         description:
           fr: | # markdown
-            - Gestion des flux de personnes
-            - Orientation du public en forte affluence
-            - Travail d'équipe
+            - Gestion des flux de personnes et orientation du public en forte affluence
+            - Rigueur, fiabilité et travail d'équipe
             - Organisation de lieux d'événements
             - Formation continue aux premiers secours
 
@@ -125,7 +111,7 @@ experiences:
     description:
       fr: | # markdown
         Évolution au sein de [weltkern.com](https://weltkern.com), plateforme d'**e-commerce**
-        lausannoise d'objets de design et de journalisme culturel.
+        lausannoise vendant des objets de design et publiant des articles sur l'actualité culturelle.
 
     subsections:
       - from: 2022
@@ -133,30 +119,10 @@ experiences:
         title: Lead Developer
         description:
           fr: | # markdown
-            - Développeur web responsable du site e-commerce
-            - Recrutement et coordination de l'équipe de développeurs
-            - Suivi de la qualité du travail et du respect des délais
-            - Environnement exigeant avec délais courts
-
-  - company: Freelance
-    description:
-      fr: | # markdown
-        Collaboration avec clients variés, gestion autonome de projets et relation directe.
-        - [Chocolate Festival](https://chocolate-festival.ch/presentation/#historique)
-        - graphisme [Themrok](https://apademide.ch/fr/kama), DJ lausannois
-        - développement [project bachelor écal](https://ecal.ch/fr/feed/projects/8420/modulat/)
-        - web et branding [lambert-forte.ch](https://lambert-forte.ch)
-
-    subsections:
-      - from: 2019
-        to: now
-        title: Design et développement
-        description:
-          fr: | # markdown
-            - Gestion directe de la relation client
-            - Organisation autonome du travail et respect des délais
-            - Compréhension des besoins
-            - Capacité à proposer des solutions adaptées et concrètes
+            - Développement et design web
+            - Recrutement et gestion d'équipe
+            - Coordination entre les équipes produit, communication et administratives
+            - *Reconnu pour mon autonomie et ma prise d'initiative, je me suis fais confier la responsabilité de la refonte complète du site web. J'ai notamment recruté et encadré une équipe de cinq développeurs anglophones jusqu'à la mise en production de la nouvelle plateforme*
 
   - company: Diplômes
     subsections:
@@ -177,8 +143,18 @@ experiences:
           en arts appliqués
         description:
           fr: | # markdown
-            En parallèle de mon CFC, obtention d'une **maturité professionnelle** avec spécialisation
+            Obtention d'une **maturité professionnelle** en parallèle de mon CFC, avec spécialisation
             en arts appliqués, culture, information et communication.
+
+interests:
+  title:
+    fr: Engagements & intérêts
+
+  text:
+    fr: | # markdown
+      Bénévole actif, je participe régulièrement à des événements locaux et culturels.
+      Passionné par le design et la technologie, je maintiens une veille active et entretiens ma curiosité.
+      Le temps qu'il me reste, je le passe suspendu à un parapente.
 
 footnote:
   title:

@@ -2,7 +2,7 @@
   "email": true,
   "phone": true,
   "linkedin": true,
-  "github": true,
+  "github": false,
   "website": false,
   "address": false,
   "picture": false,

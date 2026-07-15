@@ -30,7 +30,7 @@ export function Experience(props: {
           </h3>
         </div>
 
-        <div class="col-start-2 -col-end-1 text-base leading-normal mb-1 trim-text-box">
+        <div class="col-start-2 -col-end-1 text-base leading-snug mb-1 trim-text-box">
           {md(props.experience.description)}
         </div>
       </div>
