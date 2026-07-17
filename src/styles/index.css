@@ -51,6 +51,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  print-color-adjust: exact;
 }
 
 button {
