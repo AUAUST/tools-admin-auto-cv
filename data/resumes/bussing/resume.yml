@@ -1,0 +1,118 @@
+title: |
+  Conducteur de bus
+
+subtitles:
+  - 100'000 km sur les routes suisses
+
+languages: |
+  **Français** langue maternelle, **anglais** bilingue C1+, allemand élémentaire A2.
+
+about: | # markdown
+  Des trajets pendulaires de longue distance à la circulation urbaine,
+  du passage de cols en road-trip à la manoeuvre de remorques à la Protection Civile,
+  le volant fait partie de mon quotidien depuis le jour de mes 18 ans.
+  Inlassable, je suis aujourd’hui motivé à suivre la formation nécessaire pour en faire mon métier.
+
+competences:
+  - title: Conduite
+    description: | # markdown
+      - Permis B
+      - Plus de **100'000 km** en 5 ans dont 3 ans en pendulaire, 120 km quotidiens
+      - Convoi avec **remorque**, transport de personnes et de marchandises à la Protection Civile
+      - Habitué aux **longues distances** et aux environnements de conduite variés
+
+  - title: Flexibilité
+    description: | # markdown
+      - **Ponctualité**
+      - Habitué aux **horaires irréguliers**, au travail de nuit et le week-end
+      - Expérience de services prolongés et de périodes de forte affluence
+      - Gestion des imprévus
+      - Prioritisation des tâches
+
+  - title: Contact client
+    description: | # markdown
+      - Sens du service et **aisance relationnelle**
+      - Gestion diplomatique de situations difficiles ou de personnes insistantes
+      - Maintien d’une communication **calme** et **professionnelle** sous pression
+      - Habitué à renseigner, orienter et répondre aux besoins du public
+
+experiences:
+  - company: Protection Civile
+    description: | # markdown
+      Attiré par la conduite dès mon incorporation, j'ai fait la demande pour devenir chauffeur.
+
+    subsections:
+      - from: 2025
+        to: now
+        title: Spécialiste Chauffeur
+        description: | # markdown
+          - Spécialisation volontaire
+          - *La formation pour devenir chauffeur comporte des cours pratiques sur la conduite de minibus dans des conditions difficiles, les manoeuvres de convois d'une à deux remorques, la gestion des situations d'urgence, la sécurité routière ainsi que la maintenance de base des véhicules*
+
+      - from: 2021
+        to: now
+        title: Aide à la conduite
+        description: | # markdown
+          - Formation à la régulation du trafic
+          - Formation continue aux premiers secours
+          - Gestion des flux de personnes
+          - Orientation du public lors d'événements à forte affluence
+
+  - company: WELTKERN®
+    description: | # markdown
+      Évolution pendant trois ans au sein de [weltkern.com](https://weltkern.com), e-commerce lausannois,
+      jusqu’à un poste à **responsabilité** impliquant **autonomie**, coordination et gestion d’équipe.
+
+    subsections:
+      - from: 2022
+        to: 2025
+        title: Lead Developer
+        description:
+          fr: | # markdown
+            - Responsabilité de projets de leur conception à leur livraison
+            - Recrutement et gestion d’équipe
+            - Respect des engagements
+            - *Chargé de la refonte complète du site web de l’entreprise, j’ai recruté et encadré une équipe de cinq développeurs, coordonné les différents intervenants et assuré la responsabilité du projet jusqu’à sa livraison*
+
+  - company: Meraki
+    description: | # markdown
+      Bar terrasse au centre de Lausanne, engagement saisonnier pour la Coupe du Monde.
+    subsections:
+      - from: 2026
+        title: Barman
+        description: | # markdown
+          - Travail de nuit et le week-end
+          - Gestion diplomatique de clients insistants ou en état d’ébriété
+          - Contact quotidien avec une clientèle locale et internationale
+          - *Les retours positifs de mes collègues, responsables et de la clientèle ont confirmé mon aisance relationnelle et ma capacité à maintenir un service professionnel, y compris dans les situations les plus soutenues*
+
+diplomas:
+  - from: 2018
+    to: 2022
+    title: CFC de graphisme
+    description: | # markdown
+      Diplômé de l'**ēracom**, j'ai été récompensé par le prix de l’école
+      et la distinction de la SGD (Swiss Graphic Designers) reconnaissant
+      la qualité de mon travail et les meilleurs résultats tout au long de ma formation.
+
+  - from: 2018
+    to: 2022
+    title: Maturité professionnelle
+    description: | # markdown
+      Obtention d'une **maturité professionnelle** en parallèle de mon CFC, avec spécialisation
+      en communication, information, culture et arts appliqués.
+
+interests:
+  title: Engagements & intérêts
+  text: | # markdown
+    Bénévole actif, je participe régulièrement à des événements locaux et culturels.
+    Passionné par le parapente, j'associe
+
+
+    Passionné par le design et la technologie, je maintiens une veille active et entretiens ma curiosité.
+    Je passe le temps qu'il me reste suspendu à un parapente.
+
+footnote:
+  title: Besoin de plus d'informations ?
+  text: | # markdown
+    Disponible pour échanger sur ma motivation et mon projet professionnel !
