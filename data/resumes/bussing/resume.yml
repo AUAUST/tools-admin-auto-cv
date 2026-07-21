@@ -9,24 +9,34 @@ languages: |
 
 about: | # markdown
   Des trajets pendulaires de longue distance à la circulation urbaine,
-  du passage de cols en road-trip à la manoeuvre de remorques à la Protection Civile,
+  du passage de cols en road-trip à la manœuvre de remorques à la Protection Civile,
   le volant fait partie de mon quotidien depuis le jour de mes 18 ans.
-  Inlassable, je suis aujourd’hui motivé à suivre la formation nécessaire pour en faire mon métier.
+  Aujourd'hui, je suis motivé à suivre la formation nécessaire pour
+  mettre cet intérêt personnel au service du public comme conducteur de bus aux tl.
 
 competences:
   - title: Conduite
     description: | # markdown
-      - Permis B
-      - Plus de **100'000 km** en 5 ans dont 3 ans en pendulaire, 120 km quotidiens
-      - Convoi avec **remorque**, transport de personnes et de marchandises à la Protection Civile
-      - Habitué aux **longues distances** et aux environnements de conduite variés
+      - **Permis B** depuis 5 ans
+      - Plus de **100'000 km** dont 3 ans en pendulaire, 120 km quotidiens
+      - Conduite de convoi avec **remorque**, transport de personnes et de marchandises
+      - Conduite sur **longues distances** et dans des environnements variés
+
+  - title: Sécurité
+    description: | # markdown
+      - Formation à la **conduite sécurisée**
+      - Formation continue aux **premiers secours** et à la **sécurité routière**
+      - Conduite dans des conditions routières et météorologiques variées
+      - Sens de l’observation et de l’anticipation
+      - Tempérament calme et réfléchi
 
   - title: Flexibilité
     description: | # markdown
       - **Ponctualité**
-      - Habitué aux **horaires irréguliers**, au travail de nuit et le week-end
-      - Expérience de services prolongés et de périodes de forte affluence
-      - Gestion des imprévus
+      - **Horaires irréguliers**
+      - Travail de nuit et le week-end
+      - Services prolongés en périodes de forte affluence
+      - Gestion des imprévus avec calme
       - Prioritisation des tâches
 
   - title: Contact client
@@ -34,12 +44,13 @@ competences:
       - Sens du service et **aisance relationnelle**
       - Gestion diplomatique de situations difficiles ou de personnes insistantes
       - Maintien d’une communication **calme** et **professionnelle** sous pression
-      - Habitué à renseigner, orienter et répondre aux besoins du public
+      - Renseignement, orientation et écoute des besoins du public
 
 experiences:
   - company: Protection Civile
     description: | # markdown
-      Attiré par la conduite dès mon incorporation, j'ai fait la demande pour devenir chauffeur.
+      Attiré par les missions de conduite, j'ai choisi de devenir chauffeur à la Protection Civile
+      où j'ai développé des compétences en conduite sécurisée et en manœuvre de remorques.
 
     subsections:
       - from: 2025
@@ -47,21 +58,25 @@ experiences:
         title: Spécialiste Chauffeur
         description: | # markdown
           - Spécialisation volontaire
-          - *La formation pour devenir chauffeur comporte des cours pratiques sur la conduite de minibus dans des conditions difficiles, les manoeuvres de convois d'une à deux remorques, la gestion des situations d'urgence, la sécurité routière ainsi que la maintenance de base des véhicules*
+          - Conduite de véhicules de catégorie B et convois avec remorques
+          - Conduite sécurisée et écologique
+          - Adaptation aux conditions de circulation et aux spécificités du véhicule
+          - *La formation pour devenir chauffeur comporte des cours pratiques sur la conduite de minibus sur des chaussées glissantes, la manœuvre de convois d'une à deux remorques, la gestion des situations d'urgence, la sécurité routière ainsi que la maintenance des véhicules*
 
       - from: 2021
-        to: now
+        to: 2025
         title: Aide à la conduite
         description: | # markdown
           - Formation à la régulation du trafic
           - Formation continue aux premiers secours
           - Gestion des flux de personnes
           - Orientation du public lors d'événements à forte affluence
+          - Service en uniforme et représentation de l'organisation
 
   - company: WELTKERN®
     description: | # markdown
       Évolution pendant trois ans au sein de [weltkern.com](https://weltkern.com), e-commerce lausannois,
-      jusqu’à un poste à **responsabilité** impliquant **autonomie**, coordination et gestion d’équipe.
+      jusqu’à un poste à **responsabilités** impliquant **autonomie**, coordination et gestion d’équipe.
 
     subsections:
       - from: 2022
@@ -69,21 +84,22 @@ experiences:
         title: Lead Developer
         description:
           fr: | # markdown
-            - Responsabilité de projets de leur conception à leur livraison
+            - Gestion de projets, de leur conception à leur livraison
             - Recrutement et gestion d’équipe
             - Respect des engagements
             - *Chargé de la refonte complète du site web de l’entreprise, j’ai recruté et encadré une équipe de cinq développeurs, coordonné les différents intervenants et assuré la responsabilité du projet jusqu’à sa livraison*
 
   - company: Meraki
     description: | # markdown
-      Bar terrasse au centre de Lausanne, engagement saisonnier pour la Coupe du Monde.
+      Désirant mettre l'accent sur le contact humain, j'ai choisi un emploi saisonnier de barman au Meraki, bar terrasse au centre de Lausanne, durant la Coupe du Monde.
+
     subsections:
       - from: 2026
         title: Barman
         description: | # markdown
           - Travail de nuit et le week-end
-          - Gestion diplomatique de clients insistants ou en état d’ébriété
           - Contact quotidien avec une clientèle locale et internationale
+          - Gestion diplomatique de clients insistants ou en état d’ébriété
           - *Les retours positifs de mes collègues, responsables et de la clientèle ont confirmé mon aisance relationnelle et ma capacité à maintenir un service professionnel, y compris dans les situations les plus soutenues*
 
 diplomas:
@@ -99,18 +115,17 @@ diplomas:
     to: 2022
     title: Maturité professionnelle
     description: | # markdown
-      Obtention d'une **maturité professionnelle** en parallèle de mon CFC, avec spécialisation
+      **Maturité professionnelle** obtenue en parallèle du CFC, avec spécialisation
       en communication, information, culture et arts appliqués.
 
 interests:
   title: Engagements & intérêts
   text: | # markdown
     Bénévole actif, je participe régulièrement à des événements locaux et culturels.
-    Passionné par le parapente, j'associe
-
-
-    Passionné par le design et la technologie, je maintiens une veille active et entretiens ma curiosité.
-    Je passe le temps qu'il me reste suspendu à un parapente.
+    Passionné de parapente, je pratique un sport exigeant concentration,
+    anticipation et analyse des risques pour prendre les bonnes décisions.
+    Il sert aussi de prétexte à l’organisation de road-trips et
+    à la découverte des paysages suisses et européens par la route.
 
 footnote:
   title: Besoin de plus d'informations ?
