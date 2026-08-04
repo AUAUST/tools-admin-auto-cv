@@ -10,6 +10,9 @@ title:
   when_target_typescript:
     fr: Développeur web fullstack spécialisé TypeScript
 
+  when_target_php:
+    fr: Développeur web fullstack spécialisé PHP
+
   when_design_relevant:
     fr: Développeur web fullstack alliant design et code
     en: Fullstack web developer bridging design and code
@@ -20,8 +23,11 @@ title:
     en: Fullstack web developer Agile certified
 
 subtitles:
+  - when_target_php:
+      fr: expertise PHP moderne
+
   - when_design_relevant:
-      fr: frontends orientés design
+      fr: frontends créatifs
       en: Design-driven frontends and
 
   - when_target_python:
@@ -37,103 +43,64 @@ subtitles:
         Performance et fiabilité, APIs, infrastructure et production
 
 about:
-  when_target_laravel:
-    fr: | # markdown
-      Client Infomaniak de longue date, sensible aux enjeux de souveraineté technologique, j'aborde avec enthousiasme l'idée de contribuer à vos services.
-      Privilégiant le long terme aux compromis immédiats,
-      je porte une attention particulière à la lisibilité et à la maintenabilité des codebases
-      notamment par la simplification des problématiques complexes.
+  fr: | # markdown
+    Expérimenté en développement fullstack,
+    diplômé en graphisme et habitué à mener des projets de bout en bout,
+    je vois un poste de développeur chez Horde comme une continuité naturelle.
+    Mon parcours m'a également permis de développer une aisance relationnelle
+    qui facilite le travail en équipe et la collaboration avec les parties prenantes.
 
-    en: | # markdown
-      Experienced full-stack developer with a background in visual design,
-      I’m looking to join a Laravel-focused team to contribute to the creation
-      of technically robust and creatively driven products.
-
-  when_target_typescript:
-    fr: | # markdown
-      Développeur orienté impact produit expérimenté avec TypeScript, Laravel et Python,
-      je cherche à rejoindre une équipe agile où mettre à profit mon expertise
-      hybride entre développement et compréhension design et marketing.
-
-  when_design_relevant:
-    fr: | # markdown
-      Développeur web et designer graphique, je cherche aujourd'hui à rejoindre
-      une équipe créative où je serai en mesure de mettre à profit mes compétences techniques et
-      mon sens esthétique.
-    en: | # markdown
-      Web developer and graphic designer graduate, I’m looking to join a creative team
-      where I can leverage both my technical skills and aesthetic sense.
-
-  else:
-    fr: | # markdown
-      Développeur full-stack expérimenté, certifié en management Agile, titulaire d'un CFC en design visuel,
-      je cherche à rejoindre une équipe de développeurs web où je pourrai contribuer
-      à la création de produits à forte valeur technique.
-    en: | # markdown
-      Experienced full-stack developer with a background in visual design, Agile certified,
-      I’m looking to join a web development team where I can contribute
-      to the creation of technically robust products.
-
-languages:
-  fr: |
-    Français langue maternelle, anglais bilingue C1+, allemand élémentaire A2.
-  en: |
-    French native, English fluent C1+, German basic A2.
+languages: | # markdown
+  **Français** langue maternelle, **anglais** bilingue C1+, allemand élémentaire A2.
 
 competences:
   - title:
-      fr: Développement full-stack
+      fr: PHP & e-commerce
 
-    description:
-      when_target_hybrid:
-        fr: | # markdown
-          - Backend **Laravel**, **Node.js** et **Python**
-          - Frontend **TypeScript**, **Vue**, **Solid**
-          - Mise en place et utilisation d'**API REST**, frameworks no-API (**Inertia**), **Axios**
-          - Usage de **webhooks**, idempotence et retries
-
-      else:
-        fr: | # markdown
-          - Backend **Laravel**, **Node.js** et **Python**
-          - Frontend **TypeScript**, **Vue**, **Solid**
-          - Mise en place et utilisation d'**API REST**, frameworks no-API (**Inertia**), **Axios**
-          - Usage de **webhooks**, idempotence et retries
-
-  - title:
-      fr: Infrastructure et CI/CD
     description:
       fr: | # markdown
-        - Management et backups **MariaDB**, **PostgreSQL**, **MySQL**
-        - Caching **Redis**
+        - Développement **PHP** moderne
+        - Conception et utilisation d'**API REST**, webhooks
+        - Développement de plateformes **e-commerce**
+        - Intégration de paiements (**Mollie**, **Stripe**)
+        - Bases de données **MariaDB**, **MySQL**, **PostgreSQL**, **Redis**
+
+  - title:
+      fr: Frontend
+
+    description:
+      fr: | # markdown
+        - Expertise **TypeScript** et **JavaScript**, **Vue**, **Solid.js**
+        - Intégration **HTML**, **CSS**, **Tailwind CSS**
+        - SPA et fluidité **Inertia.js**, **Axios**, **Turbo**, **Stimulus**
+        - Animations web (**Lottie**, **CSS**), composants interactifs
+        - Intégration de maquettes **Figma**
+        - **UX**
+
+  - title:
+      fr: Qualité web & performance
+
+    description:
+      fr: | # markdown
+        - Techniques d'optimisation (**CDN**, **caching**, **lazy loading**, **code splitting**)
+        - Accessibilité (**ARIA**, bonnes pratiques **WCAG**)
         - CI/CD avec **GitHub Actions**
-        - QA par **code reviews** et **tests** avec **Pest**, **Laravel Dusk**, **Vitest**, **Pytest**
+        - Déploiement sans downtime
+        - Tests automatisés
+        - **Git**
+        - **SEO** technique et monitoring
 
   - title:
-      fr: Contraintes système
-    description:
-      fr: | # markdown
-        - Rollbacks et zero-downtime deployment **Ploi.io**
-        - **Docker** pour **Meilisearch**, **Plausible**
-        - Assets avec **KeyCDN**
-        - Streaming de fichiers depuis **S3** et **sFTP**
+      fr: Collaboration
 
-  - title:
-      fr: Intégrations de services
     description:
       fr: | # markdown
-        - Transactions avec **Mollie**, **Stripe**
-        - Emailing avec **Mailchimp**, campagnes **Mailcoach**
-        - Monitoring avec **Telescope**, performance et uptime avec **Ploi.io**
-        - Statistiques avec **Plausible** et **Google Analytics**
-
-  - title:
-      fr: Sens produit et marketing
-    description:
-      fr: | # markdown
-        - Diplômé design et communication
-        - Compréhension des enjeux marketing et conversion
-        - UI/UX avec **Figma**, **Vue.js**, **Tailwind**
-        - Tests A/B et amélioration continue agile
+        - Priorisation et gestion de projets simultanés
+        - Curiosité technique
+        - Communication claire avec profils techniques ou non
+        - Autonomie, sens du détail et volonté de qualité
+        - Coordination entre développeurs, designers et parties prenantes
+        - Recrutement et suivi de petites équipes
 
 experiences:
   - company: WELTKERN®
@@ -151,38 +118,27 @@ experiences:
         title: Lead Developer
         description:
           fr: | # markdown
-            - Responsable refonte de la plateforme obsolète
-            - Réduction temps de chargement de **15s** à **150ms** grâce au refactoring et caching
-            - Migration de **Stripe** vers **Mollie**, réduction mesurée des **frais de transaction de 20%**
-            - Détection bottlenecks avec **Laravel Telescope** et **Plausible**
-            - **Recrutement**, **encadrement**, **coordination** de **4 développeurs freelance**
-            - Planification des **sprints** et gestion des priorités
-            - **Code reviews** et **tests** garantissant stabilité et cadence de release
-
-          en: | # markdown
-            - Complete platform redesign, technical and architectural leadership
-            - **Recruitment**, **mentorship**, and **coordination** of a team of **4 freelance developers**
-            - New architecture reduced average load time from **15s** to **200ms**
-            - Migration to a new PSP achieving a measured **30% reduction in transaction fees**
-            - Detection and elimination of bottlenecks using analytics tools
-            - Definition of the **MVP** and priorities based on business goals
-            - **Sprint** planning and **roadmap** management
-            - **Code reviews** and **testing** ensuring stability and release cadence
+            - Collaboration quotidienne avec designers, marketing et direction produit
+            - Refonte complète de la plateforme e-commerce (**Laravel**)
+            - Temps de chargement des pages réduit de **15s** à **150ms**
+            - Migration **Stripe** → **Mollie** (-20% de frais)
+            - **Recrutement** et **encadrement** de 5 développeurs freelance
+            - Sprints, code reviews, qualité logicielle
 
       - from: 2022
         to: 2023
         title: Fullstack Developer
         description:
           fr: | # markdown
-            - Backend **Laravel**, **MariaDB**
-            - Mise en place de l'infrastructure, **VPS Infomaniak**, **Ploi.io**
+            - Développement **Wordpress** puis **Laravel**
+            - Gestion de l'infrastructure (**VPS Infomaniak**, **Ploi.io**)
             - CI/CD avec **GitHub Actions**
-            - API **Inertia** et **RESTful**
-            - Providers de paiement **Mollie**, **Stripe** et mails **Mailchimp** via API et webhooks
-            - Performance avec **KeyCDN**, caching **Redis**
-            - Interfaces et **UI/UX** avec  **TypeScript**, **Solid.js**, **Vue.js**, **TailwindCSS**, **Figma**
+            - API **Inertia** et **REST**
+            - Intégrations d'API et webhooks (**Mollie**, **Stripe**, **Mailchimp**)
+            - Performance avec **KeyCDN**, **Redis**
+            - **TypeScript**, **Solid.js**, **Vue.js**, **TailwindCSS**, **Figma**
 
-  - company: Projets parallèles
+  - company: Projets de développement
     subsections:
       - from: 2022
         to: now
@@ -196,25 +152,17 @@ experiences:
 
         description:
           fr: | # markdown
-            - Développement et maintenance de projets **TypeScript open-source**, tous utilisés en **production**, accessibles sur [github.com/AUAUST](https://github.com/AUAUST)
+            - Développement et maintenance de projets **open-source**, tous utilisés en **production**
             - [Primitive Kit](https://github.com/AUAUST/lib-js-primitive-kit#readme), utilitaires qui réduisent le boilerplate dans l'usage des primitifs
             - [Jaune](https://github.com/AUAUST/lib-js-jaune#readme), toolkit pour la manipulation des couleurs
             - [G-Class](https://github.com/AUAUST/lib-js-g-class#readme), alternative plus complète à [clsx](https://github.com/lukeed/clsx)
-          en: | # markdown
-            Creation, evolution and maintenance of various **TypeScript open-source** projects, all available on [github.com/AUAUST](https://github.com/AUAUST).
-
-            - [Primitive Kit](https://github.com/AUAUST/lib-js-primitive-kit#readme): **TypeScript** utility library simplifying the use of primitives
-            - [Jaune](https://github.com/AUAUST/lib-js-jaune#readme): **Color** class for color manipulation in TypeScript and CSS
-            - [G-Class](https://github.com/AUAUST/lib-js-g-class#readme): extended alternative to [clsx](https://github.com/lukeed/clsx)
-            - all used in production
 
       - from: 2021
         to: now
         title:
           when_design_relevant:
             fr: |
-              Développeur et
-              designer freelance
+              Dev / Designer
             en: |
               Freelance
               developer
@@ -224,66 +172,66 @@ experiences:
 
         description:
           fr: | # markdown
-            - Développement et web design
-            - relation client et gestion de projet autonome
-            -  **Laravel**, **Kirby CMS**, **Vue.js**, **Solid.js**, **TypeScript**, **Postgres**
+            - Développement et design pour des clients variés
+            - De la relation client à la maintenance à long terme
             - [lambert-forte.ch](https://lambert-forte.ch)
-            - [auaust.ch](https://auaust.ch)
-            - [apademide.ch](https://apademide.ch)
-            - [projets pour l'écal](https://ecal.ch/fr/feed/projects/8420/modulat/)
+            - [Hugo Scholl](https://ecal.ch/fr/feed/projects/8420/modulat/)
             - [Chocolate Festival](https://chocolate-festival.ch/presentation/#historique)
 
-          en: | # markdown
-            Freelance web projects from planning and prototyping to deployment and long-term maintenance.
-
-            - [lambert-forte.ch](https://lambert-forte.ch), Kirby CMS
-            - [auaust.ch](https://auaust.ch), static one-pager built with Solid.js
-            - [apademide.ch](https://apademide.ch), Kirby CMS
-            - Bachelor projects for ÉCAL, Solid.js, vanilla TypeScript
-
-  - company: Diplômes et certifications
+  - company: District de Nyon
     subsections:
-      - from: 2026
-        title: Python Associate
-        description:
-          fr: | # markdown
-            Certifié **PCAP** par **Python Institute**, confirmant mes compétences en développement Python et mes connaissances théoriques en programmation générale.
+      - from: 2021
+        to: now
+        title: Protection Civile
+        description: | # markdown
+          - Contact direct avec le public
+          - Sens des responsabilités
+          - Travail d'équipe et coordination avec les autorités
+          - Diplomatie et désescalade de situations délicates
 
-      - from: 2025
-        title: Scrum Master
-        description:
-          fr: | # markdown
-            Certifié **PSM 1** par **Scrum.org** en gestion de projets SCRUM, confirmant ma capacité à travailler efficacement dans une équipe agile.
-          en: | # markdown
-            **Scrum Master** certification by **Scrum.org** for Agile project management, with a focus on team needs and skills.
+diplomas:
+  - from: 2026
+    title: Scrum Master
+    description:
+      fr: | # markdown
+        Certifié **PSM 1** par **Scrum.org** en gestion de projets SCRUM, confirmant ma capacité à travailler efficacement dans une équipe agile.
 
-      - from: 2018
-        # to: 2022
-        title: | # markdown
-          CFC de graphisme
-        description:
-          fr: | # markdown
-            Diplômé de l’**ēracom** avec un prix de l’école et une distinction **SGD**,
-            reconnaissant les meilleurs résultats et la constance durant la formation.
+  - from: 2025
+    title: Python Associate
+    description:
+      fr: | # markdown
+        Certifié **PCAP** par **Python Institute**, confirmant mes compétences en développement Python
+        et mes connaissances théoriques en programmation générale.
 
-      - from: 2018
-        # to: 2022
-        title: | # markdown
-          Maturité professionnelle
-        description:
-          fr: | # markdown
-            En parallèle de mon CFC, obtention d'une **maturité professionnelle** avec spécialisation
-            en information, communication, culture et arts appliqués.
+  - from: 2018
+    to: 2022
+    title: CFC de graphisme
+    description: | # markdown
+      Diplômé de l'**ēracom**, j'ai été récompensé par le prix de l’école
+      et la distinction de la SGD (Swiss Graphic Designers) reconnaissant
+      la qualité de mon travail et les meilleurs résultats tout au long de ma formation.
+
+  - from: 2018
+    to: 2022
+    title: Maturité professionnelle
+    description: | # markdown
+      **Maturité professionnelle** obtenue en parallèle du CFC, avec spécialisation
+      en communication, information, culture et arts appliqués.
+
+interests:
+  title:
+    fr: Engagements & intérêts
+
+  text:
+    fr: | # markdown
+      Bénévole actif, je m'investis dans des événements culturels.
+      Je maintiens une veille technologique et prends part à des rencontres de la communauté tech.
+      Le temps qu'il me reste, je le passe suspendu à un parapente.
 
 footnote:
   title:
-    fr: J'utilise l'IA et j'automatise!
-    en: I use AI and automate!
+    fr: J'automatise!
 
   text:
     fr: | # markdown
       Ce CV a été mis en page par un outil open‑source → [github.com/AUAUST/tools-admin-auto-cv](https://github.com/AUAUST/tools-admin-auto-cv#readme).
-
-    en: | # markdown
-      Technology saves time. This resume was generated using a custom tool that allowed me to tailor it to your job offer.
-      It is available as open-source on [github.com/AUAUST/tools-admin-auto-cv](https://github.com/AUAUST/tools-admin-auto-cv#readme).

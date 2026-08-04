@@ -1,6 +1,7 @@
 {
   "target_python": false,
   "target_laravel": false,
-  "target_typescript": true,
-  "design_relevant": false
+  "target_php": true,
+  "target_typescript": false,
+  "design_relevant": true
 }
