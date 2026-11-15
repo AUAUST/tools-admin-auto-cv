@@ -1,6 +1,6 @@
 title:
   fr: |
-    Support informatique & accompagnement des utilisateurs
+    Support informatique & accompagnement utilisateurs
 
 subtitles:
   - fr: |
@@ -8,10 +8,10 @@ subtitles:
 
 about:
   fr: | # markdown
-    Graphiste de formation, je suis passé au développement web et suis devenu, un an après mon arrivée,
-    lead developer d'une petite entreprise lausannoise et sa personne de référence pour l'informatique du quotidien.
-    Derrière un bar, sans expérience préalable du service, j'ai découvert le plaisir du contact direct avec les gens.
-    J'en retiens que j'apprends vite, et ce que je veux : un rôle en informatique, au contact des utilisateurs.
+    Graphiste de formation, je suis devenu lead developer un an après
+    mes débuts dans le web, puis barman sans expérience du service.
+    Du code, je retiens le plaisir de résoudre un problème ;
+    du bar, celui d’aider quelqu’un en face de moi.
 
 languages:
   fr: | # markdown
