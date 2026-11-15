@@ -24,7 +24,7 @@ competences:
 
   - title: Diagnostic & culture informatique
     description: | # markdown
-      Approche **méthodique** des incidents : reproduire, isoler la cause, corriger, documenter.
+      Approche **méthodique** des incidents : reproduire, isoler la cause, corriger, documenter.
       À l'aise sur **macOS** et **Linux**, en ligne de commande et avec l'infrastructure serveur.
       Sensible aux enjeux de **sécurité** et de **confidentialité des données**.
       Automatisation de tâches en Python, développement PHP et TypeScript.
@@ -32,7 +32,7 @@ competences:
   - title: Organisation & coordination
     description: | # markdown
       Priorisation des demandes, suivi des **budgets** et des **délais**, coordination de prestataires.
-      Traduction des **besoins** des équipes en solutions concrètes, en tenant compte des **contraintes** techniques.
+      Traduction des **besoins** des équipes en solutions concrètes.
 
 experiences:
   - company: WELTKERN®
@@ -46,12 +46,12 @@ experiences:
         title: Lead Developer
         description:
           fr: | # markdown
-            Seul développeur interne, j'ai porté la **refonte complète** de la plateforme
-            en tant qu'**interface** entre la direction, les équipes et la technique :
-            recueil et traduction des besoins, choix des solutions, suivi des budgets et des délais.
-            Constitution et coordination d'une équipe jusqu'à **5 développeurs** freelance.
-            Résultats : chargement **10s** → **150ms**, frais de transaction **-20%**,
-            gestion administrative simplifiée pour les équipes.
+            Seul développeur interne, responsable de la **refonte complète** de la plateforme :
+            recueil des besoins, choix des solutions, budgets et délais.
+            Coordination d'une équipe jusqu'à **5 développeurs** freelance.
+            **Gestion d'incidents** en production : pannes serveur, nettoyage d'un serveur compromis par une faille de sécurité.
+            Rédaction d'une **procédure d'incident** pour les équipes.
+            Résultats : chargement **10s** → **150ms**, frais de transaction **-20%**.
 
       - from: 2022
         to: 2023
@@ -60,8 +60,8 @@ experiences:
           fr: | # markdown
             Développement web (**Laravel**, **PHP**, **TypeScript**, **Vue.js**)
             et gestion de l'infrastructure (**Ubuntu**, **MariaDB**, **Redis**, **Docker**).
-            **Point de contact** technique des équipes produit et administratives :
-            **résolution des problèmes** au quotidien, mise en place d'outils et **formation** à leur utilisation.
+            **Personne de référence** au bureau pour tout problème informatique,
+            mise en place d'outils pour les équipes produit et administratives et **formation** à leur utilisation.
 
   - company: Meraki
     description:
@@ -75,7 +75,6 @@ experiences:
           fr: | # markdown
             Réactivité et professionnalisme dans un **environnement** dynamique et **exigeant**,
             écoute des besoins et conseils personnalisés.
-            Gestion des stocks, réapprovisionnement et anticipation pour assurer un service fluide.
             Goût affirmé pour le contact humain.
 
   - company: Activités parallèles
@@ -89,7 +88,9 @@ experiences:
         description:
           fr: | # markdown
             Design et développement de sites web pour des clients variés,
-            **accompagnement** de la définition des besoins à la **mise en production**, puis **maintenance** et support après mise en ligne.
+            **accompagnement** de la définition des besoins à la **mise en production**.
+            **Maintenance** et **support** au long cours : noms de domaine, configuration e-mail,
+            certificats TLS, sauvegardes, facturation.
             - [lambert-forte.ch](https://lambert-forte.ch)
             - [Chocolate Festival](https://chocolate-festival.ch/presentation/#historique)
             - [auaust.ch](https://auaust.ch)
