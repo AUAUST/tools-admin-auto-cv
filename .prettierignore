@@ -1,0 +1,26 @@
+# @ignore defaults
+
+# Package locks
+package-lock.json
+yarn.lock
+bun.lock
+bun.lockb
+
+# @ignore project
+
+# Coverage
+/coverage
+
+# Agent stats
+/.ai/stats
+
+# ESLint
+/eslint-suppressions.json
+
+# GitHub snapshot
+/.engrenage/github.json
+
+# pnpm
+/pnpm-lock.yaml
+
+# @end

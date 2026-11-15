@@ -1,12 +1,40 @@
 {
   "name": "tools-admin-auto-cv",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
+  "description": "Generate CV",
+  "license": "UNLICENSED",
+  "author": {
+    "name": "Aurian Aubert",
+    "email": "aurian@auaust.ch",
+    "url": "https://auaust.ch"
+  },
   "type": "module",
   "scripts": {
-    "dev": "vite",
     "build": "tsc -b && vite build",
-    "preview": "vite preview"
+    "ci": "pnpm run ci:check && pnpm run ci:build",
+    "ci:build": "pnpm run build",
+    "ci:check": "engrenage sync --check && engrenage typecheck && engrenage eslint",
+    "dev": "vite",
+    "format": "engrenage prettier",
+    "lint": "engrenage eslint",
+    "lint:check": "engrenage eslint",
+    "lint:fix": "engrenage eslint:fix",
+    "lint:suppress": "engrenage eslint:suppress",
+    "prepare": "lefthook install",
+    "preview": "vite preview",
+    "ready": "pnpm install --frozen-lockfile && engrenage sync && pnpm run ci",
+    "test": "engrenage typecheck",
+    "typecheck": "engrenage typecheck"
+  },
+  "imports": {
+    "#assets/*": "./src/assets/*.ts",
+    "#components/*": "./src/components/*.ts",
+    "#contexts/*": "./src/contexts/*.ts",
+    "#data/*": "./data/*",
+    "#package.json": "./package.json",
+    "#styles/*": "./src/styles/*.ts",
+    "#utils/*": "./src/utils/*.ts"
   },
   "dependencies": {
     "@auaust/g-class": "^0.3.1",
@@ -18,12 +46,30 @@
     "solid-markdown": "^2.1.1"
   },
   "devDependencies": {
+    "@auaust/engrenage": "0.13.1",
     "@tailwindcss/vite": "^4.2.2",
     "@types/js-yaml": "^4.0.9",
     "@types/node": "^24.12.0",
+    "eslint": "^10.0.0",
+    "jscpd": "^5.0.0",
+    "lefthook": "^2.0.0",
+    "prettier": "^3.9.0",
     "tailwindcss": "^4.2.2",
     "typescript": "~5.9.3",
     "vite": "^7.3.1",
     "vite-plugin-solid": "^2.11.11"
+  },
+  "prettier": "@auaust/engrenage/prettier",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^12.21.0",
+      "onFail": "download"
+    },
+    "runtime": {
+      "name": "node",
+      "version": "24",
+      "onFail": "error"
+    }
   }
 }
