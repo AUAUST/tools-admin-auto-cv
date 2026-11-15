@@ -2,6 +2,7 @@ import {
   createEffect,
   createSignal,
   For,
+  onCleanup,
   onMount,
   Show,
   type ParentProps,
@@ -18,6 +19,17 @@ import { getDocumentConfig } from "../utils/config";
 import { label, t } from "../utils/label";
 import { mm } from "../utils/units";
 
+function fitScale(element: HTMLElement | undefined) {
+  if (!element) {
+    throw new Error("Document element is not mounted.");
+  }
+
+  return min(
+    window.innerWidth / element.offsetWidth,
+    window.innerHeight / element.offsetHeight,
+  );
+}
+
 export function Document(properties: ParentProps) {
   const config = getDocumentConfig();
   const language = useLanguage();
@@ -27,16 +39,9 @@ export function Document(properties: ParentProps) {
   const [fit, setFit] = createSignal<"real" | "fit">("fit");
   const [scale, setScale] = createSignal(1);
 
-  const doc: HTMLDivElement = undefined!;
+  const [doc, setDoc] = createSignal<HTMLDivElement>();
 
-  const updateScale = () => {
-    return setScale(
-      min(
-        window.innerWidth / doc.offsetWidth,
-        window.innerHeight / doc.offsetHeight,
-      ),
-    );
-  };
+  const updateScale = () => setScale(fitScale(doc()));
 
   createEffect(() => {
     return (document.title = label(config.title).replace(
@@ -55,6 +60,7 @@ export function Document(properties: ParentProps) {
 
   onMount(() => {
     window.addEventListener("resize", updateScale);
+    onCleanup(() => void window.removeEventListener("resize", updateScale));
 
     setTimeout(() => updateScale());
   });
@@ -63,7 +69,7 @@ export function Document(properties: ParentProps) {
     <>
       <div
         class={cl("document", fit())}
-        ref={doc}
+        ref={setDoc}
         style={{
           "--scale": scale(),
         }}>

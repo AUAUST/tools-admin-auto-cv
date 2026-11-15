@@ -41,23 +41,23 @@
     "@auaust/jaune": "^0.0.4",
     "@auaust/primitive-kit": "^0.41.9",
     "@auaust/toolkit": "^0.0.9",
-    "js-yaml": "^4.1.1",
-    "solid-js": "^1.9.12",
+    "js-yaml": "^4.3.2",
+    "solid-js": "^1.9.19",
     "solid-markdown": "^2.1.1"
   },
   "devDependencies": {
     "@auaust/engrenage": "0.13.1",
-    "@tailwindcss/vite": "^4.2.2",
+    "@tailwindcss/vite": "^4.3.5",
     "@types/js-yaml": "^4.0.9",
-    "@types/node": "^24.12.0",
-    "eslint": "^10.0.0",
-    "jscpd": "^5.0.0",
-    "lefthook": "^2.0.0",
-    "prettier": "^3.9.0",
-    "tailwindcss": "^4.2.2",
+    "@types/node": "^24.19.2",
+    "eslint": "^10.15.0",
+    "jscpd": "^5.4.3",
+    "lefthook": "^2.2.2",
+    "prettier": "^3.10.1",
+    "tailwindcss": "^4.3.5",
     "typescript": "~5.9.3",
-    "vite": "^7.3.1",
-    "vite-plugin-solid": "^2.11.11"
+    "vite": "^7.3.8",
+    "vite-plugin-solid": "^2.11.16"
   },
   "prettier": "@auaust/engrenage/prettier",
   "devEngines": {
@@ -68,8 +68,8 @@
     },
     "runtime": {
       "name": "node",
-      "version": "24",
-      "onFail": "error"
+      "version": "24.22.3",
+      "onFail": "warn"
     }
   }
 }

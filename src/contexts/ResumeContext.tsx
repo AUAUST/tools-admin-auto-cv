@@ -62,7 +62,7 @@ function createResume() {
     get<K extends keyof Resume>(property: K): Resume[K] {
       return content()[property];
     },
-    md<K extends keyof Resume>(property: K) {
+    md(property: keyof Resume) {
       // @ts-expect-error
       return md(content()[property]);
     },
