@@ -3,7 +3,19 @@
   "references": [
     {
       "path": "./tsconfig.src.json"
+    },
+    {
+      "path": "./tsconfig.tooling.json"
     }
   ],
-  "extends": "@auaust/engrenage/tsconfig/base.json"
+  "extends": "@auaust/engrenage/tsconfig/base.json",
+  "compilerOptions": {
+    "paths": {
+      "#assets/*": ["./src/assets/*.ts"],
+      "#components/*": ["./src/components/*.ts"],
+      "#contexts/*": ["./src/contexts/*.ts"],
+      "#styles/*": ["./src/styles/*.ts"],
+      "#utils/*": ["./src/utils/*.ts"]
+    }
+  }
 }

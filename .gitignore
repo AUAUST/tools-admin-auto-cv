@@ -46,6 +46,9 @@ ehthumbs.db
 
 # @ignore project
 
+# Output
+/dist
+
 # Coverage
 /coverage
 
@@ -60,7 +63,6 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
-dist
 dist-ssr
 *.local
 

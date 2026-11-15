@@ -32,22 +32,33 @@ const roles = [
   operations(),
 ];
 
-const sourceRoles = roles;
-
 export default defineConfig({
+  build: {
+    outDir: "dist",
+  },
   src: {
     baseline: "2026-11",
-    roles: sourceRoles,
+    bundled: true,
+    roles,
+    tsconfig: {
+      lib: {
+        append: ["DOM", "DOM.Iterable"],
+      },
+      types: ["vite/client"],
+      compilerOptions: {
+        jsx: "preserve",
+        jsxImportSource: "solid-js",
+      },
+    },
   },
   tests: {
     roles: [...roles, fixtures(), testsetup()],
   },
-  scripts: {
-    roles,
-    tsconfig: {},
-  },
   tooling: {
     roles,
+    tsconfig: {
+      inherits: undefined,
+    },
   },
   agents: {
     preferred: ["claude"],

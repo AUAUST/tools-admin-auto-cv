@@ -2,8 +2,8 @@
   "extends": "./tsconfig.json",
   "include": ["src/**/*.ts", "src/**/*.tsx", "env.d.ts"],
   "compilerOptions": {
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
     "incremental": true,
     "tsBuildInfoFile": "./node_modules/.cache/typescript/tsconfig.src.tsbuildinfo",
     "target": "ESNext",
@@ -15,8 +15,13 @@
       "es2024.object",
       "es2024.promise",
       "es2024.regexp",
-      "es2024.string"
+      "es2024.string",
+      "DOM",
+      "DOM.Iterable"
     ],
-    "types": []
+    "types": ["vite/client"],
+    "outDir": "./dist",
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js"
   }
 }

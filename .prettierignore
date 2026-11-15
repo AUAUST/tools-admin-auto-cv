@@ -8,6 +8,9 @@ bun.lockb
 
 # @ignore project
 
+# Output
+/dist
+
 # Coverage
 /coverage
 

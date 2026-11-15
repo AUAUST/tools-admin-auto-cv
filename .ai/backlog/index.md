@@ -21,4 +21,5 @@ Deferred questions, bugs, tasks and improvements.
 
 ## Open categories
 
-No open categories yet.
+- [engrenage](engrenage.md): `@auaust/engrenage` sync, aliases and generated config
+- [coding-style](coding-style.md): local conventions and lint
