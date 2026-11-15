@@ -1,16 +1,17 @@
 title:
   fr: |
-    Relation client & accompagnement technique
+    Support informatique & accompagnement des utilisateurs
 
 subtitles:
   - fr: |
-      Compétences informatiques au service des utilisateurs
+      Rigueur technique et goût du contact humain
 
 about:
   fr: | # markdown
-    Entre web, gestion de projet et service client, mon parcours m'a permis d'identifier
-    mes motivations durables : comprendre les enjeux techniques et accompagner les utilisateurs dans des projets concrets.
-    Je cherche aujourd’hui une fonction où connaissances techniques et sensibilité humaine constituent une réelle valeur ajoutée.
+    Graphiste de formation, je suis passé au développement web et suis devenu, un an après mon arrivée,
+    lead developer d'une petite entreprise lausannoise et sa personne de référence pour l'informatique du quotidien.
+    Derrière un bar, sans expérience préalable du service, j'ai découvert le plaisir du contact direct avec les gens.
+    J'en retiens que j'apprends vite, et ce que je veux : un rôle en informatique, au contact des utilisateurs.
 
 languages:
   fr: | # markdown
@@ -19,13 +20,13 @@ languages:
 competences:
   - title: Relation utilisateurs
     description: | # markdown
-      **Vulgarisation technique**, écoute et gestion des demandes en temps réel, y compris sous pression.
+      **Vulgarisation technique**, écoute, gestion de demandes simultanées et des **interruptions**, y compris sous pression.
       **Formation** et **accompagnement** d'utilisateurs non techniques.
 
   - title: Diagnostic & culture informatique
     description: | # markdown
       Approche **méthodique** des incidents : reproduire, isoler la cause, corriger, documenter.
-      À l'aise sur **macOS** et **Linux**, en ligne de commande et avec l'infrastructure serveur.
+      À l'aise sur différents systèmes d'exploitation, en ligne de commande et avec l'infrastructure serveur (**Linux**).
       Sensible aux enjeux de **sécurité** et de **confidentialité des données**.
       Automatisation de tâches en Python, développement PHP et TypeScript.
 
@@ -38,7 +39,7 @@ experiences:
   - company: WELTKERN®
     description:
       fr: | # markdown
-        Évolution au sein de [weltkern.com](https://weltkern.com), plateforme **e-commerce** lausannoise, puis soutien technique en freelance depuis mon départ.
+        Évolution au sein de [weltkern.com](https://weltkern.com), plateforme **e-commerce** lausannoise, puis soutien technique en freelance jusqu'en 2026.
 
     subsections:
       - from: 2023
@@ -46,11 +47,10 @@ experiences:
         title: Lead Developer
         description:
           fr: | # markdown
-            Seul développeur interne, responsable de la **refonte complète** de la plateforme :
-            recueil des besoins, choix des solutions, budgets et délais.
-            Coordination d'une équipe jusqu'à **5 développeurs** freelance.
-            **Gestion d'incidents** en production : pannes serveur, nettoyage d'un serveur compromis par une faille de sécurité.
-            Rédaction d'une **procédure d'incident** pour les équipes.
+            **Gestion d'incidents** en production : pannes serveur, **nettoyage d'un serveur compromis** par une faille de sécurité,
+            rédaction d'une **procédure d'incident** pour les équipes.
+            Seul développeur interne : **refonte complète** de la plateforme (besoins, solutions, budgets, délais),
+            coordination de jusqu'à **5 développeurs** freelance.
             Résultats : chargement **10s** → **150ms**, frais de transaction **-20%**.
 
       - from: 2022
@@ -58,10 +58,10 @@ experiences:
         title: Fullstack Developer
         description:
           fr: | # markdown
+            **Personne de référence** au bureau pour tout problème informatique du quotidien,
+            mise en place d'outils pour les équipes produit et administratives et **formation** à leur utilisation.
             Développement web (**Laravel**, **PHP**, **TypeScript**, **Vue.js**)
             et gestion de l'infrastructure (**Ubuntu**, **MariaDB**, **Redis**, **Docker**).
-            **Personne de référence** au bureau pour tout problème informatique,
-            mise en place d'outils pour les équipes produit et administratives et **formation** à leur utilisation.
 
   - company: Meraki
     description:
@@ -73,9 +73,9 @@ experiences:
         title: Barman
         description:
           fr: | # markdown
-            Réactivité et professionnalisme dans un **environnement** dynamique et **exigeant**,
-            écoute des besoins et conseils personnalisés.
-            Goût affirmé pour le contact humain.
+            Poste pris sans expérience du service, rapidement autonome.
+            Demandes simultanées et **interruptions** constantes : **réactivité** et calme sous pression.
+            Écoute des besoins, conseils personnalisés, goût affirmé pour le contact humain.
 
   - company: Activités parallèles
     subsections:
@@ -102,13 +102,12 @@ experiences:
         title: Protection Civile
         description:
           fr: | # markdown
-            Spécialiste chauffeur, amené à prendre part à l'organisation et à la sécurité de lieux d'événements,
+            Spécialiste chauffeur (**permis B**), amené à prendre part à l'organisation et à la sécurité de lieux d'événements,
             à travailler en équipe, à assurer l'orientation du public et la gestion des flux de personnes en forte affluence.
 
   - company: Diplômes et certifications
     subsections:
       - from: 2025
-        to: now
         title: Certifications
         description:
           fr: | # markdown
