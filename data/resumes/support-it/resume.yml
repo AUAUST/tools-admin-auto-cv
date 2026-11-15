@@ -17,21 +17,22 @@ languages:
     **Français** langue maternelle, **anglais** bilingue C1+, **allemand** élémentaire A2.
 
 competences:
-  - title: Relation client
+  - title: Relation utilisateurs
     description: | # markdown
-      Capacité de **vulgarisation technique**, **résolution de problèmes** et gestion des demandes en temps réel.
-      **Formation** des utilisateurs, écoute et **accompagnement**.
+      **Vulgarisation technique**, écoute et gestion des demandes en temps réel, y compris sous pression.
+      **Formation** et **accompagnement** d'utilisateurs non techniques.
 
-  - title: Culture informatique
+  - title: Diagnostic & culture informatique
     description: | # markdown
-      Compréhension du cycle de vie logiciel, de l'infrastructure, des protocoles, des enjeux de **sécurité** et de performance, ainsi que des contraintes techniques associées.
-      Développement PHP, Laravel, TypeScript et Python.
+      Approche **méthodique** des incidents : reproduire, isoler la cause, corriger, documenter.
+      À l'aise sur **macOS** et **Linux**, en ligne de commande et avec l'infrastructure serveur.
+      Sensible aux enjeux de **sécurité** et de **confidentialité des données**.
+      Automatisation de tâches en Python, développement PHP et TypeScript.
 
-  - title: | #markdown
-      Gestion de projet
+  - title: Organisation & coordination
     description: | # markdown
-      Plannification du développement logiciel, priorisation des tâches et gestion de petites équipes.
-      Arbitrage entre les **contraintes** techniques, les **besoins** des parties prenantes et les **objectifs** pour orienter les évolutions du produit.
+      Priorisation des demandes, suivi des **budgets** et des **délais**, coordination de prestataires.
+      Traduction des **besoins** des équipes en solutions concrètes, en tenant compte des **contraintes** techniques.
 
 experiences:
   - company: Meraki
@@ -41,14 +42,13 @@ experiences:
 
     subsections:
       - from: 2026
-        to: now
         title: Barman
         description:
           fr: | # markdown
             Réactivité et professionnalisme dans un **environnement** dynamique et **exigeant**,
             écoute des besoins et conseils personnalisés.
             Gestion des stocks, réapprovisionnement et anticipation pour assurer un service fluide.
-            Surtout, beaucoup de plaisir pris dans le contact humain.
+            Goût affirmé pour le contact humain.
 
   - company: WELTKERN®
     description:
@@ -61,23 +61,22 @@ experiences:
         title: Lead Developer
         description:
           fr: | # markdown
-            En plus de mon rôle de développeur, j’ai pris la responsabilité de la **refonte complète** de la plateforme.
-            **Recrutement** et **encadrement** d'une équipe jusqu'à **5 développeurs** freelance,
-            assurant **coordination technique**, conversion des besoins en solutions appropriées
-            et communication constante avec les parties prenantes.
-            Le nouveau site web a réduit les temps de chargement (**10s** → **150ms**),
-            a entraîné une diminution mesurée des frais de transaction (**-20%**)
-            et a facilité la gestion administrative.
+            Seul développeur interne, j'ai porté la **refonte complète** de la plateforme
+            en tant qu'**interface** entre la direction, les équipes et la technique :
+            recueil et traduction des besoins, choix des solutions, suivi des budgets et des délais.
+            Constitution et coordination d'une équipe jusqu'à **5 développeurs** freelance.
+            Résultats : chargement **10s** → **150ms**, frais de transaction **-20%**,
+            gestion administrative simplifiée pour les équipes.
 
       - from: 2022
         to: 2023
         title: Fullstack Developer
         description:
           fr: | # markdown
-            Quotidien mêlant développement web (**Laravel**, **PHP**, **TypeScript**, **Vue.js**),
-            gestion d'infrastructure (**Ubuntu**, **MariaDB**, **Redis**, **Docker**),
-            ainsi qu'**échanges avec les équipes** produit et administratives
-            pour répondre à leurs besoins et les **former** à l'utilisation des outils mis en place.
+            Développement web (**Laravel**, **PHP**, **TypeScript**, **Vue.js**)
+            et gestion de l'infrastructure (**Ubuntu**, **MariaDB**, **Redis**, **Docker**).
+            **Point de contact** technique des équipes produit et administratives :
+            **résolution des problèmes** au quotidien, mise en place d'outils et **formation** à leur utilisation.
 
   - company: Activités parallèles
     subsections:
@@ -90,7 +89,7 @@ experiences:
         description:
           fr: | # markdown
             Design et développement de sites web pour des clients variés,
-            **accompagnement** de la définition des besoins à la **mise en production** et la **maintenance**.
+            **accompagnement** de la définition des besoins à la **mise en production**, puis **maintenance** et support après mise en ligne.
             - [lambert-forte.ch](https://lambert-forte.ch)
             - [Chocolate Festival](https://chocolate-festival.ch/presentation/#historique)
             - [auaust.ch](https://auaust.ch)
@@ -112,8 +111,8 @@ experiences:
         title: Certifications
         description:
           fr: | # markdown
-            1. **Scrum Master** (PSM 1, Scrum.org) → gestion de projets, capacité à organiser et à travailler efficacement dans une équipe agile.
-            2. **Python Associate** (PCAP, Python Institute) → connaissances approfondies en programmation générale et compétences Python.
+            1. **Scrum Master** (PSM 1, Scrum.org) → organisation du travail en équipe, priorisation et amélioration continue.
+            2. **Python Associate** (PCAP, Python Institute) → bases solides en programmation, utiles pour scripter et automatiser les tâches répétitives.
 
       - from: 2018
         title: CFC de graphisme

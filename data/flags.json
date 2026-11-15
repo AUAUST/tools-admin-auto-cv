@@ -8,6 +8,6 @@
   "picture": false,
   "references_on_request": false,
   "show_interests": true,
-  "show_footnote": true,
+  "show_footnote": false,
   "show_generation_date": false
 }
