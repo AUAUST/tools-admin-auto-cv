@@ -35,21 +35,6 @@ competences:
       Traduction des **besoins** des équipes en solutions concrètes, en tenant compte des **contraintes** techniques.
 
 experiences:
-  - company: Meraki
-    description:
-      fr: | # markdown
-        Bar à cocktails et restaurant au centre de Lausanne.
-
-    subsections:
-      - from: 2026
-        title: Barman
-        description:
-          fr: | # markdown
-            Réactivité et professionnalisme dans un **environnement** dynamique et **exigeant**,
-            écoute des besoins et conseils personnalisés.
-            Gestion des stocks, réapprovisionnement et anticipation pour assurer un service fluide.
-            Goût affirmé pour le contact humain.
-
   - company: WELTKERN®
     description:
       fr: | # markdown
@@ -77,6 +62,21 @@ experiences:
             et gestion de l'infrastructure (**Ubuntu**, **MariaDB**, **Redis**, **Docker**).
             **Point de contact** technique des équipes produit et administratives :
             **résolution des problèmes** au quotidien, mise en place d'outils et **formation** à leur utilisation.
+
+  - company: Meraki
+    description:
+      fr: | # markdown
+        Bar à cocktails et restaurant au centre de Lausanne.
+
+    subsections:
+      - from: 2026
+        title: Barman
+        description:
+          fr: | # markdown
+            Réactivité et professionnalisme dans un **environnement** dynamique et **exigeant**,
+            écoute des besoins et conseils personnalisés.
+            Gestion des stocks, réapprovisionnement et anticipation pour assurer un service fluide.
+            Goût affirmé pour le contact humain.
 
   - company: Activités parallèles
     subsections:
