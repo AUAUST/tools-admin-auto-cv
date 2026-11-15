@@ -1,7 +1,9 @@
+import yaml from "js-yaml";
+
 import { S } from "@auaust/primitive-kit";
 import { once } from "@auaust/primitive-kit/functions";
 import { cached, mapped } from "@auaust/toolkit";
-import yaml from "js-yaml";
+
 import type { Language } from "../contexts/LanguageContext";
 import type { Translation } from "./label";
 
@@ -13,23 +15,29 @@ export const files: Readonly<Record<string, string>> = Object.freeze(
       eager: true,
     }),
     (file) => S.beforeLast(file.replace("../../data/", ""), "."),
-    (content) => content as string,
+    (content) => {
+      return content as string;
+    },
   ),
 );
 
 export function getFileContent(file: string) {
   const content = files[file];
-  if (!content) throw new Error(`File not found: ${file}`);
+
+  if (!content) {
+    throw new Error(`File not found: ${file}`);
+  }
+
   return content;
 }
 
-export const getYamlContent: <T>(filename: string) => T = cached(
-  (filename: string) => {
-    return yaml.load(getFileContent(filename));
-  },
-) as any;
+export const getYamlContent: <T>(
+  filename: string,
+) => T = cached((filename: string) => {
+  return yaml.load(getFileContent(filename));
+}) as any;
 
-export type DocumentConfig = {
+export interface DocumentConfig {
   title: string;
   language: Language;
   languages: Language[];
@@ -41,13 +49,13 @@ export type DocumentConfig = {
     top: number;
     bottom: number;
   };
-};
+}
 
-export const getDocumentConfig = once(() =>
-  getYamlContent<DocumentConfig>("document"),
-);
+export const getDocumentConfig = once(() => {
+  return getYamlContent<DocumentConfig>("document");
+});
 
-export type Profile = {
+export interface Profile {
   first_name: string;
   last_name: string;
   contacts: {
@@ -55,26 +63,26 @@ export type Profile = {
     value: string;
     label?: string;
   }[];
-};
+}
 
 export const getProfile = once(() => getYamlContent<Profile>("profile"));
 
-export type Experience = {
+export interface Experience {
   from: Translation;
   to?: Translation;
   title: Translation;
   description: Translation;
   subsections?: Experience[];
-};
+}
 
 export type Diploma = Experience;
 
-export type Competence = {
+export interface Competence {
   title: Translation;
   description: Translation;
-};
+}
 
-export type Resume = {
+export interface Resume {
   title: Translation;
   subtitles: Translation[];
   about: Translation;
@@ -93,8 +101,8 @@ export type Resume = {
   })[];
   competences: Competence[];
   diplomas: Diploma[];
-};
+}
 
-export const getLabels = once(() =>
-  getYamlContent<Record<string, Translation>>("labels"),
-);
+export const getLabels = once(() => {
+  return getYamlContent<Record<string, Translation>>("labels");
+});

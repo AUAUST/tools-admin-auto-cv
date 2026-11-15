@@ -1,7 +1,9 @@
+import { SolidMarkdown } from "solid-markdown";
+import type { JSX } from "solid-js";
+
 import { N, O, S } from "@auaust/primitive-kit";
 import { keys } from "@auaust/primitive-kit/objects";
-import type { JSX } from "solid-js";
-import { SolidMarkdown } from "solid-markdown";
+
 import { useFlags, type Flag } from "../contexts/FlagsContext";
 import { useLanguage, type Language } from "../contexts/LanguageContext";
 import { getLabels } from "./config";
@@ -30,9 +32,9 @@ function getFlaggedTranslation(
     return source;
   }
 
-  const conditions = keys(source).filter((k) =>
-    S(k).startsWith("when_"),
-  ) as string[];
+  const conditions = keys(source).filter((k) => {
+    return S(k).startsWith("when_");
+  }) as string[];
 
   if (!conditions.length) {
     return source as Translation;
@@ -56,7 +58,7 @@ function getTranslation(
   language: Language,
 ): string | undefined {
   if (!source) {
-    return undefined;
+    return;
   }
 
   if (S.isStrict(source)) {
@@ -96,10 +98,12 @@ export function label(
       return source.toString();
     }
 
-    source = ((source as any).label ||
-      (source as any).title ||
-      (source as any).value ||
-      source) as Translation;
+    source = (
+      ((source as any).label ||
+        (source as any).title ||
+        (source as any).value ||
+        source) as Translation
+    );
 
     if (S.isStrict(source) || N.is(source)) {
       return source.toString();

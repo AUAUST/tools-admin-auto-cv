@@ -1,4 +1,3 @@
-import { B, O } from "@auaust/primitive-kit";
 import {
   createContext,
   createEffect,
@@ -7,8 +6,12 @@ import {
   type ParentProps,
 } from "solid-js";
 import { createStore } from "solid-js/store";
-import globalFlagsConfig from "../../data/flags.json";
+
+import { B, O } from "@auaust/primitive-kit";
+
 import { useResume } from "./ResumeContext";
+
+import globalFlagsConfig from "../../data/flags.json";
 
 export type Flag = keyof typeof globalFlagsConfig | (string & {});
 
@@ -19,15 +22,16 @@ function createFlags() {
 
   const [flags, setFlags] = createStore<Record<Flag, boolean>>(
     O.keys(globalFlagsConfig).reduce(
-      (acc, key) => {
-        acc[key] = B(globalFlagsConfig[key]);
-        return acc;
+      (accumulator, key) => {
+        accumulator[key] = B(globalFlagsConfig[key]);
+
+        return accumulator;
       },
       {} as Record<Flag, boolean>,
     ),
   );
 
-  const toggle = (flag: Flag) => setFlags(flag, (v) => !v);
+  const toggle = (flag: Flag) => void setFlags(flag, (v) => !v);
 
   const localFlags = createMemo(() => O.keys(resume.flags));
 
@@ -50,10 +54,10 @@ function createFlags() {
   };
 }
 
-export function FlagsProvider(props: ParentProps) {
+export function FlagsProvider(properties: ParentProps) {
   return (
     <FlagsContext.Provider value={createFlags()}>
-      {props.children}
+      {properties.children}
     </FlagsContext.Provider>
   );
 }

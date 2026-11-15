@@ -1,4 +1,3 @@
-import { s } from "@auaust/primitive-kit";
 import {
   createContext,
   createMemo,
@@ -7,6 +6,9 @@ import {
   type ParentProps,
   type Setter,
 } from "solid-js";
+
+import { s } from "@auaust/primitive-kit";
+
 import { getDocumentConfig } from "../utils/config";
 
 export type Language = "fr" | "en";
@@ -20,13 +22,17 @@ const LanguageContext = createContext<{
   nextLanguage: Language;
 }>();
 
-export function LanguageProvider(props: ParentProps<{ language?: Language }>) {
-  const [language, setLanguage] = createSignal<Language>(
-    props.language ?? config.language
-  );
+export function LanguageProvider(
+  properties: ParentProps<{ language?: Language }>,
+) {
+  const [
+    language,
+    setLanguage,
+  ] = createSignal<Language>(properties.language ?? config.language);
 
   const next = createMemo(() => {
     const index = config.languages.indexOf(language());
+
     return config.languages[(index + 1) % config.languages.length];
   });
 
@@ -36,7 +42,7 @@ export function LanguageProvider(props: ParentProps<{ language?: Language }>) {
     },
     setLanguage,
     languages: config.languages.map(
-      (l) => s(l).lower().trim().value
+      (l) => s(l).lower().trim().value,
     ) as Language[],
     get nextLanguage() {
       return next();
@@ -45,7 +51,7 @@ export function LanguageProvider(props: ParentProps<{ language?: Language }>) {
 
   return (
     <LanguageContext.Provider value={value}>
-      {props.children}
+      {properties.children}
     </LanguageContext.Provider>
   );
 }

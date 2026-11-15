@@ -1,5 +1,7 @@
-import { cl } from "@auaust/g-class";
 import { Show } from "solid-js";
+
+import { cl } from "@auaust/g-class";
+
 import { useFlags } from "../../contexts/FlagsContext";
 import { useLanguage } from "../../contexts/LanguageContext";
 import { useResume } from "../../contexts/ResumeContext";
@@ -13,8 +15,7 @@ export function Footer() {
   return (
     <>
       <Show
-        when={flags.isEnabled("show_interests") && resume.content.interests}
-      >
+        when={flags.isEnabled("show_interests") && resume.content.interests}>
         <div class="border-t border-transparent">
           <hr class="mb-1" />
 
@@ -37,8 +38,7 @@ export function Footer() {
           <footer class="grid grid-cols-12 text-xs leading-snug">
             <Show
               when={resume.content.footnote}
-              fallback={<div class="col-span-10" />}
-            >
+              fallback={<div class="col-span-10" />}>
               <h3 class="col-span-3 font-medium text-black">
                 {md(resume.content.footnote.title)}
               </h3>
@@ -49,8 +49,7 @@ export function Footer() {
                   flags.isEnabled("show_generation_date")
                     ? "col-span-7"
                     : "col-span-9",
-                )}
-              >
+                )}>
                 {md(resume.content.footnote.text)}
               </div>
             </Show>

@@ -1,5 +1,3 @@
-import { s } from "@auaust/primitive-kit";
-import { keys } from "@auaust/primitive-kit/objects";
 import {
   createContext,
   createMemo,
@@ -7,6 +5,10 @@ import {
   useContext,
   type ParentProps,
 } from "solid-js";
+
+import { s } from "@auaust/primitive-kit";
+import { keys } from "@auaust/primitive-kit/objects";
+
 import {
   files,
   getDocumentConfig,
@@ -27,18 +29,18 @@ function createResume() {
   );
 
   const [current, setCurrent] = createSignal<string>(
-    names.indexOf(getDocumentConfig().resume) > -1
+    names.includes(getDocumentConfig().resume)
       ? getDocumentConfig().resume
       : names[0],
   );
 
-  const content = createMemo<Resume>(() =>
-    getYamlContent(`resumes/${current()}/resume`),
-  );
+  const content = createMemo<Resume>(() => {
+    return getYamlContent(`resumes/${current()}/resume`);
+  });
 
-  const flags = createMemo<Record<string, unknown>>(
-    () => getYamlContent(`resumes/${current()}/flags`) || {},
-  );
+  const flags = createMemo<Record<string, unknown>>(() => {
+    return getYamlContent(`resumes/${current()}/flags`) || {};
+  });
 
   return {
     get names() {
@@ -70,10 +72,10 @@ function createResume() {
   };
 }
 
-export function ResumeProvider(props: ParentProps) {
+export function ResumeProvider(properties: ParentProps) {
   return (
     <ResumeContext.Provider value={createResume()}>
-      {props.children}
+      {properties.children}
     </ResumeContext.Provider>
   );
 }

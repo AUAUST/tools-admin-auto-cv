@@ -1,7 +1,9 @@
-import { cl } from "@auaust/g-class";
-import { capitalize } from "@auaust/primitive-kit/strings";
 import { createMemo, For, Show } from "solid-js";
 import { Dynamic } from "solid-js/web";
+
+import { cl } from "@auaust/g-class";
+import { capitalize } from "@auaust/primitive-kit/strings";
+
 import { useFlags } from "../../contexts/FlagsContext";
 import { useResume } from "../../contexts/ResumeContext";
 import { getProfile } from "../../utils/config";
@@ -19,8 +21,7 @@ export function Header() {
           flags.isEnabled("picture")
             ? "grid-cols-[3fr_3fr_1fr]"
             : "grid-cols-2",
-        )}
-      >
+        )}>
         <Title />
 
         <Contacts />
@@ -33,19 +34,23 @@ export function Header() {
       </div>
 
       <For each={["about", "languages"] as const}>
-        {(section) => (
-          <>
-            <hr class="mt-4 mb-1" />
+        {(section) => {
+          return (
+            <>
+              <hr class="mt-4 mb-1" />
 
-            <div class="grid grid-cols-4 text-base">
-              <h3 class="font-medium text-black trim-text-box">{t(section)}</h3>
+              <div class="grid grid-cols-4 text-base">
+                <h3 class="font-medium text-black trim-text-box">
+                  {t(section)}
+                </h3>
 
-              <div class="col-span-3 text-pretty leading-snug">
-                {resume.md(section)}
+                <div class="col-span-3 text-pretty leading-snug">
+                  {resume.md(section)}
+                </div>
               </div>
-            </div>
-          </>
-        )}
+            </>
+          );
+        }}
       </For>
     </header>
   );
@@ -66,18 +71,12 @@ function Title() {
 
     const children = [];
 
-    for (let i = 0; i < subtitles.length; i++) {
-      if (i === 0) {
-        children.push(capitalize(subtitles[i]));
+    for (const [index, subtitle] of subtitles.entries()) {
+      if (index === 0) {
+        children.push(capitalize(subtitle));
       } else {
-        children.push(", ", subtitles[i]);
+        children.push(", ", subtitle);
       }
-
-      // else if (i < subtitles.length - 1) {
-      //   children.push(", ", subtitles[i]);
-      // } else {
-      //   children.push(" ", t("and"), " ", subtitles[i]);
-      // }
     }
 
     return children;
@@ -105,27 +104,30 @@ function Contacts() {
       </h2>
 
       <For each={profile.contacts}>
-        {(contact) => (
-          <Show
-            when={!flags.exists(contact.type) || flags.isEnabled(contact.type)}
-          >
-            <span class="font-mono text-sm leading-relaxed whitespace-nowrap">
-              <Dynamic
-                component={
-                  {
-                    email: Email,
-                    phone: Phone,
-                    linkedin: Link,
-                    github: Link,
-                    website: Link,
-                    address: Address,
-                  }[contact.type]
-                }
-                {...contact}
-              />
-            </span>
-          </Show>
-        )}
+        {(contact) => {
+          return (
+            <Show
+              when={
+                !flags.exists(contact.type) || flags.isEnabled(contact.type)
+              }>
+              <span class="font-mono text-sm leading-relaxed whitespace-nowrap">
+                <Dynamic
+                  component={
+                    {
+                      email: Email,
+                      phone: Phone,
+                      linkedin: Link,
+                      github: Link,
+                      website: Link,
+                      address: Address,
+                    }[contact.type]
+                  }
+                  {...contact}
+                />
+              </span>
+            </Show>
+          );
+        }}
       </For>
 
       <Show when={flags.isEnabled("references_on_request")}>
@@ -159,8 +161,7 @@ function Link(contact: { value: string; label?: string }) {
       href={contact.value}
       target="_blank"
       rel="noopener noreferrer"
-      class="reset"
-    >
+      class="reset">
       {label(contact)}
     </a>
   );
